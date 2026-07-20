@@ -2181,7 +2181,9 @@ struct CustomDictionaryView: View {
 }
 
 private extension CustomDictionaryView {
-    var asr: ASRService { self.appServices.asr }
+    var asr: ASRService {
+        self.appServices.asr
+    }
 
     var trainedReplacementButtonTitle: String {
         self.trainingAlreadyCorrectWithoutReplacement ? "Nothing to Save" : "Add Replacement"
@@ -2220,8 +2222,10 @@ private extension CustomDictionaryView {
     }
 }
 
-// MARK: - Train by Voice accordion (moved out of the primary struct body to keep
-// type_body_length in check; behavior is identical to inline declarations).
+// MARK: - Train by Voice accordion
+
+/// Moved out of the primary struct body to keep type_body_length in check;
+/// behavior is identical to the inline declarations.
 private extension CustomDictionaryView {
     var trainingSnapshot: DictionaryTrainingSnapshot {
         DictionaryTrainingSnapshot(
@@ -2397,7 +2401,6 @@ private extension CustomDictionaryView {
         }
     }
 
-    @ViewBuilder
     var trainingWordStepBody: some View {
         VStack(alignment: .leading, spacing: self.theme.metrics.spacing.sm) {
             TextField("Type the correct text, e.g. FluidVoice", text: self.$trainingReplacement)
@@ -2427,7 +2430,6 @@ private extension CustomDictionaryView {
         self.isTrainingWordFieldFocused = false
     }
 
-    @ViewBuilder
     var trainingRecordStepBody: some View {
         VStack(alignment: .leading, spacing: self.theme.metrics.spacing.sm) {
             self.voiceMatchingSettingsRow
@@ -2454,7 +2456,7 @@ private extension CustomDictionaryView {
     /// is empty (isTrainingStepInteractive), and the derived step is `.word` anyway,
     /// so this body never renders without a word.
     var trainingStartDisabledCaption: String? {
-        if self.asr.isRunning && !self.isTrainingRecording && !self.isTrainingStarting && !self.isAutomaticTrainingEnabled {
+        if self.asr.isRunning, !self.isTrainingRecording, !self.isTrainingStarting, !self.isAutomaticTrainingEnabled {
             return DictionaryTrainingCopy.dictationRunningCaption
         }
         if self.isTrainingProcessing {
@@ -2466,7 +2468,6 @@ private extension CustomDictionaryView {
         return nil
     }
 
-    @ViewBuilder
     var trainingVerifyStepBody: some View {
         VStack(alignment: .leading, spacing: self.theme.metrics.spacing.sm) {
             self.trainingFinalOutputPanel
@@ -2515,7 +2516,9 @@ private extension CustomDictionaryView {
         .padding(.leading, self.trainingStepBodyLeadingInset)
     }
 
-    var trainingStepBodyLeadingInset: CGFloat { 28 }
+    var trainingStepBodyLeadingInset: CGFloat {
+        28
+    }
 
     var trainedReplacementButtonReadyOutline: some View {
         RoundedRectangle(cornerRadius: self.theme.metrics.corners.md, style: .continuous)
@@ -2604,9 +2607,11 @@ private struct VoiceMatchingSettingsRow: View {
                     .fill(
                         isSelected
                             ? self.theme.palette.accent
-                            : (isHovered
-                                ? self.theme.palette.accent.opacity(0.1)
-                                : self.theme.palette.cardBackground.opacity(0.5))
+                            : (
+                                isHovered
+                                    ? self.theme.palette.accent.opacity(0.1)
+                                    : self.theme.palette.cardBackground.opacity(0.5)
+                            )
                     )
                     .overlay(
                         RoundedRectangle(cornerRadius: 7, style: .continuous)
@@ -2828,7 +2833,9 @@ private enum DictionaryComposerMode: CaseIterable, Identifiable {
     case train
     case manual
 
-    var id: Self { self }
+    var id: Self {
+        self
+    }
 
     var title: String {
         switch self {
@@ -2907,9 +2914,11 @@ private struct DictionaryComposerModeTab: View {
             .fill(
                 self.isSelected
                     ? self.theme.palette.accent
-                    : (self.isHovered
-                        ? self.theme.palette.accent.opacity(0.1)
-                        : self.theme.palette.cardBackground.opacity(0.5))
+                    : (
+                        self.isHovered
+                            ? self.theme.palette.accent.opacity(0.1)
+                            : self.theme.palette.cardBackground.opacity(0.5)
+                    )
             )
             .overlay(
                 RoundedRectangle(cornerRadius: self.theme.metrics.corners.sm, style: .continuous)
@@ -2972,9 +2981,11 @@ private struct DictionaryTrainingStepHeaderView: View {
                     .fill(
                         self.isExpanded
                             ? self.theme.palette.contentBackground.opacity(0.55)
-                            : (self.isHovered
-                                ? self.theme.palette.contentBackground.opacity(0.32)
-                                : Color.clear)
+                            : (
+                                self.isHovered
+                                    ? self.theme.palette.contentBackground.opacity(0.32)
+                                    : Color.clear
+                            )
                     )
                     .overlay(
                         RoundedRectangle(cornerRadius: self.theme.metrics.corners.md, style: .continuous)
@@ -3353,7 +3364,9 @@ private enum BoostStrengthPreset: String, CaseIterable, Identifiable {
     case balanced = "Balanced"
     case strong = "Strong"
 
-    var id: String { self.rawValue }
+    var id: String {
+        self.rawValue
+    }
 
     var weight: Float {
         switch self {
