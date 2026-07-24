@@ -1,6 +1,6 @@
 import AppKit
 import CoreAudio
-@testable import FluidVoice_Debug
+@testable import TriVox_Debug
 import Foundation
 import XCTest
 

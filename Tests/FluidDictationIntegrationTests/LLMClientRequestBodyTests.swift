@@ -1,4 +1,4 @@
-@testable import FluidVoice_Debug
+@testable import TriVox_Debug
 import XCTest
 
 // Regression tests for https://github.com/altic-dev/FluidVoice/issues/295
