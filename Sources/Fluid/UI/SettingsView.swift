@@ -457,6 +457,10 @@ struct SettingsView: View {
                                 Text("Current version: \(self.currentAppVersion)")
                                     .font(self.theme.typography.bodySmall)
                                     .foregroundStyle(self.settingsSecondaryText)
+
+                                Text("TriVox od 3 ręka AI — fork FluidVoice (altic-dev), licencja GPL-3.0")
+                                    .font(self.theme.typography.bodySmall)
+                                    .foregroundStyle(self.settingsSecondaryText)
                             }
 
                             // Update Buttons
