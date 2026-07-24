@@ -1,5 +1,5 @@
-@testable import TriVox_Debug
 import Foundation
+@testable import TriVox_Debug
 import XCTest
 
 final class AudioEngineRetirementDrainTests: XCTestCase {

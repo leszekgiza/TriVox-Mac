@@ -1,7 +1,7 @@
 import AppKit
 import CoreAudio
-@testable import TriVox_Debug
 import Foundation
+@testable import TriVox_Debug
 import XCTest
 
 final class HotkeyShortcutTests: XCTestCase {
