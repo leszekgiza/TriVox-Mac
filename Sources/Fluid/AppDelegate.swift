@@ -230,7 +230,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     @MainActor
     private func showMLXUpgradeOffer() {
         let alert = NSAlert()
-        alert.messageText = "Fluid-1 is now 2.2x faster"
+        alert.messageText = "TriVox-1 is now 2.2x faster"
         alert.informativeText = "A new 3.77 GB MLX model is available for Apple silicon. Continue to AI Enhancement to download and verify it. Your current slower model will keep working unless you choose to upgrade."
         alert.alertStyle = .informational
         alert.addButton(withTitle: "Continue to Download")
@@ -325,7 +325,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     private func isMainWindow(_ window: NSWindow) -> Bool {
         guard window.level == .normal else { return false }
         guard window.styleMask.contains(.titled) else { return false }
-        return window.title == "FluidVoice" || window.title.contains("FluidVoice")
+        return window.title == "TriVox" || window.title.contains("TriVox")
     }
 
     // MARK: - Periodic Update Checks
@@ -385,7 +385,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
                         title: isBeta ? "No Beta Updates" : "No Updates",
                         message: isBeta
                             ? "You're already running the latest build available in the beta channel."
-                            : "You're already running the latest version of Fluid!"
+                            : "You're already running the latest version of TriVox!"
                     )
                 } else {
                     DebugLogger.shared.error("Update check failed: \(error)", source: "AppDelegate")
@@ -463,7 +463,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
 
         let alert = NSAlert()
         alert.messageText = "Update Available"
-        alert.informativeText = "FluidVoice \(version) is now available. Would you like to install it now?\n\nThe app will restart automatically after installation."
+        alert.informativeText = "TriVox \(version) is now available. Would you like to install it now?\n\nThe app will restart automatically after installation."
         alert.alertStyle = .informational
         alert.addButton(withTitle: "Install Now")
         alert.addButton(withTitle: "Later")

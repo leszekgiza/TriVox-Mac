@@ -247,7 +247,7 @@ struct SettingsView: View {
                             // Launch at startup
                             self.settingsToggleRow(
                                 title: "Launch at startup",
-                                description: "Automatically start FluidVoice when you log in",
+                                description: "Automatically start TriVox when you log in",
                                 footnote: self.settings.launchAtStartupStatusMessage,
                                 errorMessage: self.settings.launchAtStartupErrorMessage,
                                 isOn: self.launchAtStartupBinding
@@ -257,7 +257,7 @@ struct SettingsView: View {
                             // Show window when launched at login
                             self.settingsToggleRow(
                                 title: "Show window when launched at login",
-                                description: "When off, FluidVoice starts silently in the menu bar at login. Opening the app yourself always shows the window.",
+                                description: "When off, TriVox starts silently in the menu bar at login. Opening the app yourself always shows the window.",
                                 isOn: Binding(
                                     get: { SettingsStore.shared.showMainWindowAtLoginLaunch },
                                     set: { SettingsStore.shared.showMainWindowAtLoginLaunch = $0 }
@@ -268,7 +268,7 @@ struct SettingsView: View {
                             // Hide from Dock & App Switcher
                             self.settingsToggleRow(
                                 title: "Hide from Dock & App Switcher",
-                                description: "Keep FluidVoice in the menu bar only (hides Dock icon and Cmd+Tab entry)",
+                                description: "Keep TriVox in the menu bar only (hides Dock icon and Cmd+Tab entry)",
                                 footnote: "Note: May require app restart to take effect.",
                                 isOn: Binding(
                                     get: { SettingsStore.shared.hideFromDockAndAppSwitcher },
@@ -483,7 +483,7 @@ struct SettingsView: View {
                                                 msg.messageText = isBeta ? "You're Up To Date (Beta)" : "You're Up To Date"
                                                 msg.informativeText = isBeta
                                                     ? "You're already running the latest build available in the beta channel."
-                                                    : "You're already running the latest version of FluidVoice."
+                                                    : "You're already running the latest version of TriVox."
                                             } else {
                                                 msg.messageText = "Update Check Failed"
                                                 msg.informativeText = "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)"
@@ -512,7 +512,7 @@ struct SettingsView: View {
                                     let targetVersion = self.rollbackVersion
                                     let confirm = NSAlert()
                                     confirm.messageText = "Rollback to \(infoText)?"
-                                    confirm.informativeText = "This will restore a previous app version and relaunch FluidVoice."
+                                    confirm.informativeText = "This will restore a previous app version and relaunch TriVox."
                                     confirm.alertStyle = .warning
                                     confirm.addButton(withTitle: "Rollback")
                                     confirm.addButton(withTitle: "Cancel")
@@ -532,7 +532,7 @@ struct SettingsView: View {
                                             await MainActor.run {
                                                 let success = NSAlert()
                                                 success.messageText = "Rollback Successful"
-                                                success.informativeText = "Rolled back to \(targetVersion). FluidVoice will relaunch shortly."
+                                                success.informativeText = "Rolled back to \(targetVersion). TriVox will relaunch shortly."
                                                 success.alertStyle = .informational
                                                 success.addButton(withTitle: "Report Bug")
                                                 success.addButton(withTitle: "OK")
@@ -996,7 +996,7 @@ struct SettingsView: View {
 
                                     self.optionToggleRow(
                                         title: "Pause Media During Transcription",
-                                        description: "Automatically pause currently playing audio/video when transcription starts. Resumes only if FluidVoice paused it.",
+                                        description: "Automatically pause currently playing audio/video when transcription starts. Resumes only if TriVox paused it.",
                                         isOn: Binding(
                                             get: { SettingsStore.shared.pauseMediaDuringTranscription },
                                             set: { SettingsStore.shared.pauseMediaDuringTranscription = $0 }
@@ -1006,7 +1006,7 @@ struct SettingsView: View {
 
                                     self.optionToggleRow(
                                         title: "Share Anonymous Analytics",
-                                        description: "Send anonymous usage and performance metrics to help improve FluidVoice. Never includes transcription text or prompts.",
+                                        description: "Send anonymous usage and performance metrics to help improve TriVox. Never includes transcription text or prompts.",
                                         isOn: self.analyticsToggleBinding
                                     )
 
@@ -1626,7 +1626,7 @@ struct SettingsView: View {
 
             self.presentInfoAlert(
                 title: "Backup Exported",
-                message: "Saved your FluidVoice backup to:\n\(url.path)"
+                message: "Saved your TriVox backup to:\n\(url.path)"
             )
         } catch {
             self.presentErrorAlert(
@@ -2309,8 +2309,8 @@ private extension SettingsView {
                 .font(self.theme.typography.bodyStrong)
             Text(
                 self.microphoneSelectionMode == .system
-                    ? "FluidVoice follows the macOS default microphone."
-                    : "FluidVoice keeps your preferred microphone selected while it is available."
+                    ? "TriVox follows the macOS default microphone."
+                    : "TriVox keeps your preferred microphone selected while it is available."
             )
             .font(self.theme.typography.bodySmall)
             .foregroundStyle(self.settingsSecondaryText)
@@ -2583,7 +2583,7 @@ private extension SettingsView {
         Group {
             self.settingsToggleRow(
                 title: "Faster Recording Start",
-                description: "FluidVoice starts listening sooner, so your first word is less likely to be missed.",
+                description: "TriVox starts listening sooner, so your first word is less likely to be missed.",
                 footnote: "If your microphone does not work correctly, turn this off.",
                 isOn: Binding(
                     get: { self.settings.experimentalDirectAudioCaptureEnabled },
@@ -2633,7 +2633,7 @@ struct AnalyticsConfirmationView: View {
             Text("Are you sure you want to stop sharing anonymous analytics?")
                 .font(.headline)
 
-            Text("By sharing anonymous usage data, you help us build the features you care about most. We never collect personal information (Audio, Transcription text etc), ever. Your support simply helps us make FluidVoice better for you.")
+            Text("By sharing anonymous usage data, you help us build the features you care about most. We never collect personal information (Audio, Transcription text etc), ever. Your support simply helps us make TriVox better for you.")
                 .font(self.theme.typography.bodySmall)
                 .foregroundStyle(.secondary)
                 .padding(12)

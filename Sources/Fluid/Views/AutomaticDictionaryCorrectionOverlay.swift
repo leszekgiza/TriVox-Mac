@@ -273,7 +273,7 @@ private struct AutomaticDictionaryCorrectionOverlayView: View {
 
             self.correctionPair
 
-            Text("Save only this correction, or teach FluidVoice other pronunciations.")
+            Text("Save only this correction, or teach TriVox other pronunciations.")
                 .font(.system(size: 11))
                 .foregroundStyle(.white.opacity(0.58))
                 .lineLimit(1)
@@ -306,12 +306,12 @@ private struct AutomaticDictionaryCorrectionOverlayView: View {
             self.correctionPair
 
             VStack(alignment: .leading, spacing: 9) {
-                Text("Teach FluidVoice your pronunciation")
+                Text("Teach TriVox your pronunciation")
                     .font(.system(size: 13, weight: .semibold))
                     .foregroundStyle(.white.opacity(0.94))
 
                 if self.session.isReady {
-                    Label("FluidVoice got it right 3 times in a row.", systemImage: "checkmark.circle.fill")
+                    Label("TriVox got it right 3 times in a row.", systemImage: "checkmark.circle.fill")
                         .font(.system(size: 10.5, weight: .medium))
                         .foregroundStyle(self.accent)
                 } else {
@@ -319,7 +319,7 @@ private struct AutomaticDictionaryCorrectionOverlayView: View {
                         self.trainingInstruction(number: 1, text: "Press Start once.")
                         self.trainingInstruction(
                             number: 2,
-                            text: "Say the word, then pause. FluidVoice captures it and listens again."
+                            text: "Say the word, then pause. TriVox captures it and listens again."
                         )
                         self.trainingInstruction(number: 3, text: "Repeat naturally until the circle reaches 3/3.")
                     }
