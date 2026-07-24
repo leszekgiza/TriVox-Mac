@@ -128,7 +128,11 @@ jobs:
     - name: Podpis ad-hoc
       run: |
         APP=$(find build/Build/Products/Release -maxdepth 1 -name '*.app' | head -1)
-        codesign --force --deep --sign - "$APP"
+        # --deep gubi się na "bundle format is ambiguous" dla niektórych zagnieżdżonych
+        # frameworków SPM (np. CTranscribe.framework) - podpisujemy więc od środka: najpierw
+        # zagnieżdżone frameworki/dylib, potem sam .app, bez --deep.
+        find "$APP" \( -name '*.framework' -o -name '*.dylib' \) -exec codesign --force --sign - {} \;
+        codesign --force --sign - "$APP"
         echo "APP_PATH=$APP" >> "$GITHUB_ENV"
 
     - name: Zbuduj DMG
