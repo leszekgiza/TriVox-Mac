@@ -1,3 +1,17 @@
+# TriVox (macOS)
+
+**TriVox od „3 ręka AI"** — aplikacja dyktowania na macOS. Fork projektu
+[FluidVoice](https://github.com/altic-dev/FluidVoice) (altic-dev) na licencji
+**GPL-3.0**; pełny kod źródłowy tego forka jest publiczny w tym repozytorium.
+Zmiany względem oryginału: rebranding + polski interfejs. Podziękowania dla
+autorów FluidVoice — cała funkcjonalność pochodzi z ich pracy.
+
+Wersja Windows (niezależna implementacja): [FluidVoice-Windows](https://github.com/leszekgiza/FluidVoice-Windows).
+
+---
+
+<details><summary>Oryginalne README FluidVoice</summary>
+
 # FluidVoice
 
 <p align="center">
@@ -295,3 +309,5 @@ Follow development on X: [@ALTIC_DEV](https://x.com/ALTIC_DEV)
 From 2026-02-23 onward, this project is licensed under the [GNU General Public License, Version 3.0 (GPLv3)](LICENSE).
 
 Versions published before this date were licensed under Apache License 2.0.
+
+</details>
