@@ -761,7 +761,7 @@ extension AIEnhancementSettingsView {
                 .controlSize(.mini)
                 .labelsHidden()
                 .disabled(isBusy)
-                .help("Keeps TriVox-1 ready so your first dictation finishes sooner.")
+                .help("Keeps Fluid-1 ready so your first dictation finishes sooner.")
                 .accessibilityLabel("Faster first result")
 
             Spacer(minLength: 0)
@@ -795,7 +795,7 @@ extension AIEnhancementSettingsView {
         .pickerStyle(.menu)
         .labelsHidden()
         .disabled(isBusy)
-        .help("Local TriVox-1 runtime. Default is MLX on Apple Silicon.")
+        .help("Local Fluid-1 runtime. Default is MLX on Apple Silicon.")
     }
 
     private var privateAISelectableBackendPreferences: [SettingsStore.PrivateAIBackendPreference] {
@@ -824,7 +824,7 @@ extension AIEnhancementSettingsView {
                 .controlSize(.mini)
                 .labelsHidden()
                 .disabled(isBusy)
-                .help("Uses extra local acceleration so TriVox-1 finishes faster.")
+                .help("Uses extra local acceleration so Fluid-1 finishes faster.")
                 .accessibilityLabel("Faster results")
 
             Text("Finishes dictation up to 15% faster. Uses about 100 MB more memory.")
@@ -2174,7 +2174,7 @@ extension AIEnhancementSettingsView {
                 .stroke(self.theme.palette.cardBorder.opacity(0.35), lineWidth: 0.8)
         )
         .fixedSize()
-        .help("How much raw dictation TriVox-1 can clean at once. Higher values help long transcripts but use more RAM and can slow first response.")
+        .help("How much raw dictation Fluid-1 can clean at once. Higher values help long transcripts but use more RAM and can slow first response.")
     }
 
     private func decreasePrivateAIContextTokenLimit() {
