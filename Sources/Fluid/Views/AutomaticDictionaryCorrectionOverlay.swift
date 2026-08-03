@@ -717,7 +717,7 @@ private struct CorrectionOverlayActionButton: View {
 }
 
 private struct CorrectionOverlayRecordButton: View {
-    let title: String
+    let title: LocalizedStringKey
     let isStop: Bool
     let isEnabled: Bool
     let accent: Color
