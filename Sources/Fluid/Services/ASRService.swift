@@ -88,7 +88,7 @@ final class ASRService: ObservableObject {
     @Published var isRunning: Bool = false
     @Published var finalText: String = ""
     @Published var partialTranscription: String = ""
-    @Published var wordBoostStatusText: String = String(localized: "Word boost: off")
+    @Published var wordBoostStatusText = String(localized: "Word boost: off")
     @Published var micStatus: AVAuthorizationStatus = .notDetermined
     @Published var isAsrReady: Bool = false
     @Published var isDownloadingModel: Bool = false
