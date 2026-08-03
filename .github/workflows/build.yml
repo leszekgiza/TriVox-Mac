@@ -159,7 +159,8 @@ jobs:
     - name: Export
       run: |
         xcodebuild -project Fluid.xcodeproj -scheme Fluid \
-          -exportLocalizations -localizationPath loc -exportLanguage pl
+          -exportLocalizations -localizationPath loc -exportLanguage pl \
+          SWIFT_STRICT_CONCURRENCY=minimal
     - name: Artefakt
       uses: actions/upload-artifact@v4
       with:
