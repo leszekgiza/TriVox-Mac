@@ -113,8 +113,8 @@ enum NotificationService {
 
     private static func deliverAIProcessingFallback(error: String, using center: UNUserNotificationCenter) {
         let content = UNMutableNotificationContent()
-        content.title = "AI Enhancement failed"
-        content.body = "Typed raw transcription instead."
+        content.title = String(localized: "AI Enhancement failed")
+        content.body = String(localized: "Typed raw transcription instead.")
         content.subtitle = error
         content.sound = nil
         content.userInfo = [UserInfoKey.kind: Kind.aiProcessingFallback]
@@ -142,11 +142,11 @@ enum NotificationService {
     ) {
         let content = UNMutableNotificationContent()
         if experimentalSettingDisabled {
-            content.title = "Faster Recording Start turned off"
-            content.body = "TriVox detected malformed microphone audio three times and switched to the compatibility audio path. You can turn it back on in Settings."
+            content.title = String(localized: "Faster Recording Start turned off")
+            content.body = String(localized: "TriVox detected malformed microphone audio three times and switched to the compatibility audio path. You can turn it back on in Settings.")
         } else {
-            content.title = "Microphone audio recovered"
-            content.body = "TriVox detected malformed audio and switched this session to the compatibility audio path. Faster Recording Start will retry next recording. (\(failureCount)/3)"
+            content.title = String(localized: "Microphone audio recovered")
+            content.body = String(localized: "TriVox detected malformed audio and switched this session to the compatibility audio path. Faster Recording Start will retry next recording. (\(failureCount)/3)")
         }
         content.sound = nil
         content.userInfo = [UserInfoKey.kind: Kind.audioCaptureFallback]
@@ -169,7 +169,7 @@ enum NotificationService {
 
     private static func deliverCommandModeFailure(error: String, using center: UNUserNotificationCenter) {
         let content = UNMutableNotificationContent()
-        content.title = "Command Mode needs setup"
+        content.title = String(localized: "Command Mode needs setup")
         content.body = error
         content.sound = nil
         content.userInfo = [UserInfoKey.kind: Kind.commandModeFailure]

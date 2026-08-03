@@ -710,15 +710,15 @@ final class AIEnhancementSettingsViewModel: ObservableObject {
 
     func presentKeychainAccessAlert(message: String) {
         let msg = message.isEmpty
-            ? "TriVox stores provider API keys securely in your macOS Keychain. Please grant access by choosing \"Always Allow\" when prompted."
+            ? String(localized: "TriVox stores provider API keys securely in your macOS Keychain. Please grant access by choosing \"Always Allow\" when prompted.")
             : message
 
         let alert = NSAlert()
-        alert.messageText = "Keychain Access Required"
+        alert.messageText = String(localized: "Keychain Access Required")
         alert.informativeText = msg
         alert.alertStyle = .warning
-        alert.addButton(withTitle: "Open Keychain Access")
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: String(localized: "Open Keychain Access"))
+        alert.addButton(withTitle: String(localized: "OK"))
 
         let response = alert.runModal()
         if response == .alertFirstButtonReturn {
@@ -1795,9 +1795,9 @@ final class AIEnhancementSettingsViewModel: ObservableObject {
 
     func addAppPromptBindingFromFilePicker(for mode: SettingsStore.PromptMode) {
         let panel = NSOpenPanel()
-        panel.title = "Choose Application"
-        panel.message = "Pick an app to add an app-specific prompt override."
-        panel.prompt = "Add App"
+        panel.title = String(localized: "Choose Application")
+        panel.message = String(localized: "Pick an app to add an app-specific prompt override.")
+        panel.prompt = String(localized: "Add App")
         panel.canChooseFiles = true
         panel.canChooseDirectories = false
         panel.allowsMultipleSelection = false

@@ -467,7 +467,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         }
 
         let copyLastTranscriptItem = NSMenuItem(
-            title: "Copy Last Transcript",
+            title: String(localized: "Copy Last Transcript"),
             action: #selector(copyLastTranscript(_:)),
             keyEquivalent: ""
         )
@@ -478,26 +478,26 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         menu.addItem(.separator())
 
         // Open Main Window
-        let openItem = NSMenuItem(title: "Open TriVox", action: #selector(openMainWindow), keyEquivalent: "")
+        let openItem = NSMenuItem(title: String(localized: "Open TriVox"), action: #selector(openMainWindow), keyEquivalent: "")
         openItem.target = self
         menu.addItem(openItem)
 
         // Preferences
-        let preferencesItem = NSMenuItem(title: "Settings...", action: #selector(openPreferences), keyEquivalent: ",")
+        let preferencesItem = NSMenuItem(title: String(localized: "Settings..."), action: #selector(openPreferences), keyEquivalent: ",")
         preferencesItem.target = self
         preferencesItem.keyEquivalentModifierMask = [.command]
         menu.addItem(preferencesItem)
 
         let customDictionaryItem = NSMenuItem(
-            title: "Custom Dictionary",
+            title: String(localized: "Custom Dictionary"),
             action: #selector(openCustomDictionary),
             keyEquivalent: ""
         )
         customDictionaryItem.target = self
         menu.addItem(customDictionaryItem)
 
-        let microphoneSubmenu = NSMenu(title: "Microphone")
-        let microphoneMenuItem = NSMenuItem(title: "Microphone", action: nil, keyEquivalent: "")
+        let microphoneSubmenu = NSMenu(title: String(localized: "Microphone"))
+        let microphoneMenuItem = NSMenuItem(title: String(localized: "Microphone"), action: nil, keyEquivalent: "")
         microphoneMenuItem.submenu = microphoneSubmenu
         menu.addItem(microphoneMenuItem)
         self.microphoneMenuItem = microphoneMenuItem
@@ -505,7 +505,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
 
         // Check for Updates
         let updateItem = NSMenuItem(
-            title: "Check for Updates...",
+            title: String(localized: "Check for Updates..."),
             action: #selector(checkForUpdates(_:)),
             keyEquivalent: ""
         )
@@ -515,7 +515,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         menu.addItem(.separator())
 
         let rollbackMenuItem = NSMenuItem(
-            title: "Rollback to Previous Version...",
+            title: String(localized: "Rollback to Previous Version..."),
             action: #selector(rollbackToPreviousVersion(_:)),
             keyEquivalent: ""
         )
@@ -528,7 +528,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
 
         // Quit
         let quitItem = NSMenuItem(
-            title: "Quit TriVox",
+            title: String(localized: "Quit TriVox"),
             action: #selector(NSApplication.terminate(_:)),
             keyEquivalent: "q"
         )
@@ -553,7 +553,9 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         // Update status text with hotkey info
         let hotkeyDisplay = SettingsStore.shared.primaryDictationShortcutDisplayString
         let hotkeyInfo = hotkeyDisplay.isEmpty ? "" : " (\(hotkeyDisplay))"
-        let statusTitle = self.isRecording ? "Recording...\(hotkeyInfo)" : "Ready to Record\(hotkeyInfo)"
+        let statusTitle = self.isRecording
+            ? String(localized: "Recording...\(hotkeyInfo)")
+            : String(localized: "Ready to Record\(hotkeyInfo)")
         self.statusMenuItem?.title = statusTitle
         self.copyLastTranscriptMenuItem?.isEnabled = self.canCopyLastTranscript
         self.microphoneMenuItem?.isEnabled = true
@@ -573,7 +575,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         guard let submenu = self.microphoneSubmenu else { return }
 
         submenu.removeAllItems()
-        let loadingItem = NSMenuItem(title: "Loading...", action: nil, keyEquivalent: "")
+        let loadingItem = NSMenuItem(title: String(localized: "Loading..."), action: nil, keyEquivalent: "")
         loadingItem.isEnabled = false
         submenu.addItem(loadingItem)
 
@@ -597,14 +599,14 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         submenu.removeAllItems()
 
         guard !inputDevices.isEmpty else {
-            let emptyItem = NSMenuItem(title: "No microphones found", action: nil, keyEquivalent: "")
+            let emptyItem = NSMenuItem(title: String(localized: "No microphones found"), action: nil, keyEquivalent: "")
             emptyItem.isEnabled = false
             submenu.addItem(emptyItem)
             return
         }
 
         let followSystemItem = NSMenuItem(
-            title: "Use macOS Default Microphone",
+            title: String(localized: "Use macOS Default Microphone"),
             action: #selector(toggleMicrophoneSelectionMode(_:)),
             keyEquivalent: ""
         )
@@ -618,7 +620,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
 
         for device in inputDevices {
             let isSystemDefault = device.uid == defaultInputUID
-            let title = isSystemDefault ? "\(device.name) (System Default)" : device.name
+            let title = isSystemDefault ? String(localized: "\(device.name) (System Default)") : device.name
             let item = NSMenuItem(title: title, action: #selector(selectMicrophone(_:)), keyEquivalent: "")
             item.target = self
             item.representedObject = device.uid
@@ -629,7 +631,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
 
         if self.isRecording {
             submenu.addItem(.separator())
-            let recordingItem = NSMenuItem(title: "Unavailable while recording", action: nil, keyEquivalent: "")
+            let recordingItem = NSMenuItem(title: String(localized: "Unavailable while recording"), action: nil, keyEquivalent: "")
             recordingItem.isEnabled = false
             submenu.addItem(recordingItem)
         }
@@ -718,22 +720,22 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
                     includePrerelease: SettingsStore.shared.betaReleasesEnabled
                 )
                 let ok = NSAlert()
-                ok.messageText = "Update Found!"
-                ok.informativeText = "A new version is available and will be installed now."
+                ok.messageText = String(localized: "Update Found!")
+                ok.informativeText = String(localized: "A new version is available and will be installed now.")
                 ok.alertStyle = .informational
-                ok.addButton(withTitle: "OK")
+                ok.addButton(withTitle: String(localized: "OK"))
                 ok.runModal()
             } catch {
                 let msg = NSAlert()
                 if let pmkError = error as? PMKError, pmkError.isCancelled {
                     let isBeta = SettingsStore.shared.betaReleasesEnabled
-                    msg.messageText = isBeta ? "You’re Up To Date (Beta)" : "You’re Up To Date"
+                    msg.messageText = isBeta ? String(localized: "You’re Up To Date (Beta)") : String(localized: "You’re Up To Date")
                     msg.informativeText = isBeta
-                        ? "You're already running the latest build available in the beta channel."
-                        : "You're already running the latest version of TriVox."
+                        ? String(localized: "You're already running the latest build available in the beta channel.")
+                        : String(localized: "You're already running the latest version of TriVox.")
                 } else {
-                    msg.messageText = "Update Check Failed"
-                    msg.informativeText = "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)"
+                    msg.messageText = String(localized: "Update Check Failed")
+                    msg.informativeText = String(localized: "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)")
                 }
                 msg.alertStyle = .informational
                 msg.runModal()
@@ -745,11 +747,11 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         let availableVersion = SimpleUpdater.shared.latestRollbackVersion() ?? ""
         guard !availableVersion.isEmpty else {
             let msg = NSAlert()
-            msg.messageText = "No rollback backup found"
-            msg.informativeText = "No previous version backup is available on this device."
+            msg.messageText = String(localized: "No rollback backup found")
+            msg.informativeText = String(localized: "No previous version backup is available on this device.")
             msg.alertStyle = .informational
-            msg.addButton(withTitle: "Get Previous Builds")
-            msg.addButton(withTitle: "Cancel")
+            msg.addButton(withTitle: String(localized: "Get Previous Builds"))
+            msg.addButton(withTitle: String(localized: "Cancel"))
             if msg.runModal() == .alertFirstButtonReturn {
                 self.openPreviousBuildPicker()
             }
@@ -757,11 +759,11 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         }
 
         let confirm = NSAlert()
-        confirm.messageText = "Rollback to \(availableVersion)?"
-        confirm.informativeText = "This will restore the backup and relaunch TriVox."
+        confirm.messageText = String(localized: "Rollback to \(availableVersion)?")
+        confirm.informativeText = String(localized: "This will restore the backup and relaunch TriVox.")
         confirm.alertStyle = .warning
-        confirm.addButton(withTitle: "Rollback")
-        confirm.addButton(withTitle: "Cancel")
+        confirm.addButton(withTitle: String(localized: "Rollback"))
+        confirm.addButton(withTitle: String(localized: "Cancel"))
 
         guard confirm.runModal() == .alertFirstButtonReturn else { return }
 
@@ -769,21 +771,21 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
             do {
                 try await SimpleUpdater.shared.rollbackToLatestBackup()
                 let success = NSAlert()
-                success.messageText = "Rollback Successful"
-                success.informativeText = "Rolled back to \(availableVersion). TriVox will relaunch shortly."
+                success.messageText = String(localized: "Rollback Successful")
+                success.informativeText = String(localized: "Rolled back to \(availableVersion). TriVox will relaunch shortly.")
                 success.alertStyle = .informational
-                success.addButton(withTitle: "Report Bug")
-                success.addButton(withTitle: "OK")
+                success.addButton(withTitle: String(localized: "Report Bug"))
+                success.addButton(withTitle: String(localized: "OK"))
                 let response = success.runModal()
                 if response == .alertFirstButtonReturn {
                     self.openIssueReportingPage()
                 }
             } catch {
                 let fail = NSAlert()
-                fail.messageText = "Rollback Failed"
+                fail.messageText = String(localized: "Rollback Failed")
                 fail.informativeText = error.localizedDescription
                 fail.alertStyle = .critical
-                fail.addButton(withTitle: "OK")
+                fail.addButton(withTitle: String(localized: "OK"))
                 fail.runModal()
             }
         }
@@ -817,15 +819,15 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         }
 
         let picker = NSAlert()
-        picker.messageText = "Download Previous Build"
-        picker.informativeText = "Choose one of the latest release builds to install manually."
+        picker.messageText = String(localized: "Download Previous Build")
+        picker.informativeText = String(localized: "Choose one of the latest release builds to install manually.")
         picker.alertStyle = .informational
 
         for option in options {
             picker.addButton(withTitle: option.version)
         }
-        picker.addButton(withTitle: "All Releases")
-        picker.addButton(withTitle: "Cancel")
+        picker.addButton(withTitle: String(localized: "All Releases"))
+        picker.addButton(withTitle: String(localized: "Cancel"))
 
         let response = picker.runModal()
         let first = NSApplication.ModalResponse.alertFirstButtonReturn.rawValue

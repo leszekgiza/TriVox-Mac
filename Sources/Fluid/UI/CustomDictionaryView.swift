@@ -2142,11 +2142,11 @@ struct CustomDictionaryView: View {
             try data.write(to: url, options: .atomic)
 
             self.presentInfoAlert(
-                title: "Dictionary Exported",
-                message: "Saved \(document.replacements.count) replacement rules and \(document.customWords.count) custom words."
+                title: String(localized: "Dictionary Exported"),
+                message: String(localized: "Saved \(document.replacements.count) replacement rules and \(document.customWords.count) custom words.")
             )
         } catch {
-            self.presentErrorAlert(title: "Dictionary Export Failed", message: error.localizedDescription)
+            self.presentErrorAlert(title: String(localized: "Dictionary Export Failed"), message: error.localizedDescription)
         }
     }
 
@@ -2169,26 +2169,26 @@ struct CustomDictionaryView: View {
             self.loadBoostTerms()
 
             self.presentInfoAlert(
-                title: "Dictionary Imported",
-                message: "Now using \(summary.replacementCount) replacement rules and \(summary.customWordCount) custom words."
+                title: String(localized: "Dictionary Imported"),
+                message: String(localized: "Now using \(summary.replacementCount) replacement rules and \(summary.customWordCount) custom words.")
             )
         } catch {
-            self.presentErrorAlert(title: "Dictionary Import Failed", message: error.localizedDescription)
+            self.presentErrorAlert(title: String(localized: "Dictionary Import Failed"), message: error.localizedDescription)
         }
     }
 
     private func confirmDictionaryImport(_ document: DictionaryTransferDocument) -> DictionaryTransferImportMode? {
         let confirm = NSAlert()
-        confirm.messageText = "Import this dictionary?"
-        confirm.informativeText = """
+        confirm.messageText = String(localized: "Import this dictionary?")
+        confirm.informativeText = String(localized: """
         Found \(document.replacements.count) replacement rules and \(document.customWords.count) custom words.
 
         Merge adds them to your current dictionary. Replace clears the current dictionary first.
-        """
+        """)
         confirm.alertStyle = .warning
-        confirm.addButton(withTitle: "Merge")
-        confirm.addButton(withTitle: "Replace")
-        confirm.addButton(withTitle: "Cancel")
+        confirm.addButton(withTitle: String(localized: "Merge"))
+        confirm.addButton(withTitle: String(localized: "Replace"))
+        confirm.addButton(withTitle: String(localized: "Cancel"))
 
         switch confirm.runModal() {
         case .alertFirstButtonReturn:

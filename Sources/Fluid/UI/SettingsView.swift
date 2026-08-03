@@ -475,22 +475,22 @@ struct SettingsView: View {
                                                 includePrerelease: includePrerelease
                                             )
                                             let ok = NSAlert()
-                                            ok.messageText = "Update Found!"
-                                            ok.informativeText = "A new version is available and will be installed now."
+                                            ok.messageText = String(localized: "Update Found!")
+                                            ok.informativeText = String(localized: "A new version is available and will be installed now.")
                                             ok.alertStyle = .informational
-                                            ok.addButton(withTitle: "OK")
+                                            ok.addButton(withTitle: String(localized: "OK"))
                                             ok.runModal()
                                         } catch {
                                             let msg = NSAlert()
                                             if let pmkError = error as? PMKError, pmkError.isCancelled {
                                                 let isBeta = SettingsStore.shared.betaReleasesEnabled
-                                                msg.messageText = isBeta ? "You're Up To Date (Beta)" : "You're Up To Date"
+                                                msg.messageText = isBeta ? String(localized: "You're Up To Date (Beta)") : String(localized: "You're Up To Date")
                                                 msg.informativeText = isBeta
-                                                    ? "You're already running the latest build available in the beta channel."
-                                                    : "You're already running the latest version of TriVox."
+                                                    ? String(localized: "You're already running the latest build available in the beta channel.")
+                                                    : String(localized: "You're already running the latest version of TriVox.")
                                             } else {
-                                                msg.messageText = "Update Check Failed"
-                                                msg.informativeText = "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)"
+                                                msg.messageText = String(localized: "Update Check Failed")
+                                                msg.informativeText = String(localized: "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)")
                                             }
                                             msg.alertStyle = .informational
                                             msg.runModal()
@@ -512,14 +512,14 @@ struct SettingsView: View {
                                 Button(self.rollbackVersion.isEmpty ? "Rollback" : "Rollback to \(self.rollbackVersion)") {
                                     guard !self.isRollingBack else { return }
 
-                                    let infoText = self.rollbackVersion.isEmpty ? "your previously installed version" : self.rollbackVersion
+                                    let infoText = self.rollbackVersion.isEmpty ? String(localized: "your previously installed version") : self.rollbackVersion
                                     let targetVersion = self.rollbackVersion
                                     let confirm = NSAlert()
-                                    confirm.messageText = "Rollback to \(infoText)?"
-                                    confirm.informativeText = "This will restore a previous app version and relaunch TriVox."
+                                    confirm.messageText = String(localized: "Rollback to \(infoText)?")
+                                    confirm.informativeText = String(localized: "This will restore a previous app version and relaunch TriVox.")
                                     confirm.alertStyle = .warning
-                                    confirm.addButton(withTitle: "Rollback")
-                                    confirm.addButton(withTitle: "Cancel")
+                                    confirm.addButton(withTitle: String(localized: "Rollback"))
+                                    confirm.addButton(withTitle: String(localized: "Cancel"))
 
                                     guard confirm.runModal() == .alertFirstButtonReturn else { return }
 
@@ -535,11 +535,11 @@ struct SettingsView: View {
                                             try await SimpleUpdater.shared.rollbackToLatestBackup()
                                             await MainActor.run {
                                                 let success = NSAlert()
-                                                success.messageText = "Rollback Successful"
-                                                success.informativeText = "Rolled back to \(targetVersion). TriVox will relaunch shortly."
+                                                success.messageText = String(localized: "Rollback Successful")
+                                                success.informativeText = String(localized: "Rolled back to \(targetVersion). TriVox will relaunch shortly.")
                                                 success.alertStyle = .informational
-                                                success.addButton(withTitle: "Report Bug")
-                                                success.addButton(withTitle: "OK")
+                                                success.addButton(withTitle: String(localized: "Report Bug"))
+                                                success.addButton(withTitle: String(localized: "OK"))
                                                 let response = success.runModal()
                                                 if response == .alertFirstButtonReturn {
                                                     self.openIssueReportingPage()
@@ -548,10 +548,10 @@ struct SettingsView: View {
                                         } catch {
                                             await MainActor.run {
                                                 let fail = NSAlert()
-                                                fail.messageText = "Rollback Failed"
+                                                fail.messageText = String(localized: "Rollback Failed")
                                                 fail.informativeText = error.localizedDescription
                                                 fail.alertStyle = .critical
-                                                fail.addButton(withTitle: "OK")
+                                                fail.addButton(withTitle: String(localized: "OK"))
                                                 fail.runModal()
                                                 self.refreshRollbackState()
                                             }
@@ -1662,16 +1662,16 @@ struct SettingsView: View {
             formatter.timeStyle = .short
 
             let confirm = NSAlert()
-            confirm.messageText = "Import this backup?"
-            confirm.informativeText = """
+            confirm.messageText = String(localized: "Import this backup?")
+            confirm.informativeText = String(localized: """
             This replaces your current settings, prompt profiles, and stats history.
 
             Exported: \(formatter.string(from: document.exportedAt))
             API keys are not included and will not be changed.
-            """
+            """)
             confirm.alertStyle = .warning
-            confirm.addButton(withTitle: "Import")
-            confirm.addButton(withTitle: "Cancel")
+            confirm.addButton(withTitle: String(localized: "Import"))
+            confirm.addButton(withTitle: String(localized: "Cancel"))
 
             guard confirm.runModal() == .alertFirstButtonReturn else { return }
 
@@ -1679,12 +1679,12 @@ struct SettingsView: View {
             self.syncLocalSettingsAfterBackupRestore()
 
             self.presentInfoAlert(
-                title: "Backup Imported",
-                message: "Your settings, prompt profiles, and stats were restored successfully."
+                title: String(localized: "Backup Imported"),
+                message: String(localized: "Your settings, prompt profiles, and stats were restored successfully.")
             )
         } catch {
             self.presentErrorAlert(
-                title: "Backup Import Failed",
+                title: String(localized: "Backup Import Failed"),
                 message: error.localizedDescription
             )
         }
@@ -1707,7 +1707,7 @@ struct SettingsView: View {
             .trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: ",", with: ".")
         guard let value = Double(normalized), value > 0 else {
-            self.presentErrorAlert(title: "Invalid Budget", message: "Enter a positive number of GB.")
+            self.presentErrorAlert(title: String(localized: "Invalid Budget"), message: String(localized: "Enter a positive number of GB."))
             self.refreshAudioHistoryUsage()
             return
         }
@@ -1716,13 +1716,13 @@ struct SettingsView: View {
         let newBudgetBytes = DictationAudioHistoryStore.bytes(forGigabytes: newBudget)
         if self.audioHistoryUsageBytes > newBudgetBytes {
             let confirm = NSAlert()
-            confirm.messageText = "Prune saved audio?"
-            confirm.informativeText = """
+            confirm.messageText = String(localized: "Prune saved audio?")
+            confirm.informativeText = String(localized: """
             This budget is below current audio usage. FluidVoice will delete the oldest saved audio first and keep transcript history.
-            """
+            """)
             confirm.alertStyle = .warning
-            confirm.addButton(withTitle: "Apply and Prune")
-            confirm.addButton(withTitle: "Cancel")
+            confirm.addButton(withTitle: String(localized: "Apply and Prune"))
+            confirm.addButton(withTitle: String(localized: "Cancel"))
             guard confirm.runModal() == .alertFirstButtonReturn else {
                 self.refreshAudioHistoryUsage()
                 return
@@ -1733,22 +1733,22 @@ struct SettingsView: View {
         let pruned = TranscriptionHistoryStore.shared.pruneAudioToBudget()
         self.refreshAudioHistoryUsage()
         if pruned > 0 {
-            self.presentInfoAlert(title: "Audio Pruned", message: "Deleted oldest saved audio from \(pruned) history entries.")
+            self.presentInfoAlert(title: String(localized: "Audio Pruned"), message: String(localized: "Deleted oldest saved audio from \(pruned) history entries."))
         }
     }
 
     private func deleteSavedAudio() {
         let confirm = NSAlert()
-        confirm.messageText = "Delete saved audio?"
-        confirm.informativeText = "This removes saved dictation audio only. Transcript history stays intact."
+        confirm.messageText = String(localized: "Delete saved audio?")
+        confirm.informativeText = String(localized: "This removes saved dictation audio only. Transcript history stays intact.")
         confirm.alertStyle = .warning
-        confirm.addButton(withTitle: "Delete Audio")
-        confirm.addButton(withTitle: "Cancel")
+        confirm.addButton(withTitle: String(localized: "Delete Audio"))
+        confirm.addButton(withTitle: String(localized: "Cancel"))
         guard confirm.runModal() == .alertFirstButtonReturn else { return }
 
         let removed = TranscriptionHistoryStore.shared.deleteAllSavedAudio()
         self.refreshAudioHistoryUsage()
-        self.presentInfoAlert(title: "Audio Deleted", message: "Removed audio from \(removed) history entries.")
+        self.presentInfoAlert(title: String(localized: "Audio Deleted"), message: String(localized: "Removed audio from \(removed) history entries."))
     }
 
     private func exportAudioZip() {
@@ -1769,9 +1769,9 @@ struct SettingsView: View {
                 entries: TranscriptionHistoryStore.shared.entries,
                 to: url
             )
-            self.presentInfoAlert(title: "Audio Export Saved", message: "Saved your dictation audio export to:\n\(url.path)")
+            self.presentInfoAlert(title: String(localized: "Audio Export Saved"), message: String(localized: "Saved your dictation audio export to:\n\(url.path)"))
         } catch {
-            self.presentErrorAlert(title: "Audio Export Failed", message: error.localizedDescription)
+            self.presentErrorAlert(title: String(localized: "Audio Export Failed"), message: error.localizedDescription)
         }
     }
 
@@ -1780,7 +1780,7 @@ struct SettingsView: View {
         alert.messageText = title
         alert.informativeText = message
         alert.alertStyle = .informational
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: String(localized: "OK"))
         alert.runModal()
     }
 
@@ -1789,7 +1789,7 @@ struct SettingsView: View {
         alert.messageText = title
         alert.informativeText = message
         alert.alertStyle = .critical
-        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: String(localized: "OK"))
         alert.runModal()
     }
 
@@ -1816,15 +1816,15 @@ struct SettingsView: View {
         }
 
         let picker = NSAlert()
-        picker.messageText = "Download Previous Build"
-        picker.informativeText = "No local rollback backup was found. Choose a recent release build:"
+        picker.messageText = String(localized: "Download Previous Build")
+        picker.informativeText = String(localized: "No local rollback backup was found. Choose a recent release build:")
         picker.alertStyle = .informational
 
         for option in options {
             picker.addButton(withTitle: option.version)
         }
-        picker.addButton(withTitle: "All Releases")
-        picker.addButton(withTitle: "Cancel")
+        picker.addButton(withTitle: String(localized: "All Releases"))
+        picker.addButton(withTitle: String(localized: "Cancel"))
 
         let response = picker.runModal()
         let first = NSApplication.ModalResponse.alertFirstButtonReturn.rawValue

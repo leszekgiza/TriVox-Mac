@@ -604,10 +604,10 @@ struct TranscriptionHistoryView: View {
             try DictationAudioHistoryStore.shared.exportPair(entry: entry, to: url)
         } catch {
             let alert = NSAlert()
-            alert.messageText = "Pair Export Failed"
+            alert.messageText = String(localized: "Pair Export Failed")
             alert.informativeText = error.localizedDescription
             alert.alertStyle = .critical
-            alert.addButton(withTitle: "OK")
+            alert.addButton(withTitle: String(localized: "OK"))
             alert.runModal()
         }
     }

@@ -1,6 +1,16 @@
 {
   "sourceLanguage": "en",
   "strings": {
+    "%@ (System Default)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (domyślny systemowy)"
+          }
+        }
+      }
+    },
     "%@ for Edit Mode is coming soon": {
       "localizations": {
         "pl": {
@@ -167,6 +177,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "7 dni"
+          }
+        }
+      }
+    },
+    "A new 3.77 GB MLX model is available for Apple silicon. Continue to AI Enhancement to download and verify it. Your current slower model will keep working unless you choose to upgrade.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostępny jest nowy model MLX (3,77 GB) dla Apple silicon. Przejdź do Ulepszania AI, aby go pobrać i zweryfikować. Twój obecny, wolniejszy model będzie nadal działał, chyba że zdecydujesz się na aktualizację."
+          }
+        }
+      }
+    },
+    "A new version is available and will be installed now.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostępna jest nowa wersja i zostanie teraz zainstalowana."
           }
         }
       }
@@ -441,6 +471,16 @@
         }
       }
     },
+    "Add App": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj aplikację"
+          }
+        }
+      }
+    },
     "Add Custom Provider": {
       "localizations": {
         "pl": {
@@ -591,6 +631,16 @@
         }
       }
     },
+    "All Releases": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie wydania"
+          }
+        }
+      }
+    },
     "All providers": {
       "localizations": {
         "pl": {
@@ -681,6 +731,16 @@
         }
       }
     },
+    "Apply and Prune": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastosuj i wyczyść"
+          }
+        }
+      }
+    },
     "Are you sure you want to stop sharing anonymous analytics?": {
       "localizations": {
         "pl": {
@@ -741,12 +801,52 @@
         }
       }
     },
+    "Audio Deleted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunięto audio"
+          }
+        }
+      }
+    },
     "Audio Devices": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Urządzenia audio"
+          }
+        }
+      }
+    },
+    "Audio Export Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksport audio nie powiódł się"
+          }
+        }
+      }
+    },
+    "Audio Export Saved": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisano eksport audio"
+          }
+        }
+      }
+    },
+    "Audio Pruned": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyszczono audio"
           }
         }
       }
@@ -877,6 +977,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopia zapasowa i przywracanie"
+          }
+        }
+      }
+    },
+    "Backup Import Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import kopii zapasowej nie powiódł się"
+          }
+        }
+      }
+    },
+    "Backup Imported": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaimportowano kopię zapasową"
           }
         }
       }
@@ -1111,12 +1231,32 @@
         }
       }
     },
+    "Check for Updates...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdź aktualizacje..."
+          }
+        }
+      }
+    },
     "Check for updates automatically once per hour": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Sprawdzaj aktualizacje automatycznie raz na godzinę"
+          }
+        }
+      }
+    },
+    "Choose Application": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz aplikację"
           }
         }
       }
@@ -1147,6 +1287,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wybierz przykład, naciśnij %@, a następnie podyktuj go naturalnie."
+          }
+        }
+      }
+    },
+    "Choose one of the latest release builds to install manually.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz jedną z ostatnich wersji do ręcznej instalacji."
           }
         }
       }
@@ -1331,6 +1481,16 @@
         }
       }
     },
+    "Command Mode needs setup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga konfiguracji"
+          }
+        }
+      }
+    },
     "Configure": {
       "localizations": {
         "pl": {
@@ -1461,6 +1621,16 @@
         }
       }
     },
+    "Continue to Download": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przejdź do pobierania"
+          }
+        }
+      }
+    },
     "Control how sensitive the audio visualizer is to sound input": {
       "localizations": {
         "pl": {
@@ -1527,6 +1697,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopiuj oba"
+          }
+        }
+      }
+    },
+    "Copy Last Transcript": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj ostatnią transkrypcję"
           }
         }
       }
@@ -1871,6 +2051,16 @@
         }
       }
     },
+    "Delete saved audio?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć zapisane nagrania audio?"
+          }
+        }
+      }
+    },
     "Delete this chat?": {
       "localizations": {
         "pl": {
@@ -1887,6 +2077,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usunąć „%@”? Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "Deleted oldest saved audio from %lld history entries.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunięto najstarsze zapisane audio z %lld wpisów historii."
           }
         }
       }
@@ -1917,6 +2117,46 @@
           "stringUnit": {
             "state": "translated",
             "value": "Skrót dyktowania %@. Naciśnij raz, aby rozpocząć. Naciśnij ponownie, aby zatrzymać."
+          }
+        }
+      }
+    },
+    "Dictionary Export Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksport słownika nie powiódł się"
+          }
+        }
+      }
+    },
+    "Dictionary Exported": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyeksportowano słownik"
+          }
+        }
+      }
+    },
+    "Dictionary Import Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import słownika nie powiódł się"
+          }
+        }
+      }
+    },
+    "Dictionary Imported": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaimportowano słownik"
           }
         }
       }
@@ -1967,6 +2207,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pobierz"
+          }
+        }
+      }
+    },
+    "Download Previous Build": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz poprzednią wersję"
           }
         }
       }
@@ -2161,6 +2411,16 @@
         }
       }
     },
+    "Enter a positive number of GB.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podaj dodatnią liczbę GB."
+          }
+        }
+      }
+    },
     "Enter model name": {
       "localizations": {
         "pl": {
@@ -2301,6 +2561,16 @@
         }
       }
     },
+    "Faster Recording Start turned off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłączono szybszy start nagrywania"
+          }
+        }
+      }
+    },
     "Faster first result": {
       "localizations": {
         "pl": {
@@ -2407,6 +2677,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dla każdej reguły dodaj jedną wypowiadaną wersję w wierszu. Następnie wybierz, co wpisze TriVox."
+          }
+        }
+      }
+    },
+    "Found %lld replacement rules and %lld custom words.\n\nMerge adds them to your current dictionary. Replace clears the current dictionary first.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znaleziono %lld reguł zamiany i %lld słów własnych.\n\nScalenie dodaje je do bieżącego słownika. Zastąpienie najpierw czyści bieżący słownik."
           }
         }
       }
@@ -2631,6 +2911,26 @@
         }
       }
     },
+    "Import this backup?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaimportować tę kopię zapasową?"
+          }
+        }
+      }
+    },
+    "Import this dictionary?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaimportować ten słownik?"
+          }
+        }
+      }
+    },
     "Improve recognition of your custom words when using Parakeet.": {
       "localizations": {
         "pl": {
@@ -2681,12 +2981,42 @@
         }
       }
     },
+    "Install Now": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zainstaluj teraz"
+          }
+        }
+      }
+    },
     "Install the selected model to enable verification": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Zainstaluj wybrany model, aby włączyć weryfikację"
+          }
+        }
+      }
+    },
+    "Invalid Budget": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieprawidłowy limit"
+          }
+        }
+      }
+    },
+    "Keep Current Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowaj obecny model"
           }
         }
       }
@@ -2701,12 +3031,32 @@
         }
       }
     },
+    "Keychain Access Required": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymagany dostęp do Pęku kluczy"
+          }
+        }
+      }
+    },
     "Last checked: %@": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Ostatnio sprawdzono: %@"
+          }
+        }
+      }
+    },
+    "Later": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Później"
           }
         }
       }
@@ -2861,6 +3211,26 @@
         }
       }
     },
+    "Merge": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scal"
+          }
+        }
+      }
+    },
+    "Microphone": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mikrofon"
+          }
+        }
+      }
+    },
     "Microphone Permission": {
       "localizations": {
         "pl": {
@@ -2907,6 +3277,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nie określono dostępu do mikrofonu"
+          }
+        }
+      }
+    },
+    "Microphone audio recovered": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywrócono audio z mikrofonu"
           }
         }
       }
@@ -3021,6 +3401,16 @@
         }
       }
     },
+    "No Beta Updates": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak aktualizacji beta"
+          }
+        }
+      }
+    },
     "No History Yet": {
       "localizations": {
         "pl": {
@@ -3037,6 +3427,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Brak wyników"
+          }
+        }
+      }
+    },
+    "No Updates": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak aktualizacji"
           }
         }
       }
@@ -3091,6 +3491,26 @@
         }
       }
     },
+    "No local rollback backup was found. Choose a recent release build:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono lokalnej kopii zapasowej do cofnięcia. Wybierz jedną z ostatnich wersji:"
+          }
+        }
+      }
+    },
+    "No microphones found": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono mikrofonów"
+          }
+        }
+      }
+    },
     "No models": {
       "localizations": {
         "pl": {
@@ -3107,6 +3527,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Żaden model nie pasuje do '%@'"
+          }
+        }
+      }
+    },
+    "No previous version backup is available on this device.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na tym urządzeniu nie jest dostępna kopia zapasowa poprzedniej wersji."
           }
         }
       }
@@ -3137,6 +3567,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Brak ostatnich czatów"
+          }
+        }
+      }
+    },
+    "No rollback backup found": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono kopii zapasowej do cofnięcia"
           }
         }
       }
@@ -3251,6 +3691,16 @@
         }
       }
     },
+    "Now using %lld replacement rules and %lld custom words.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Używane są teraz %lld reguły zamiany i %lld słowa własne."
+          }
+        }
+      }
+    },
     "OK": {
       "localizations": {
         "pl": {
@@ -3361,6 +3811,16 @@
         }
       }
     },
+    "Open Keychain Access": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz Dostęp do pęku kluczy"
+          }
+        }
+      }
+    },
     "Open Preferences": {
       "localizations": {
         "pl": {
@@ -3377,6 +3837,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Otwórz ustawienia"
+          }
+        }
+      }
+    },
+    "Open TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz TriVox"
           }
         }
       }
@@ -3511,6 +3981,16 @@
         }
       }
     },
+    "Pair Export Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksport pary nie powiódł się"
+          }
+        }
+      }
+    },
     "Parameter": {
       "localizations": {
         "pl": {
@@ -3527,6 +4007,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wybierz gotowy kolor akcentu dla aplikacji."
+          }
+        }
+      }
+    },
+    "Pick an app to add an app-specific prompt override.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz aplikację, aby dodać dla niej własny prompt."
           }
         }
       }
@@ -3761,6 +4251,16 @@
         }
       }
     },
+    "Prune saved audio?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyścić zapisane nagrania audio?"
+          }
+        }
+      }
+    },
     "Punctuation Dictionary": {
       "localizations": {
         "pl": {
@@ -3791,6 +4291,16 @@
         }
       }
     },
+    "Quit TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij TriVox"
+          }
+        }
+      }
+    },
     "Raw": {
       "localizations": {
         "pl": {
@@ -3817,6 +4327,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gotowe"
+          }
+        }
+      }
+    },
+    "Ready to Record%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowy do nagrywania%@"
           }
         }
       }
@@ -3877,6 +4397,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nagrywanie..."
+          }
+        }
+      }
+    },
+    "Recording...%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagrywanie...%@"
           }
         }
       }
@@ -4001,6 +4531,26 @@
         }
       }
     },
+    "Removed audio from %lld history entries.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunięto audio z %lld wpisów historii."
+          }
+        }
+      }
+    },
+    "Replace": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastąp"
+          }
+        }
+      }
+    },
     "Replace Original": {
       "localizations": {
         "pl": {
@@ -4027,6 +4577,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zgłoś zły wynik..."
+          }
+        }
+      }
+    },
+    "Report Bug": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgłoś błąd"
           }
         }
       }
@@ -4221,6 +4781,26 @@
         }
       }
     },
+    "Rollback Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnięcie nie powiodło się"
+          }
+        }
+      }
+    },
+    "Rollback Successful": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnięcie powiodło się"
+          }
+        }
+      }
+    },
     "Rollback target: %@": {
       "localizations": {
         "pl": {
@@ -4237,6 +4817,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wycofaj do %@"
+          }
+        }
+      }
+    },
+    "Rollback to %@?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnąć do %@?"
+          }
+        }
+      }
+    },
+    "Rollback to Previous Version...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnij do poprzedniej wersji..."
+          }
+        }
+      }
+    },
+    "Rolled back to %@. TriVox will relaunch shortly.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnięto do %@. TriVox zostanie wkrótce uruchomiony ponownie."
           }
         }
       }
@@ -4331,6 +4941,16 @@
         }
       }
     },
+    "Saved %lld replacement rules and %lld custom words.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisano %lld reguł zamiany i %lld słów własnych."
+          }
+        }
+      }
+    },
     "Saved Replacements": {
       "localizations": {
         "pl": {
@@ -4367,6 +4987,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zapisane lokalne nagrania dyktowania"
+          }
+        }
+      }
+    },
+    "Saved your dictation audio export to:\n%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisano eksport nagrań dyktowania do:\n%@"
           }
         }
       }
@@ -5031,6 +5661,16 @@
         }
       }
     },
+    "This budget is below current audio usage. FluidVoice will delete the oldest saved audio first and keep transcript history.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten limit jest niższy niż bieżące zużycie audio. FluidVoice usunie najpierw najstarsze zapisane nagrania i zachowa historię transkrypcji."
+          }
+        }
+      }
+    },
     "This cannot be undone.": {
       "localizations": {
         "pl": {
@@ -5071,6 +5711,26 @@
         }
       }
     },
+    "This removes saved dictation audio only. Transcript history stays intact.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To usuwa tylko zapisane nagrania audio dyktowania. Historia transkrypcji pozostaje nienaruszona."
+          }
+        }
+      }
+    },
+    "This replaces your current settings, prompt profiles, and stats history.\n\nExported: %@\nAPI keys are not included and will not be changed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To zastąpi Twoje bieżące ustawienia, profile promptów i historię statystyk.\n\nEksport z: %@\nKlucze API nie są uwzględnione i nie zostaną zmienione."
+          }
+        }
+      }
+    },
     "This will permanently delete all %lld transcription entries. This action cannot be undone.": {
       "localizations": {
         "pl": {
@@ -5087,6 +5747,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "To trwale usunie wszystkie %lld transkrypcji i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "This will restore a previous app version and relaunch TriVox.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To przywróci poprzednią wersję aplikacji i ponownie uruchomi TriVox."
+          }
+        }
+      }
+    },
+    "This will restore the backup and relaunch TriVox.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To przywróci kopię zapasową i ponownie uruchomi TriVox."
           }
         }
       }
@@ -5211,6 +5891,16 @@
         }
       }
     },
+    "TriVox %@ is now available. Would you like to install it now?\n\nThe app will restart automatically after installation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox %@ jest już dostępny. Czy chcesz zainstalować go teraz?\n\nAplikacja uruchomi się ponownie automatycznie po instalacji."
+          }
+        }
+      }
+    },
     "TriVox automatically corrects these words and phrases.": {
       "localizations": {
         "pl": {
@@ -5227,6 +5917,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "TriVox nie mógł teraz wczytać informacji o wydaniu z GitHub."
+          }
+        }
+      }
+    },
+    "TriVox detected malformed audio and switched this session to the compatibility audio path. Faster Recording Start will retry next recording. (%lld/3)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox wykrył uszkodzone audio i przełączył tę sesję na ścieżkę audio zgodności. Szybszy start nagrywania spróbuje ponownie przy kolejnym nagraniu. (%lld/3)"
+          }
+        }
+      }
+    },
+    "TriVox detected malformed microphone audio three times and switched to the compatibility audio path. You can turn it back on in Settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox trzykrotnie wykrył uszkodzone audio z mikrofonu i przełączył się na ścieżkę audio zgodności. Możesz włączyć to ponownie w Ustawieniach."
           }
         }
       }
@@ -5287,6 +5997,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "TriVox rozpoznał %@ 3 razy z rzędu."
+          }
+        }
+      }
+    },
+    "TriVox stores provider API keys securely in your macOS Keychain. Please grant access by choosing \"Always Allow\" when prompted.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox przechowuje klucze API dostawców bezpiecznie w Pęku kluczy macOS. Przyznaj dostęp, wybierając „Zawsze zezwalaj” po wyświetleniu monitu."
+          }
+        }
+      }
+    },
+    "TriVox-1 is now 2.2x faster": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox-1 jest teraz 2,2x szybszy"
           }
         }
       }
@@ -5401,6 +6131,66 @@
         }
       }
     },
+    "Typed raw transcription instead.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisano zamiast tego surową transkrypcję."
+          }
+        }
+      }
+    },
+    "Unable to check for updates. Please try again later.\n\nError: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie można sprawdzić aktualizacji. Spróbuj ponownie później.\n\nBłąd: %@"
+          }
+        }
+      }
+    },
+    "Unavailable while recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niedostępne podczas nagrywania"
+          }
+        }
+      }
+    },
+    "Update Available": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostępna aktualizacja"
+          }
+        }
+      }
+    },
+    "Update Check Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdzanie aktualizacji nie powiodło się"
+          }
+        }
+      }
+    },
+    "Update Found!": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znaleziono aktualizację!"
+          }
+        }
+      }
+    },
     "Upload audio or video files to transcribe": {
       "localizations": {
         "pl": {
@@ -5427,6 +6217,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Użyj dowolnego skrótu klawiszowego, dodatkowego przycisku myszy lub kliknięcia z modyfikatorem."
+          }
+        }
+      }
+    },
+    "Use macOS Default Microphone": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj domyślnego mikrofonu macOS"
           }
         }
       }
@@ -5771,6 +6571,56 @@
         }
       }
     },
+    "You're Up To Date": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz najnowszą wersję"
+          }
+        }
+      }
+    },
+    "You're Up To Date (Beta)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz najnowszą wersję (Beta)"
+          }
+        }
+      }
+    },
+    "You're already running the latest build available in the beta channel.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz już najnowszą wersję dostępną w kanale beta."
+          }
+        }
+      }
+    },
+    "You're already running the latest version of TriVox!": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz już najnowszą wersję TriVox!"
+          }
+        }
+      }
+    },
+    "You're already running the latest version of TriVox.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz już najnowszą wersję TriVox."
+          }
+        }
+      }
+    },
     "Your Dictionary": {
       "localizations": {
         "pl": {
@@ -5801,12 +6651,42 @@
         }
       }
     },
+    "Your settings, prompt profiles, and stats were restored successfully.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje ustawienia, profile promptów i statystyki zostały pomyślnie przywrócone."
+          }
+        }
+      }
+    },
     "Your transcriptions will appear here": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Twoje transkrypcje pojawią się tutaj"
+          }
+        }
+      }
+    },
+    "You’re Up To Date": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz najnowszą wersję"
+          }
+        }
+      }
+    },
+    "You’re Up To Date (Beta)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz najnowszą wersję (Beta)"
           }
         }
       }
@@ -5917,6 +6797,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "słów na minutę"
+          }
+        }
+      }
+    },
+    "your previously installed version": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "poprzednio zainstalowanej wersji"
           }
         }
       }
