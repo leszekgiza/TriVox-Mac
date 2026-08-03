@@ -57,7 +57,7 @@ extension VoiceEngineSettingsView {
                             Spacer()
                             Menu {
                                 ForEach(SpeechProviderFilter.allCases) { option in
-                                    Button(option.rawValue) {
+                                    Button(LocalizedStringKey(option.rawValue)) {
                                         self.viewModel.providerFilter = option
                                     }
                                 }
@@ -65,7 +65,7 @@ extension VoiceEngineSettingsView {
                                 HStack(spacing: 6) {
                                     Image(systemName: "line.3.horizontal.decrease.circle")
                                         .font(self.theme.typography.bodySmallStrong)
-                                    Text("Filter: \(self.viewModel.providerFilter.rawValue)")
+                                    Text("Filter: \(Text(LocalizedStringKey(self.viewModel.providerFilter.rawValue)))")
                                         .font(self.theme.typography.bodySmallStrong)
                                 }
                                 .foregroundStyle(self.voiceEngineTitleText)
@@ -82,13 +82,13 @@ extension VoiceEngineSettingsView {
                             }
                             Menu {
                                 ForEach(ModelSortOption.allCases) { option in
-                                    Button(option.rawValue) {
+                                    Button(LocalizedStringKey(option.rawValue)) {
                                         self.viewModel.modelSortOption = option
                                     }
                                 }
                             } label: {
                                 HStack(spacing: 6) {
-                                    Text("Sort by: \(self.viewModel.modelSortOption.rawValue)")
+                                    Text("Sort by: \(Text(LocalizedStringKey(self.viewModel.modelSortOption.rawValue)))")
                                         .font(self.theme.typography.bodySmallStrong)
                                 }
                                 .foregroundStyle(self.voiceEngineTitleText)
@@ -188,7 +188,7 @@ extension VoiceEngineSettingsView {
                             Spacer()
                         }
 
-                        Text(model.cardDescription)
+                        Text(LocalizedStringKey(model.cardDescription))
                             .font(self.theme.typography.bodySmall)
                             .foregroundStyle(self.voiceEngineSecondaryText)
                             .lineLimit(2)
@@ -208,7 +208,7 @@ extension VoiceEngineSettingsView {
                                 .foregroundStyle(self.theme.palette.accent)
                         }
 
-                        Text(model.languageSupport)
+                        Text(LocalizedStringKey(model.languageSupport))
                             .font(self.theme.typography.bodySmallStrong)
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)

@@ -161,6 +161,36 @@
         }
       }
     },
+    "14 Languages (Select Manually)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "14 języków (wybór ręczny)"
+          }
+        }
+      }
+    },
+    "25 Languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "25 języków"
+          }
+        }
+      }
+    },
+    "30 Languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 języków"
+          }
+        }
+      }
+    },
     "30 days": {
       "localizations": {
         "pl": {
@@ -177,6 +207,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "7 dni"
+          }
+        }
+      }
+    },
+    "99 Languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "99 języków"
           }
         }
       }
@@ -441,6 +481,16 @@
         }
       }
     },
+    "Accuracy": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dokładność"
+          }
+        }
+      }
+    },
     "Actions": {
       "localizations": {
         "pl": {
@@ -661,6 +711,16 @@
         }
       }
     },
+    "Advanced and modern on-device recognition for newer macOS devices.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaawansowane, nowoczesne rozpoznawanie na urządzeniu dla nowszych Maców."
+          }
+        }
+      }
+    },
     "Advanced voice matching requires Parakeet TDT on Apple Silicon.": {
       "localizations": {
         "pl": {
@@ -677,6 +737,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Po słowie startowym te wypowiedziane warianty wpisują symbol interpunkcyjny."
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie"
           }
         }
       }
@@ -807,6 +877,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Czy na pewno chcesz przestać udostępniać anonimową analitykę?"
+          }
+        }
+      }
+    },
+    "Around 40 Languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Około 40 języków"
           }
         }
       }
@@ -1091,6 +1171,16 @@
         }
       }
     },
+    "Best possible accuracy. Large download and memory usage.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepsza możliwa dokładność. Duży rozmiar pobierania i zużycia pamięci."
+          }
+        }
+      }
+    },
     "Best: %lld days": {
       "localizations": {
         "pl": {
@@ -1131,6 +1221,16 @@
         }
       }
     },
+    "Better accuracy than Base. Moderate resource usage.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lepsza dokładność niż Base. Umiarkowane zużycie zasobów."
+          }
+        }
+      }
+    },
     "Both": {
       "localizations": {
         "pl": {
@@ -1167,6 +1267,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wbudowany prompt bazowy"
+          }
+        }
+      }
+    },
+    "Built-in macOS speech recognition. No model download required.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wbudowane rozpoznawanie mowy macOS. Nie wymaga pobierania modelu."
           }
         }
       }
@@ -2511,6 +2621,36 @@
         }
       }
     },
+    "English Only (Higher Accuracy)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tylko angielski (wyższa dokładność)"
+          }
+        }
+      }
+    },
+    "English Only (Live Streaming)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tylko angielski (transmisja na żywo)"
+          }
+        }
+      }
+    },
+    "English-only streaming local dictation with low-latency partial text and end-of-utterance detection.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lokalne dyktowanie strumieniowe tylko dla angielskiego, z tekstem częściowym o niskim opóźnieniu i wykrywaniem końca wypowiedzi."
+          }
+        }
+      }
+    },
     "Enter %@ API Key": {
       "localizations": {
         "pl": {
@@ -2677,6 +2817,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eksportuj transkrypcję"
+          }
+        }
+      }
+    },
+    "Fast multilingual transcription. Supports Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian, Spanish, Swedish, and Ukrainian.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybka wielojęzyczna transkrypcja. Obsługuje bułgarski, chorwacki, czeski, duński, niderlandzki, angielski, estoński, fiński, francuski, niemiecki, grecki, węgierski, włoski, łotewski, litewski, maltański, polski, portugalski, rumuński, rosyjski, słowacki, słoweński, hiszpański, szwedzki i ukraiński."
           }
         }
       }
@@ -2891,6 +3041,16 @@
         }
       }
     },
+    "Good balance of speed and accuracy. Works on any Mac.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobry balans szybkości i dokładności. Działa na każdym Macu."
+          }
+        }
+      }
+    },
     "Grant Access": {
       "localizations": {
         "pl": {
@@ -2987,6 +3147,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ukryj inne modele"
+          }
+        }
+      }
+    },
+    "High accuracy for demanding tasks. Requires more memory.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysoka dokładność do wymagających zadań. Wymaga więcej pamięci."
+          }
+        }
+      }
+    },
+    "High-accuracy multilingual transcription. Select the language manually before dictation for best results.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wielojęzyczna transkrypcja o wysokiej dokładności. Wybierz język ręcznie przed dyktowaniem, aby uzyskać najlepsze wyniki."
           }
         }
       }
@@ -3521,6 +3701,16 @@
         }
       }
     },
+    "Minimal resource usage. Best for older Macs or battery life.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimalne zużycie zasobów. Najlepsze dla starszych Maców i żywotności baterii."
+          }
+        }
+      }
+    },
     "Misheard Words (triggers)": {
       "localizations": {
         "pl": {
@@ -3621,12 +3811,32 @@
         }
       }
     },
+    "NVIDIA Nemotron 3.5 streaming-capable transcription. Supports 40 language-locales with auto or manual language selection.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrypcja NVIDIA Nemotron 3.5 ze wsparciem strumieniowania. Obsługuje 40 wariantów językowych z automatycznym lub ręcznym wyborem języka."
+          }
+        }
+      }
+    },
     "Name": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Nazwa"
+          }
+        }
+      }
+    },
+    "Near-maximum accuracy with optimized speed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niemal maksymalna dokładność przy zoptymalizowanej szybkości."
           }
         }
       }
@@ -4141,6 +4351,16 @@
         }
       }
     },
+    "Optimized for English accuracy and fastest transcription.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoptymalizowany pod kątem dokładności języka angielskiego i najszybszej transkrypcji."
+          }
+        }
+      }
+    },
     "Or select text first to rewrite existing content.": {
       "localizations": {
         "pl": {
@@ -4547,6 +4767,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zamknij TriVox"
+          }
+        }
+      }
+    },
+    "Qwen3 multilingual ASR via FluidAudio. Higher quality, heavier memory footprint.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wielojęzyczne ASR Qwen3 przez FluidAudio. Wyższa jakość, większe zużycie pamięci."
           }
         }
       }
@@ -5631,6 +5861,16 @@
         }
       }
     },
+    "Slower but more accurate NVIDIA Nemotron 3.5 transcription. Supports 40 language-locales with auto or manual language selection.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wolniejsza, ale dokładniejsza transkrypcja NVIDIA Nemotron 3.5. Obsługuje 40 wariantów językowych z automatycznym lub ręcznym wyborem języka."
+          }
+        }
+      }
+    },
     "Sort by: %@": {
       "localizations": {
         "pl": {
@@ -5657,6 +5897,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Model rozpoznawania mowy jest wczytany i gotowy"
+          }
+        }
+      }
+    },
+    "Speed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybkość"
           }
         }
       }
@@ -5817,6 +6067,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Systemowy model językowy"
+          }
+        }
+      }
+    },
+    "System Languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Języki systemowe"
           }
         }
       }

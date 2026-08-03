@@ -57,7 +57,7 @@ struct LiquidBar: View {
     let color: Color
     let secondaryColor: Color
     let icon: String
-    let label: String
+    let label: LocalizedStringKey
 
     // Animated fill level (smoothly transitions between values)
     @State private var animatedFill: Double = 0
