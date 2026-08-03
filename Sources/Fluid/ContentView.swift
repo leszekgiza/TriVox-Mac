@@ -1159,7 +1159,7 @@ struct ContentView: View {
     }
 
     private func openIssueReportingPage() {
-        guard let url = URL(string: "https://github.com/altic-dev/Fluid-oss/issues/new/choose") else { return }
+        guard let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/issues/new/choose") else { return }
         NSWorkspace.shared.open(url)
     }
 
