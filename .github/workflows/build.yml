@@ -147,3 +147,21 @@ jobs:
         name: TriVox-dmg
         path: TriVox.dmg
         retention-days: 30
+
+  localization-export:
+    name: Export localizations (xliff)
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Export
+      run: |
+        xcodebuild -project Fluid.xcodeproj -scheme Fluid \
+          -exportLocalizations -localizationPath loc -exportLanguage pl
+    - name: Artefakt
+      uses: actions/upload-artifact@v4
+      with:
+        name: xliff-pl
+        path: loc
