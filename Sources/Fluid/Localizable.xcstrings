@@ -461,6 +461,16 @@
         }
       }
     },
+    "Activity": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywność"
+          }
+        }
+      }
+    },
     "Add": {
       "localizations": {
         "pl": {
@@ -2621,6 +2631,16 @@
         }
       }
     },
+    "File Transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrypcja plików"
+          }
+        }
+      }
+    },
     "Filler words to remove:": {
       "localizations": {
         "pl": {
@@ -2817,6 +2837,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ukryj inne modele"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia"
           }
         }
       }
@@ -5241,6 +5271,16 @@
         }
       }
     },
+    "Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
+          }
+        }
+      }
+    },
     "Settings are disabled during active recording": {
       "localizations": {
         "pl": {
@@ -5427,6 +5467,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rozpocznij polecenie głosowe"
+          }
+        }
+      }
+    },
+    "Stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statystyki"
           }
         }
       }
@@ -6197,6 +6247,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Prześlij pliki audio lub wideo do transkrypcji"
+          }
+        }
+      }
+    },
+    "Use": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj"
           }
         }
       }

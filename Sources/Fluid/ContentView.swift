@@ -1202,7 +1202,7 @@ struct ContentView: View {
         .tint(self.theme.palette.accent)
     }
 
-    private func sidebarSectionHeader(_ title: String) -> some View {
+    private func sidebarSectionHeader(_ title: LocalizedStringKey) -> some View {
         Text(title)
             .font(self.theme.typography.sidebarSection)
             .foregroundStyle(.secondary)
@@ -1211,7 +1211,7 @@ struct ContentView: View {
             .padding(.bottom, self.theme.metrics.spacing.xs)
     }
 
-    private func sidebarNavigationLink(_ item: SidebarItem, title: String, systemImage: String) -> some View {
+    private func sidebarNavigationLink(_ item: SidebarItem, title: LocalizedStringKey, systemImage: String) -> some View {
         NavigationLink(value: item) {
             Label(title, systemImage: systemImage)
                 .font(self.theme.typography.sidebarItem)
