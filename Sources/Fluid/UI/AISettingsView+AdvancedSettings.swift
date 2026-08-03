@@ -295,7 +295,7 @@ extension AIEnhancementSettingsView {
                 self.promptConfigChip(
                     systemImage: "cpu",
                     text: modelPicker.selectedModel.isEmpty
-                        ? (modelPicker.providerName.isEmpty ? "No model" : modelPicker.summary)
+                        ? (modelPicker.providerName.isEmpty ? String(localized: "No model") : modelPicker.summary)
                         : modelPicker.selectedModel,
                     tone: tone
                 )
@@ -311,7 +311,7 @@ extension AIEnhancementSettingsView {
             } else {
                 self.promptConfigChip(
                     systemImage: "keyboard",
-                    text: "No shortcut",
+                    text: String(localized: "No shortcut"),
                     tone: self.theme.palette.tertiaryText,
                     isGhost: true
                 )
@@ -980,7 +980,9 @@ extension AIEnhancementSettingsView {
                         let defaultSelection = SettingsStore.DictationPromptSelection.default
                         self.promptProfileCard(
                             cardKey: "\(mode.normalized.rawValue)-default",
-                            title: mode.normalized == .dictate ? "Built-in Default" : "Default \(self.friendlyModeName(mode))",
+                            title: mode.normalized == .dictate
+                                ? String(localized: "Built-in Default")
+                                : String(localized: "Default \(self.friendlyModeName(mode))"),
                             subtitle: "",
                             mode: mode,
                             isSelected: mode.normalized == .dictate
@@ -998,7 +1000,7 @@ extension AIEnhancementSettingsView {
                                 let profileSelection = SettingsStore.DictationPromptSelection.profile(profile.id)
                                 self.promptProfileCard(
                                     cardKey: "\(profile.mode.normalized.rawValue)-\(profile.id)",
-                                    title: profile.name.isEmpty ? "Untitled Prompt" : profile.name,
+                                    title: profile.name.isEmpty ? String(localized: "Untitled Prompt") : profile.name,
                                     subtitle: "",
                                     mode: profile.mode,
                                     isSelected: self.viewModel.selectedPromptID(for: profile.mode) == profile.id,
@@ -1103,7 +1105,7 @@ extension AIEnhancementSettingsView {
     }
 
     private func promptRoutingScopeButton(
-        title: String,
+        title: LocalizedStringKey,
         scope: SettingsStore.PromptRoutingScope,
         mode: SettingsStore.PromptMode
     ) -> some View {

@@ -32,7 +32,7 @@ struct WelcomeView: View {
     let restartApp: () -> Void
 
     private var commandModeShortcutDisplay: String {
-        self.settings.commandModeHotkeyShortcut?.displayString ?? "Not set"
+        self.settings.commandModeHotkeyShortcut?.displayString ?? String(localized: "Not set")
     }
 
     private var writeModeShortcutDisplay: String {

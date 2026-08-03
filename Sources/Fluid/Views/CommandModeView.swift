@@ -175,7 +175,7 @@ struct CommandModeView: View {
     // MARK: - How To Section
 
     private var shortcutDisplay: String {
-        self.settings.commandModeHotkeyShortcut?.displayString ?? "Not set"
+        self.settings.commandModeHotkeyShortcut?.displayString ?? String(localized: "Not set")
     }
 
     private var howToSection: some View {
@@ -265,7 +265,7 @@ struct CommandModeView: View {
         .background(self.theme.palette.contentBackground)
     }
 
-    private func howToItem(_ text: String) -> some View {
+    private func howToItem(_ text: LocalizedStringKey) -> some View {
         HStack(spacing: 6) {
             Text("•")
                 .foregroundStyle(.secondary)

@@ -52,28 +52,28 @@ extension SettingsStore {
     var commandModeReadinessIssue: String? {
         let sourceProviderID = self.commandModeLinkedToGlobal ? self.selectedProviderID : self.commandModeSelectedProviderID
         if self.isPrivateAIProviderID(sourceProviderID) {
-            return "\(PrivateAIProviderFeature.displayName) for Command Mode is coming soon. Choose a verified chat provider or turn Sync off."
+            return String(localized: "\(PrivateAIProviderFeature.displayName) for Command Mode is coming soon. Choose a verified chat provider or turn Sync off.")
         }
 
         let providerID = self.effectiveCommandModeProviderID
         guard !providerID.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
-            return "Command Mode needs a verified chat provider."
+            return String(localized: "Command Mode needs a verified chat provider.")
         }
 
         let model = self.effectiveCommandModeSelectedModel.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !model.isEmpty else {
-            return "Command Mode needs a selected chat model."
+            return String(localized: "Command Mode needs a selected chat model.")
         }
 
         if self.isUnsupportedCommandModeModel(model) {
-            return "Command Mode needs a chat model. The selected model is not supported by the chat/completions endpoint."
+            return String(localized: "Command Mode needs a chat model. The selected model is not supported by the chat/completions endpoint.")
         }
 
         guard self.isCommandModeProviderVerified(providerID) else {
             if self.commandModeLinkedToGlobal {
-                return "Command Mode needs a verified chat provider. Verify the synced AI Enhancement provider, or turn Sync off and choose one for Command Mode."
+                return String(localized: "Command Mode needs a verified chat provider. Verify the synced AI Enhancement provider, or turn Sync off and choose one for Command Mode.")
             }
-            return "Command Mode needs a verified chat provider. Verify this provider in AI Enhancement before using Command Mode."
+            return String(localized: "Command Mode needs a verified chat provider. Verify this provider in AI Enhancement before using Command Mode.")
         }
 
         return nil
