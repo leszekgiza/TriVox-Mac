@@ -470,8 +470,8 @@ struct SettingsView: View {
                                         do {
                                             let includePrerelease = SettingsStore.shared.betaReleasesEnabled
                                             try await SimpleUpdater.shared.checkAndUpdate(
-                                                owner: "altic-dev",
-                                                repo: "Fluid-oss",
+                                                owner: "leszekgiza",
+                                                repo: "TriVox-Mac",
                                                 includePrerelease: includePrerelease
                                             )
                                             let ok = NSAlert()
@@ -502,7 +502,7 @@ struct SettingsView: View {
                                 .controlSize(.regular)
 
                                 Button("Release Notes") {
-                                    if let url = URL(string: "https://github.com/altic-dev/Fluid-oss/releases") {
+                                    if let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/releases") {
                                         NSWorkspace.shared.open(url)
                                     }
                                 }
@@ -1607,7 +1607,7 @@ struct SettingsView: View {
     }
 
     private func openIssueReportingPage() {
-        guard let url = URL(string: "https://github.com/altic-dev/Fluid-oss/issues/new/choose") else { return }
+        guard let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/issues/new/choose") else { return }
         NSWorkspace.shared.open(url)
     }
 
@@ -1797,8 +1797,8 @@ struct SettingsView: View {
         Task { @MainActor in
             do {
                 let options = try await SimpleUpdater.shared.fetchRecentReleaseBuildOptions(
-                    owner: "altic-dev",
-                    repo: "Fluid-oss",
+                    owner: "leszekgiza",
+                    repo: "TriVox-Mac",
                     limit: 3,
                     includePrerelease: SettingsStore.shared.betaReleasesEnabled
                 )
@@ -1840,7 +1840,7 @@ struct SettingsView: View {
     }
 
     private func openAllReleasesPage() {
-        guard let url = URL(string: "https://github.com/altic-dev/Fluid-oss/releases") else { return }
+        guard let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/releases") else { return }
         NSWorkspace.shared.open(url)
     }
 

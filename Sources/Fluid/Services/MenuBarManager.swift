@@ -713,8 +713,8 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         Task { @MainActor in
             do {
                 try await SimpleUpdater.shared.checkAndUpdate(
-                    owner: "altic-dev",
-                    repo: "Fluid-oss",
+                    owner: "leszekgiza",
+                    repo: "TriVox-Mac",
                     includePrerelease: SettingsStore.shared.betaReleasesEnabled
                 )
                 let ok = NSAlert()
@@ -790,7 +790,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
     }
 
     private func openIssueReportingPage() {
-        guard let url = URL(string: "https://github.com/altic-dev/Fluid-oss/issues/new/choose") else { return }
+        guard let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/issues/new/choose") else { return }
         NSWorkspace.shared.open(url)
     }
 
@@ -798,8 +798,8 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
         Task { @MainActor in
             do {
                 let options = try await SimpleUpdater.shared.fetchRecentReleaseBuildOptions(
-                    owner: "altic-dev",
-                    repo: "Fluid-oss",
+                    owner: "leszekgiza",
+                    repo: "TriVox-Mac",
                     limit: 3,
                     includePrerelease: SettingsStore.shared.betaReleasesEnabled
                 )
@@ -841,7 +841,7 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
     }
 
     private func openAllReleasesPage() {
-        guard let url = URL(string: "https://github.com/altic-dev/Fluid-oss/releases") else { return }
+        guard let url = URL(string: "https://github.com/leszekgiza/TriVox-Mac/releases") else { return }
         NSWorkspace.shared.open(url)
     }
 

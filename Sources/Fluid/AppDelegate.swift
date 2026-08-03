@@ -354,9 +354,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
             "Manual update check requested. Current version: \(currentVersion)",
             source: "AppDelegate"
         )
-        DebugLogger.shared.info("Checking repository: altic-dev/Fluid-oss", source: "AppDelegate")
+        DebugLogger.shared.info("Checking repository: leszekgiza/TriVox-Mac", source: "AppDelegate")
         DebugLogger.shared.debug("🔍 DEBUG: Manual update check started - Current version: \(currentVersion)", source: "AppDelegate")
-        DebugLogger.shared.debug("🔍 DEBUG: Repository: altic-dev/Fluid-oss", source: "AppDelegate")
+        DebugLogger.shared.debug("🔍 DEBUG: Repository: leszekgiza/TriVox-Mac", source: "AppDelegate")
         let includePrerelease = SettingsStore.shared.betaReleasesEnabled
         DebugLogger.shared.info(
             "Beta releases opt-in: \(SettingsStore.shared.betaReleasesEnabled)",
@@ -367,8 +367,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
             do {
                 // Use our tolerant updater to handle v-prefixed tags and 2-part versions
                 try await SimpleUpdater.shared.checkAndUpdate(
-                    owner: "altic-dev",
-                    repo: "Fluid-oss",
+                    owner: "leszekgiza",
+                    repo: "TriVox-Mac",
                     includePrerelease: includePrerelease
                 )
                 // If we get here, an update was found; SimpleUpdater will relaunch on success
@@ -415,13 +415,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
             // Wait 3 seconds after launch before checking
             try? await Task.sleep(nanoseconds: 3_000_000_000)
 
-            DebugLogger.shared.info("Performing automatic update check for altic-dev/Fluid-oss", source: "AppDelegate")
+            DebugLogger.shared.info("Performing automatic update check for leszekgiza/TriVox-Mac", source: "AppDelegate")
 
             do {
                 let includePrerelease = SettingsStore.shared.betaReleasesEnabled
                 let result = try await SimpleUpdater.shared.checkForUpdate(
-                    owner: "altic-dev",
-                    repo: "Fluid-oss",
+                    owner: "leszekgiza",
+                    repo: "TriVox-Mac",
                     includePrerelease: includePrerelease
                 )
 
