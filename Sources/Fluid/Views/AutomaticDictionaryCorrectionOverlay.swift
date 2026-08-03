@@ -383,16 +383,16 @@ private struct AutomaticDictionaryCorrectionOverlayView: View {
 
     private var overlayReadinessCaption: String {
         if self.session.isReady {
-            return "Ready. Add Replacement is unlocked."
+            return String(localized: "Ready. Add Replacement is unlocked.")
         }
         let remaining = max(
             0,
             CustomDictionaryTrainingMerge.readyCoveredCount - self.session.readinessProgress
         )
-        return "\(remaining) correct \(remaining == 1 ? "try" : "tries") to unlock Add Replacement."
+        return String(localized: "\(remaining) correct tries to unlock Add Replacement.")
     }
 
-    private func trainingInstruction(number: Int, text: String) -> some View {
+    private func trainingInstruction(number: Int, text: LocalizedStringKey) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 7) {
             Text("\(number)")
                 .font(.system(size: 10.5, weight: .semibold, design: .rounded))
@@ -433,7 +433,7 @@ private struct AutomaticDictionaryCorrectionOverlayView: View {
         .transition(.scale(scale: 0.96).combined(with: .opacity))
     }
 
-    private func header(title: String, allowsBack: Bool) -> some View {
+    private func header(title: LocalizedStringKey, allowsBack: Bool) -> some View {
         HStack(spacing: 7) {
             if allowsBack {
                 Button(action: self.session.returnToChoice) {
@@ -626,7 +626,7 @@ private struct CorrectionOverlayActionButton: View {
         case secondary
     }
 
-    let title: String
+    let title: LocalizedStringKey
     let systemImage: String
     let style: Style
     let accent: Color

@@ -1,6 +1,7 @@
 import AppKit
 import Combine
 import Foundation
+import SwiftUI
 
 @MainActor
 final class AutomaticDictionaryTrainingSession: ObservableObject {
@@ -28,7 +29,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
     @Published private(set) var consecutiveCoveredCaptures = 0
     @Published private(set) var statusMessage = ""
     @Published private(set) var hasError = false
-    @Published private(set) var successTitle = "Added to Dictionary"
+    @Published private(set) var successTitle = String(localized: "Added to Dictionary")
     @Published private(set) var isAutomaticCaptureEnabled = false
 
     var onInteraction: (() -> Void)?
@@ -69,7 +70,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
     }
 
     var finalOutputText: String {
-        guard !self.lastOutput.isEmpty else { return "Record to check" }
+        guard !self.lastOutput.isEmpty else { return String(localized: "Record to check") }
         return self.lastOutputIsCovered ? self.intendedText : self.lastOutput
     }
 
@@ -95,7 +96,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         self.isAutomaticCaptureEnabled || self.capturePhase == .starting || self.capturePhase == .recording
     }
 
-    var recordButtonTitle: String {
+    var recordButtonTitle: LocalizedStringKey {
         if self.isAutomaticCaptureEnabled {
             return "Stop"
         }
@@ -195,18 +196,18 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         self.discardCurrentCapture = false
         self.capturePhase = .starting
         self.hasError = false
-        self.statusMessage = "Starting..."
+        self.statusMessage = String(localized: "Starting...")
 
         await self.asr.start(forDictionaryTraining: true) { [weak self] in
             guard let self else { return }
             self.didStartAudioCapture = true
             self.capturePhase = .recording
             if self.stopRequestedDuringStart || self.isCancelled {
-                self.statusMessage = "Stopping..."
+                self.statusMessage = String(localized: "Stopping...")
                 self.stopTask?.cancel()
                 self.stopTask = Task { await self.finishCapture() }
             } else {
-                self.statusMessage = "Listening..."
+                self.statusMessage = String(localized: "Listening...")
             }
         }
         guard self.asr.isRunning else {
@@ -216,7 +217,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
             guard !self.didStartAudioCapture else { return }
             guard !self.isCancelled else { return }
             self.hasError = true
-            self.statusMessage = "Couldn't start recording. Check microphone access and try again."
+            self.statusMessage = String(localized: "Couldn't start recording. Check microphone access and try again.")
             return
         }
 
@@ -227,7 +228,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
 
         if self.capturePhase == .starting {
             self.capturePhase = .recording
-            self.statusMessage = "Listening..."
+            self.statusMessage = String(localized: "Listening...")
         }
         DictionaryTrainingEndpointMonitor.shared.start(asr: self.asr) { [weak self] in
             self?.handleAutomaticSpeechEnd()
@@ -239,7 +240,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         switch self.capturePhase {
         case .starting:
             self.stopRequestedDuringStart = true
-            self.statusMessage = "Stopping..."
+            self.statusMessage = String(localized: "Stopping...")
         case .recording:
             await self.finishCapture()
         case .idle, .processing:
@@ -253,7 +254,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         else {
             return
         }
-        self.statusMessage = "Stopping..."
+        self.statusMessage = String(localized: "Stopping...")
         self.stopTask?.cancel()
         self.stopTask = Task { await self.stopCapture() }
     }
@@ -264,7 +265,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         self.capturePhase = .processing
         self.stopRequestedDuringStart = false
         self.hasError = false
-        self.statusMessage = "Checking..."
+        self.statusMessage = String(localized: "Checking...")
 
         let transcript = await self.asr.stop(forDictionaryTraining: true)
         let shouldDiscard = self.discardCurrentCapture || self.isCancelled
@@ -304,7 +305,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
             self.lastOutputIsCovered = false
             self.consecutiveCoveredCaptures = 0
             self.hasError = true
-            self.statusMessage = "Nothing heard. Try again."
+            self.statusMessage = String(localized: "Nothing heard. Try again.")
             return
         }
 
@@ -317,7 +318,9 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
             self.lastOutputIsCovered = true
             self.consecutiveCoveredCaptures += 1
             self.hasError = false
-            self.statusMessage = self.isReady ? "Ready to add." : "Understood. Try again."
+            self.statusMessage = self.isReady
+                ? String(localized: "Ready to add.")
+                : String(localized: "Understood. Try again.")
             return
         }
 
@@ -325,7 +328,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
             self.lastOutputIsCovered = false
             self.consecutiveCoveredCaptures = 0
             self.hasError = false
-            self.statusMessage = "Maximum samples reached."
+            self.statusMessage = String(localized: "Maximum samples reached.")
             return
         }
 
@@ -333,7 +336,7 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
         self.lastOutputIsCovered = false
         self.consecutiveCoveredCaptures = 0
         self.hasError = false
-        self.statusMessage = "New pronunciation captured."
+        self.statusMessage = String(localized: "New pronunciation captured.")
     }
 
     private func refreshCoverageAfterVariantRemoval() {
@@ -359,14 +362,14 @@ final class AutomaticDictionaryTrainingSession: ObservableObject {
             triggers: triggers
         )
         guard mergedEntries != currentEntries else {
-            self.completeSave(title: "Already in Dictionary")
+            self.completeSave(title: String(localized: "Already in Dictionary"))
             return
         }
 
         SettingsStore.shared.customDictionaryEntries = mergedEntries
         ASRService.invalidateDictionaryCache()
         NotificationCenter.default.post(name: .parakeetVocabularyDidChange, object: nil)
-        self.completeSave(title: updatedExisting ? "Dictionary Updated" : "Added to Dictionary")
+        self.completeSave(title: updatedExisting ? String(localized: "Dictionary Updated") : String(localized: "Added to Dictionary"))
     }
 
     private func completeSave(title: String) {
