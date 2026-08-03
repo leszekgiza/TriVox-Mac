@@ -311,6 +311,16 @@
         }
       }
     },
+    "AI Providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostawcy AI"
+          }
+        }
+      }
+    },
     "AI Settings": {
       "localizations": {
         "pl": {
@@ -1631,6 +1641,16 @@
         }
       }
     },
+    "Cloud models use provider APIs": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modele chmurowe korzystają z API dostawców"
+          }
+        }
+      }
+    },
     "Collapsed": {
       "localizations": {
         "pl": {
@@ -1787,6 +1807,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Połączenie nieudane"
+          }
+        }
+      }
+    },
+    "Connection not tested": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połączenie nie zostało przetestowane"
           }
         }
       }
@@ -3567,6 +3597,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lokalne środowisko uruchomieniowe Fluid-1. Domyślnie MLX na Apple Silicon."
+          }
+        }
+      }
+    },
+    "Local models run on Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modele lokalne działają na Macu"
           }
         }
       }
@@ -5797,6 +5837,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Skróty"
+          }
+        }
+      }
+    },
+    "Shortcuts choose when prompts run": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skróty klawiszowe decydują, kiedy uruchamiają się prompty"
           }
         }
       }

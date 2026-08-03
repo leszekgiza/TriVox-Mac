@@ -235,7 +235,7 @@ extension AIEnhancementSettingsView {
             .frame(width: 1, height: 14)
     }
 
-    private func aiSetupSummaryItem(icon: String, text: String) -> some View {
+    private func aiSetupSummaryItem(icon: String, text: LocalizedStringKey) -> some View {
         HStack(spacing: 6) {
             Image(systemName: icon)
                 .font(.system(size: 11, weight: .semibold))
@@ -612,7 +612,7 @@ extension AIEnhancementSettingsView {
         )
     }
 
-    private func providerStatus(for item: ProviderItem) -> (text: String, color: Color, icon: String) {
+    private func providerStatus(for item: ProviderItem) -> (text: LocalizedStringKey, color: Color, icon: String) {
         switch self.viewModel.connectionStatus(for: item.id) {
         case .success:
             return ("Connection verified", Color.fluidGreen, "checkmark.circle.fill")

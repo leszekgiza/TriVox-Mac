@@ -8,7 +8,7 @@ enum AIEnhancementConfigurationSection: String, CaseIterable, Identifiable {
         self.rawValue
     }
 
-    var title: String {
+    var title: LocalizedStringKey {
         switch self {
         case .providers:
             return "AI Providers"
