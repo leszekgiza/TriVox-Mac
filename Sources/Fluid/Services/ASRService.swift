@@ -88,7 +88,7 @@ final class ASRService: ObservableObject {
     @Published var isRunning: Bool = false
     @Published var finalText: String = ""
     @Published var partialTranscription: String = ""
-    @Published var wordBoostStatusText: String = "Word boost: off"
+    @Published var wordBoostStatusText: String = String(localized: "Word boost: off")
     @Published var micStatus: AVAuthorizationStatus = .notDetermined
     @Published var isAsrReady: Bool = false
     @Published var isDownloadingModel: Bool = false
@@ -556,7 +556,7 @@ final class ASRService: ObservableObject {
         self.ensureReadyProviderKey = nil
         self.ensureReadyOperationID = nil
         self.lastBoostHitTerm = nil
-        self.wordBoostStatusText = "Word boost: off"
+        self.wordBoostStatusText = String(localized: "Word boost: off")
 
         // Reset cached providers to force re-initialization with new settings
         self.fluidAudioProvider = nil
@@ -1166,19 +1166,19 @@ final class ASRService: ObservableObject {
               let provider = self.fluidAudioProvider,
               provider.isReady
         else {
-            self.wordBoostStatusText = "Word boost: off"
+            self.wordBoostStatusText = String(localized: "Word boost: off")
             return
         }
 
         if provider.isWordBoostingActive {
             let count = provider.boostedVocabularyTermsCount
             if let lastHit = self.lastBoostHitTerm, !lastHit.isEmpty {
-                self.wordBoostStatusText = "Word boost: ON (\(count) terms) • last hit: \(lastHit)"
+                self.wordBoostStatusText = String(localized: "Word boost: ON (\(count) terms) • last hit: \(lastHit)")
             } else {
-                self.wordBoostStatusText = "Word boost: ON (\(count) terms) • no hit yet"
+                self.wordBoostStatusText = String(localized: "Word boost: ON (\(count) terms) • no hit yet")
             }
         } else {
-            self.wordBoostStatusText = "Word boost: ON (0 terms loaded)"
+            self.wordBoostStatusText = String(localized: "Word boost: ON (0 terms loaded)")
         }
     }
 

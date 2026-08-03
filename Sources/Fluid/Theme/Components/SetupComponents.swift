@@ -13,11 +13,11 @@ import SwiftUI
 struct SetupStepView: View {
     @Environment(\.theme) private var theme
     let step: Int
-    let title: String
-    let description: String
+    let title: LocalizedStringKey
+    let description: LocalizedStringKey
     let status: SetupStatus
     let action: () -> Void
-    var actionButtonTitle: String = "Configure"
+    var actionButtonTitle: LocalizedStringKey = "Configure"
     var showActionButton: Bool = true
 
     enum SetupStatus {
@@ -127,8 +127,8 @@ struct SetupStepView: View {
 struct InstructionStep: View {
     @Environment(\.theme) private var theme
     let number: Int
-    let title: String
-    let description: String
+    let title: LocalizedStringKey
+    let description: LocalizedStringKey
 
     var body: some View {
         HStack(alignment: .top, spacing: 8) {

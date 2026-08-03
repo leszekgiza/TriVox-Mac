@@ -221,6 +221,16 @@
         }
       }
     },
+    "AI Enhancement Configured": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulepszanie AI skonfigurowane"
+          }
+        }
+      }
+    },
     "AI Enhancement failed": {
       "localizations": {
         "pl": {
@@ -321,6 +331,16 @@
         }
       }
     },
+    "AI-powered text enhancement is ready to use": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulepszanie tekstu przez AI jest gotowe do użycia"
+          }
+        }
+      }
+    },
     "API Key": {
       "localizations": {
         "pl": {
@@ -387,6 +407,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kolor akcentu"
+          }
+        }
+      }
+    },
+    "Accessibility Access Enabled": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostęp ułatwień dostępu włączony"
+          }
+        }
+      }
+    },
+    "Accessibility permission granted for typing into apps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uprawnienie ułatwień dostępu przyznane do wpisywania tekstu w aplikacjach"
           }
         }
       }
@@ -657,6 +697,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wszyscy dostawcy"
+          }
+        }
+      }
+    },
+    "Allow TriVox to access your microphone for voice input": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zezwól TriVox na dostęp do mikrofonu w celu wprowadzania głosu"
           }
         }
       }
@@ -1521,6 +1571,26 @@
         }
       }
     },
+    "Configure AI": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj AI"
+          }
+        }
+      }
+    },
+    "Configure API keys for AI-powered text enhancement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj klucze API dla ulepszania tekstu przez AI"
+          }
+        }
+      }
+    },
     "Configure an AI model provider in AI Settings before using Edit Mode.": {
       "localizations": {
         "pl": {
@@ -2231,12 +2301,32 @@
         }
       }
     },
+    "Download Voice Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz model głosowy"
+          }
+        }
+      }
+    },
     "Download size": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Rozmiar pobierania"
+          }
+        }
+      }
+    },
+    "Download the AI model for offline voice transcription (~500MB)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz model AI do offline’owej transkrypcji głosu (~500 MB)"
           }
         }
       }
@@ -2377,6 +2467,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "E-mail"
+          }
+        }
+      }
+    },
+    "Enable Accessibility Access": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz dostęp ułatwień dostępu"
           }
         }
       }
@@ -2761,12 +2861,42 @@
         }
       }
     },
+    "Go to Playground": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przejdź do placu zabaw"
+          }
+        }
+      }
+    },
+    "Go to Voice Engine": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przejdź do Silnika głosowego"
+          }
+        }
+      }
+    },
     "Grant Access": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Przyznaj dostęp"
+          }
+        }
+      }
+    },
+    "Grant Microphone Permission": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyznaj dostęp do mikrofonu"
           }
         }
       }
@@ -3271,6 +3401,16 @@
         }
       }
     },
+    "Microphone Permission Granted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostęp do mikrofonu przyznany"
+          }
+        }
+      }
+    },
     "Microphone access denied": {
       "localizations": {
         "pl": {
@@ -3347,6 +3487,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Model"
+          }
+        }
+      }
+    },
+    "Model downloaded, will load when needed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model pobrany, wczyta się w razie potrzeby"
           }
         }
       }
@@ -5251,6 +5401,16 @@
         }
       }
     },
+    "Set Up AI Enhancement (Optional)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj Ulepszanie AI (opcjonalnie)"
+          }
+        }
+      }
+    },
     "Set up a provider below and verify its connection": {
       "localizations": {
         "pl": {
@@ -5297,6 +5457,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ustawienia..."
+          }
+        }
+      }
+    },
+    "Setup Tested Successfully": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konfiguracja przetestowana pomyślnie"
           }
         }
       }
@@ -5387,6 +5557,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sortuj wg: %@"
+          }
+        }
+      }
+    },
+    "Speech recognition model is loaded and ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model rozpoznawania mowy jest wczytany i gotowy"
           }
         }
       }
@@ -5597,6 +5777,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Poligon testowy"
+          }
+        }
+      }
+    },
+    "Test Your Setup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przetestuj swoją konfigurację"
           }
         }
       }
@@ -6011,6 +6201,16 @@
         }
       }
     },
+    "TriVox has access to your microphone": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox ma dostęp do Twojego mikrofonu"
+          }
+        }
+      }
+    },
     "TriVox is ready.": {
       "localizations": {
         "pl": {
@@ -6117,6 +6317,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wypróbuj przykład. %@"
+          }
+        }
+      }
+    },
+    "Try the playground below to test your complete setup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbuj plac zabaw poniżej, aby przetestować całą konfigurację"
           }
         }
       }
@@ -6421,6 +6631,16 @@
         }
       }
     },
+    "Voice Model Ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model głosowy gotowy"
+          }
+        }
+      }
+    },
     "Voice profile for %@ captured 3 times.": {
       "localizations": {
         "pl": {
@@ -6581,6 +6801,26 @@
         }
       }
     },
+    "Word boost: ON (0 terms loaded)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzmacnianie słów: WŁ. (wczytano 0 terminów)"
+          }
+        }
+      }
+    },
+    "Word boost: off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzmacnianie słów: wyłączone"
+          }
+        }
+      }
+    },
     "Word or Phrase": {
       "localizations": {
         "pl": {
@@ -6677,6 +6917,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masz już najnowszą wersję TriVox."
+          }
+        }
+      }
+    },
+    "You've successfully tested voice transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomyślnie przetestowano transkrypcję głosu"
           }
         }
       }
