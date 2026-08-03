@@ -36,7 +36,7 @@ extension SettingsStore {
             )
         }
         #else
-        let unavailableMessage = "Launch at startup is only available on macOS."
+        let unavailableMessage = String(localized: "Launch at startup is only available on macOS.")
         let nextErrorMessage = clearError ? nil : self.launchAtStartupErrorMessage
         if self.launchAtStartupEnabled ||
             self.launchAtStartupStatusMessage != unavailableMessage ||
@@ -78,8 +78,8 @@ extension SettingsStore {
 
             if self.launchAtStartupEnabled != enabled {
                 let mismatchMessage = enabled
-                    ? "macOS did not enable TriVox in Login Items. Check System Settings > General > Login Items."
-                    : "macOS still shows TriVox in Login Items. Check System Settings > General > Login Items."
+                    ? String(localized: "macOS did not enable TriVox in Login Items. Check System Settings > General > Login Items.")
+                    : String(localized: "macOS still shows TriVox in Login Items. Check System Settings > General > Login Items.")
                 self.applyLaunchAtStartupErrorMessage(mismatchMessage)
                 DebugLogger.shared.warning(mismatchMessage, source: "SettingsStore")
             }
@@ -93,7 +93,7 @@ extension SettingsStore {
             }
         }
         #else
-        let message = "Launch at startup is only available on macOS."
+        let message = String(localized: "Launch at startup is only available on macOS.")
         if self.launchAtStartupErrorMessage != message {
             self.applyLaunchAtStartupErrorMessage(message)
         }
@@ -119,23 +119,28 @@ extension SettingsStore {
 
     private func launchAtStartupFailureMessage(for error: Error, enabling: Bool) -> String {
         let nsError = error as NSError
-        let action = enabling ? "enable" : "disable"
         let lowercasedDescription = nsError.localizedDescription.lowercased()
 
         if lowercasedDescription.contains("developer") ||
             lowercasedDescription.contains("sign") ||
             lowercasedDescription.contains("entitlement")
         {
-            return "TriVox could not \(action) launch at startup. This build may not be signed correctly for macOS Login Items."
+            return enabling
+                ? String(localized: "TriVox could not enable launch at startup. This build may not be signed correctly for macOS Login Items.")
+                : String(localized: "TriVox could not disable launch at startup. This build may not be signed correctly for macOS Login Items.")
         }
 
         if lowercasedDescription.contains("approval") ||
             lowercasedDescription.contains("authorize")
         {
-            return "macOS needs approval before TriVox can \(action) launch at startup. Check System Settings > General > Login Items."
+            return enabling
+                ? String(localized: "macOS needs approval before TriVox can enable launch at startup. Check System Settings > General > Login Items.")
+                : String(localized: "macOS needs approval before TriVox can disable launch at startup. Check System Settings > General > Login Items.")
         }
 
-        return "TriVox could not \(action) launch at startup. macOS reported: \(nsError.localizedDescription)"
+        return enabling
+            ? String(localized: "TriVox could not enable launch at startup. macOS reported: \(nsError.localizedDescription)")
+            : String(localized: "TriVox could not disable launch at startup. macOS reported: \(nsError.localizedDescription)")
     }
 
     private func cleanupLegacyCompatibilityLoginItemAfterDisable() {
@@ -217,11 +222,11 @@ private enum LaunchAtStartupSystemState {
     var message: String {
         switch self {
         case .enabled:
-            return "TriVox reflects the actual macOS login item state."
+            return String(localized: "TriVox reflects the actual macOS login item state.")
         case .disabled:
-            return "TriVox reflects the actual macOS login item state. Unsigned or development builds may fail to enable this."
+            return String(localized: "TriVox reflects the actual macOS login item state. Unsigned or development builds may fail to enable this.")
         case .requiresApproval:
-            return "macOS requires approval for TriVox in Login Items before launch at startup becomes active."
+            return String(localized: "macOS requires approval for TriVox in Login Items before launch at startup becomes active.")
         }
     }
 }

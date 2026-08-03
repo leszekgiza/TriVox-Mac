@@ -269,7 +269,7 @@ struct SettingsView: View {
                             self.settingsToggleRow(
                                 title: "Hide from Dock & App Switcher",
                                 description: "Keep TriVox in the menu bar only (hides Dock icon and Cmd+Tab entry)",
-                                footnote: "Note: May require app restart to take effect.",
+                                footnote: String(localized: "Note: May require app restart to take effect."),
                                 isOn: Binding(
                                     get: { SettingsStore.shared.hideFromDockAndAppSwitcher },
                                     set: { SettingsStore.shared.hideFromDockAndAppSwitcher = $0 }
@@ -388,7 +388,7 @@ struct SettingsView: View {
                                 self.settingsToggleRow(
                                     title: "Independent Volume",
                                     description: "Sound volume stays constant regardless of system volume. Mute is still respected.",
-                                    footnote: "Temporarily changes system volume during playback, which may briefly affect other audio.",
+                                    footnote: String(localized: "Temporarily changes system volume during playback, which may briefly affect other audio."),
                                     isOn: Binding(
                                         get: { SettingsStore.shared.transcriptionSoundIndependentVolume },
                                         set: { SettingsStore.shared.transcriptionSoundIndependentVolume = $0 }
@@ -1853,8 +1853,8 @@ struct SettingsView: View {
     // MARK: - Helper Views
 
     private func settingsToggleRow(
-        title: String,
-        description: String,
+        title: LocalizedStringKey,
+        description: LocalizedStringKey,
         footnote: String? = nil,
         errorMessage: String? = nil,
         isOn: Binding<Bool>

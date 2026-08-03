@@ -971,6 +971,16 @@
         }
       }
     },
+    "Automatically start TriVox when you log in": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatycznie uruchamiaj TriVox po zalogowaniu"
+          }
+        }
+      }
+    },
     "Available Models": {
       "localizations": {
         "pl": {
@@ -2961,6 +2971,16 @@
         }
       }
     },
+    "Hide from Dock & App Switcher": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj z Docka i przełącznika aplikacji"
+          }
+        }
+      }
+    },
     "Hide other models": {
       "localizations": {
         "pl": {
@@ -3111,6 +3131,16 @@
         }
       }
     },
+    "Independent Volume": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niezależna głośność"
+          }
+        }
+      }
+    },
     "Initial preparation can take a while to get your Mac ready for near-instant transcription.": {
       "localizations": {
         "pl": {
@@ -3181,6 +3211,16 @@
         }
       }
     },
+    "Keep TriVox in the menu bar only (hides Dock icon and Cmd+Tab entry)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trzymaj TriVox tylko na pasku menu (ukrywa ikonę w Docku i wpis w Cmd+Tab)"
+          }
+        }
+      }
+    },
     "Keeps Fluid-1 ready so your first dictation finishes sooner.": {
       "localizations": {
         "pl": {
@@ -3227,6 +3267,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Najnowsze"
+          }
+        }
+      }
+    },
+    "Launch at startup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchamiaj przy starcie systemu"
+          }
+        }
+      }
+    },
+    "Launch at startup is only available on macOS.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchamianie przy starcie systemu jest dostępne tylko w macOS."
           }
         }
       }
@@ -3847,6 +3907,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Styl notcha"
+          }
+        }
+      }
+    },
+    "Note: May require app restart to take effect.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uwaga: może wymagać ponownego uruchomienia aplikacji, aby zadziałać."
           }
         }
       }
@@ -5551,12 +5621,32 @@
         }
       }
     },
+    "Show window when launched at login": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokazuj okno przy uruchomieniu z logowania"
+          }
+        }
+      }
+    },
     "Sort by: %@": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Sortuj wg: %@"
+          }
+        }
+      }
+    },
+    "Sound volume stays constant regardless of system volume. Mute is still respected.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głośność dźwięku pozostaje stała niezależnie od głośności systemowej. Wyciszenie systemu jest nadal respektowane."
           }
         }
       }
@@ -5757,6 +5847,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Naucz słów"
+          }
+        }
+      }
+    },
+    "Temporarily changes system volume during playback, which may briefly affect other audio.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tymczasowo zmienia głośność systemową podczas odtwarzania, co może chwilowo wpłynąć na inne dźwięki."
           }
         }
       }
@@ -6151,6 +6251,46 @@
         }
       }
     },
+    "TriVox could not disable launch at startup. This build may not be signed correctly for macOS Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox nie mógł wyłączyć uruchamiania przy starcie systemu. Ta wersja może nie być poprawnie podpisana dla Elementów logowania macOS."
+          }
+        }
+      }
+    },
+    "TriVox could not disable launch at startup. macOS reported: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox nie mógł wyłączyć uruchamiania przy starcie systemu. macOS zgłosił: %@"
+          }
+        }
+      }
+    },
+    "TriVox could not enable launch at startup. This build may not be signed correctly for macOS Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox nie mógł włączyć uruchamiania przy starcie systemu. Ta wersja może nie być poprawnie podpisana dla Elementów logowania macOS."
+          }
+        }
+      }
+    },
+    "TriVox could not enable launch at startup. macOS reported: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox nie mógł włączyć uruchamiania przy starcie systemu. macOS zgłosił: %@"
+          }
+        }
+      }
+    },
     "TriVox could not load GitHub release notes right now.": {
       "localizations": {
         "pl": {
@@ -6247,6 +6387,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "TriVox rozpoznał %@ 3 razy z rzędu."
+          }
+        }
+      }
+    },
+    "TriVox reflects the actual macOS login item state.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox odzwierciedla rzeczywisty stan elementu logowania macOS."
+          }
+        }
+      }
+    },
+    "TriVox reflects the actual macOS login item state. Unsigned or development builds may fail to enable this.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox odzwierciedla rzeczywisty stan elementu logowania macOS. Niepodpisane wersje deweloperskie mogą nie móc tego włączyć."
           }
         }
       }
@@ -6751,6 +6911,16 @@
         }
       }
     },
+    "When off, TriVox starts silently in the menu bar at login. Opening the app yourself always shows the window.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy wyłączone, TriVox uruchamia się cicho na pasku menu przy logowaniu. Samodzielne otwarcie aplikacji zawsze pokazuje okno."
+          }
+        }
+      }
+    },
     "When you say ": {
       "localizations": {
         "pl": {
@@ -7067,6 +7237,56 @@
           "stringUnit": {
             "state": "translated",
             "value": "dni"
+          }
+        }
+      }
+    },
+    "macOS did not enable TriVox in Login Items. Check System Settings > General > Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS nie włączył TriVox w Elementach logowania. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
+          }
+        }
+      }
+    },
+    "macOS needs approval before TriVox can disable launch at startup. Check System Settings > General > Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS wymaga zatwierdzenia, zanim TriVox będzie mógł wyłączyć uruchamianie przy starcie systemu. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
+          }
+        }
+      }
+    },
+    "macOS needs approval before TriVox can enable launch at startup. Check System Settings > General > Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS wymaga zatwierdzenia, zanim TriVox będzie mógł włączyć uruchamianie przy starcie systemu. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
+          }
+        }
+      }
+    },
+    "macOS requires approval for TriVox in Login Items before launch at startup becomes active.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS wymaga zatwierdzenia TriVox w Elementach logowania, zanim uruchamianie przy starcie systemu zacznie działać."
+          }
+        }
+      }
+    },
+    "macOS still shows TriVox in Login Items. Check System Settings > General > Login Items.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS nadal pokazuje TriVox w Elementach logowania. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
           }
         }
       }
