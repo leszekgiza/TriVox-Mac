@@ -1,6 +1,46 @@
 {
   "sourceLanguage": "en",
   "strings": {
+    "\"Create a folder called Projects on Desktop\"": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Utwórz folder Projekty na Biurku”"
+          }
+        }
+      }
+    },
+    "\"List files in my Downloads folder\"": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Pokaż pliki w folderze Pobrane”"
+          }
+        }
+      }
+    },
+    "\"Open Safari\"": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Otwórz Safari”"
+          }
+        }
+      }
+    },
+    "\"What's my IP address?\"": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Jaki jest mój adres IP?”"
+          }
+        }
+      }
+    },
     "%@ (System Default)": {
       "localizations": {
         "pl": {
@@ -101,6 +141,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld zn."
+          }
+        }
+      }
+    },
+    "%lld correct tries to unlock Add Replacement.": {
+      "localizations": {
+        "pl": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld poprawne próby, aby odblokować dodanie zamiennika."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld poprawnych prób, aby odblokować dodanie zamiennika."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld poprawna próba, aby odblokować dodanie zamiennika."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld poprawnych prób, aby odblokować dodanie zamiennika."
+                }
+              }
+            }
           }
         }
       }
@@ -723,6 +797,16 @@
         }
       }
     },
+    "Add This Correction": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj tę poprawkę"
+          }
+        }
+      }
+    },
     "Add Word": {
       "localizations": {
         "pl": {
@@ -779,6 +863,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dodaj słowo"
+          }
+        }
+      }
+    },
+    "Added to Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodano do słownika"
           }
         }
       }
@@ -899,6 +993,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Już to włączono? TriVox zaktualizuje się, gdy macOS potwierdzi dostęp."
+          }
+        }
+      }
+    },
+    "Already in Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Już w słowniku"
           }
         }
       }
@@ -2141,6 +2245,16 @@
         }
       }
     },
+    "Correction noticed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zauważono poprawkę"
+          }
+        }
+      }
+    },
     "Couldn't Add App Override": {
       "localizations": {
         "pl": {
@@ -2561,6 +2675,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zaimportowano słownik"
+          }
+        }
+      }
+    },
+    "Dictionary Updated": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaktualizowano słownik"
           }
         }
       }
@@ -3205,12 +3329,12 @@
         }
       }
     },
-    "Give us a star on GitHub, or support continued free development to help make local dictation even better.": {
+    "Give us a star on GitHub to help make local dictation even better.": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zostaw nam gwiazdkę na GitHub albo wesprzyj dalszy darmowy rozwój, aby pomóc uczynić lokalne dyktowanie jeszcze lepszym."
+            "value": "Zostaw nam gwiazdkę na GitHub, aby pomóc uczynić lokalne dyktowanie jeszcze lepszym."
           }
         }
       }
@@ -4215,6 +4339,16 @@
         }
       }
     },
+    "No newer release was found. Please try again later.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono nowszego wydania. Spróbuj ponownie później."
+          }
+        }
+      }
+    },
     "No previous version backup is available on this device.": {
       "localizations": {
         "pl": {
@@ -5095,6 +5229,16 @@
         }
       }
     },
+    "Ready. Add Replacement is unlocked.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe. Dodanie zamiennika jest odblokowane."
+          }
+        }
+      }
+    },
     "Ready. TriVox got %@ right 3 times in a row.": {
       "localizations": {
         "pl": {
@@ -5335,6 +5479,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Powtórz 3 razy, aby nauczyć TriVox brzmienia Twojego głosu."
+          }
+        }
+      }
+    },
+    "Repeat naturally until the circle reaches 3/3.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtarzaj naturalnie, aż okrąg osiągnie 3/3."
           }
         }
       }
@@ -5849,6 +6003,16 @@
         }
       }
     },
+    "Say the word, then pause. TriVox captures it and listens again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz słowo, a potem zrób przerwę. TriVox je nagrywa i znów nasłuchuje."
+          }
+        }
+      }
+    },
     "Say this first so normal words do not change.": {
       "localizations": {
         "pl": {
@@ -6279,22 +6443,22 @@
         }
       }
     },
-    "Sponsor Altic on GitHub": {
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sponsoruj Altic na GitHub"
-          }
-        }
-      }
-    },
     "Star on GitHub": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Postaw gwiazdkę na GitHub"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
           }
         }
       }
@@ -6359,6 +6523,16 @@
         }
       }
     },
+    "Stop": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatrzymaj"
+          }
+        }
+      }
+    },
     "Stop Recording": {
       "localizations": {
         "pl": {
@@ -6385,16 +6559,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sukces"
-          }
-        }
-      }
-    },
-    "Support TriVox": {
-      "localizations": {
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wesprzyj autorów FluidVoice"
           }
         }
       }
