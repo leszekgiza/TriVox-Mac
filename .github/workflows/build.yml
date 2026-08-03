@@ -156,11 +156,14 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
     - name: Export
       run: |
         xcodebuild -project Fluid.xcodeproj -scheme Fluid \
-          -exportLocalizations -localizationPath loc -exportLanguage pl \
-          SWIFT_STRICT_CONCURRENCY=minimal
+          -exportLocalizations -localizationPath loc -exportLanguage pl
     - name: Artefakt
       uses: actions/upload-artifact@v4
       with:
