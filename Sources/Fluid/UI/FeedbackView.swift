@@ -75,7 +75,7 @@ struct FeedbackView: View {
                                     .font(.system(size: 16, weight: .semibold))
                                     .foregroundStyle(self.theme.palette.primaryText)
 
-                                Text("Give us a star on GitHub, or support continued free development to help make local dictation even better.")
+                                Text("Give us a star on GitHub to help make local dictation even better.")
                                     .font(.system(size: 13))
                                     .foregroundStyle(self.theme.palette.secondaryText)
                                     .fixedSize(horizontal: false, vertical: true)
@@ -97,22 +97,6 @@ struct FeedbackView: View {
                                     }
                                     .fluidButton(.glass, size: .medium)
                                     .buttonHoverEffect()
-                                }
-
-                                if let sponsorURL = URL(string: "https://github.com/sponsors/altic-dev") {
-                                    Link(destination: sponsorURL) {
-                                        HStack(spacing: 8) {
-                                            Image(systemName: "heart.fill")
-                                            Text("Support TriVox")
-                                                .fontWeight(.semibold)
-                                        }
-                                        .font(.system(size: 14))
-                                        .padding(.horizontal, 20)
-                                        .padding(.vertical, 10)
-                                    }
-                                    .fluidButton(.glass, size: .medium)
-                                    .buttonHoverEffect()
-                                    .help("Sponsor Altic on GitHub")
                                 }
                             }
                         }
