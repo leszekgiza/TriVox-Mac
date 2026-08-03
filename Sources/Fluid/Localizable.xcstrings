@@ -611,6 +611,16 @@
         }
       }
     },
+    "Add Manually": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj ręcznie"
+          }
+        }
+      }
+    },
     "Add Prompt": {
       "localizations": {
         "pl": {
@@ -707,6 +717,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dostosuj głośność dźwięku sygnalizującego nagrywanie."
+          }
+        }
+      }
+    },
+    "Advanced": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaawansowany"
           }
         }
       }
@@ -1026,7 +1046,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Automatyczna nauka słów"
+            "value": "Auto-nauka słów"
           }
         }
       }
@@ -1177,6 +1197,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Na podstawie tempa pisania %lld WPM"
+          }
+        }
+      }
+    },
+    "Basic": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podstawowy"
           }
         }
       }
@@ -3431,6 +3461,26 @@
         }
       }
     },
+    "Keep repeating it until the circle reaches 3/3.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtarzaj, aż okrąg osiągnie 3/3."
+          }
+        }
+      }
+    },
+    "Keep trying until TriVox gets %@ right 3 times in a row.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próbuj dalej, aż TriVox poprawnie rozpozna %@ 3 razy z rzędu."
+          }
+        }
+      }
+    },
     "Keeps Fluid-1 ready so your first dictation finishes sooner.": {
       "localizations": {
         "pl": {
@@ -4061,6 +4111,16 @@
         }
       }
     },
+    "No replacement is needed for %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamiennik dla %@ nie jest potrzebny."
+          }
+        }
+      }
+    },
     "No rollback backup found": {
       "localizations": {
         "pl": {
@@ -4167,6 +4227,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uwaga: może wymagać ponownego uruchomienia aplikacji, aby zadziałać."
+          }
+        }
+      }
+    },
+    "Nothing to Save": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nic do zapisania"
           }
         }
       }
@@ -4571,6 +4641,16 @@
         }
       }
     },
+    "Press Start once.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij Start jeden raz."
+          }
+        }
+      }
+    },
     "Press once to start. Press again to stop.": {
       "localizations": {
         "pl": {
@@ -4871,6 +4951,26 @@
         }
       }
     },
+    "Ready. TriVox got %@ right 3 times in a row.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe. TriVox poprawnie rozpoznał %@ 3 razy z rzędu."
+          }
+        }
+      }
+    },
+    "Ready. TriVox learned how %@ sounds in your voice.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe. TriVox nauczył się, jak %@ brzmi w Twoim głosie."
+          }
+        }
+      }
+    },
     "Reasoning": {
       "localizations": {
         "pl": {
@@ -5057,6 +5157,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usunięto audio z %lld wpisów historii."
+          }
+        }
+      }
+    },
+    "Repeat 3 times to teach TriVox how your voice sounds.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powtórz 3 razy, aby nauczyć TriVox brzmienia Twojego głosu."
           }
         }
       }
@@ -5521,6 +5631,26 @@
         }
       }
     },
+    "Say %@ 3 times to unlock Add Replacement.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz %@ 3 razy, aby odblokować dodanie zamiennika."
+          }
+        }
+      }
+    },
+    "Say %@ naturally, then pause. TriVox records and listens again automatically.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz %@ naturalnie, a potem zrób przerwę. TriVox nagrywa i automatycznie znów nasłuchuje."
+          }
+        }
+      }
+    },
     "Say a start word first, then a punctuation name, to type punctuation symbols.": {
       "localizations": {
         "pl": {
@@ -5876,7 +6006,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pokazuj powiadomienia"
+            "value": "Powiadomienia"
           }
         }
       }
@@ -6141,6 +6271,16 @@
         }
       }
     },
+    "Teach %@ by speaking it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naucz TriVox %@, wymawiając je."
+          }
+        }
+      }
+    },
     "Teach TriVox your pronunciation": {
       "localizations": {
         "pl": {
@@ -6157,6 +6297,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Naucz słów"
+          }
+        }
+      }
+    },
+    "Teach a word by speaking it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naucz TriVox słowa, wymawiając je."
           }
         }
       }
@@ -6457,6 +6607,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dziś: %lld słów · %@ zaoszczędzono - zobacz statystyki"
+          }
+        }
+      }
+    },
+    "Train by Voice": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naucz głosem"
           }
         }
       }
@@ -6857,6 +7017,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wpisz poprawny tekst, np. TriVox"
+          }
+        }
+      }
+    },
+    "Type the correct word you want to teach in the box above.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz poprawne słowo, którego chcesz nauczyć, w polu powyżej."
+          }
+        }
+      }
+    },
+    "Type the misheard text and the spelling you want.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz błędnie rozpoznany tekst i pożądaną pisownię."
           }
         }
       }
@@ -7597,6 +7777,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "macOS nadal pokazuje TriVox w Elementach logowania. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
+          }
+        }
+      }
+    },
+    "the word": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to słowo"
           }
         }
       }

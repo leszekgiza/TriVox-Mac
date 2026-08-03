@@ -2258,7 +2258,7 @@ struct CustomDictionaryView: View {
 private extension CustomDictionaryView {
     var asr: ASRService { self.appServices.asr }
 
-    var trainedReplacementButtonTitle: String {
+    var trainedReplacementButtonTitle: LocalizedStringKey {
         self.trainingAlreadyCorrectWithoutReplacement ? "Nothing to Save" : "Add Replacement"
     }
 
@@ -2266,7 +2266,7 @@ private extension CustomDictionaryView {
         self.trainingFinalOutputIsReady && self.canAddTrainedReplacement
     }
 
-    func trainingInstruction(number: Int, text: String) -> some View {
+    func trainingInstruction(number: Int, text: LocalizedStringKey) -> some View {
         HStack(alignment: .firstTextBaseline, spacing: 8) {
             Text("\(number)")
                 .font(self.theme.typography.captionStrong)
@@ -2339,7 +2339,7 @@ private struct VoiceMatchingSettingsRow: View {
     }
 
     private func methodButton(
-        title: String,
+        title: LocalizedStringKey,
         systemImage: String,
         enabledValue: Bool,
         isResearchPreview: Bool = false
@@ -2511,11 +2511,13 @@ private struct DictionaryFocusDismissMonitor: NSViewRepresentable {
 
 private enum DictionaryTrainingCopy {
     static func target(for normalizedTarget: String) -> String {
-        normalizedTarget.isEmpty ? "the word" : "“\(normalizedTarget)”"
+        normalizedTarget.isEmpty ? String(localized: "the word") : "“\(normalizedTarget)”"
     }
 
     static func composerDetail(mode: DictionaryComposerMode, target: String) -> String {
-        mode == .train && target != "the word" ? "Teach \(target) by speaking it." : mode.detail
+        mode == .train && target != String(localized: "the word")
+            ? String(localized: "Teach \(target) by speaking it.")
+            : mode.detail
     }
 
     static func readinessCaption(
@@ -2525,16 +2527,16 @@ private enum DictionaryTrainingCopy {
         usesVoiceMatching: Bool
     ) -> String {
         if isAlreadyCorrect {
-            return "No replacement is needed for \(target)."
+            return String(localized: "No replacement is needed for \(target).")
         }
         if isReady {
             return usesVoiceMatching
-                ? "Ready. TriVox learned how \(target) sounds in your voice."
-                : "Ready. TriVox got \(target) right 3 times in a row."
+                ? String(localized: "Ready. TriVox learned how \(target) sounds in your voice.")
+                : String(localized: "Ready. TriVox got \(target) right 3 times in a row.")
         }
         return usesVoiceMatching
-            ? "Say \(target) 3 times to unlock Add Replacement."
-            : "Keep trying until TriVox gets \(target) right 3 times in a row."
+            ? String(localized: "Say \(target) 3 times to unlock Add Replacement.")
+            : String(localized: "Keep trying until TriVox gets \(target) right 3 times in a row.")
     }
 }
 
@@ -2544,7 +2546,7 @@ private enum DictionaryComposerMode: CaseIterable, Identifiable {
 
     var id: Self { self }
 
-    var title: String {
+    var title: LocalizedStringKey {
         switch self {
         case .train:
             return "Train by Voice"
@@ -2565,9 +2567,9 @@ private enum DictionaryComposerMode: CaseIterable, Identifiable {
     var detail: String {
         switch self {
         case .train:
-            return "Teach a word by speaking it."
+            return String(localized: "Teach a word by speaking it.")
         case .manual:
-            return "Type the misheard text and the spelling you want."
+            return String(localized: "Type the misheard text and the spelling you want.")
         }
     }
 }
