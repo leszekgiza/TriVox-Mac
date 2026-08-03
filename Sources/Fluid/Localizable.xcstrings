@@ -64,9 +64,33 @@
     "%lld characters": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld znaków"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld znaki"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld znaków"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld znak"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld znaków"
+                }
+              }
+            }
           }
         }
       }
@@ -84,9 +108,33 @@
     "%lld entries": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld wpisów"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld wpisy"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld wpisów"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld wpis"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld wpisów"
+                }
+              }
+            }
           }
         }
       }
@@ -114,9 +162,33 @@
     "%lld words": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld słów"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld słowa"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld słów"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld słowo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld słów"
+                }
+              }
+            }
           }
         }
       }
@@ -1114,9 +1186,33 @@
     "Avg: %lld words each": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Śr.: %lld słów każde"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Śr.: %lld słowa każde"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Śr.: %lld słów każde"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Śr.: %lld słowo każde"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Śr.: %lld słów każde"
+                }
+              }
+            }
           }
         }
       }
@@ -1224,9 +1320,33 @@
     "Best: %lld days": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Najlepszy: %lld dni"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Najlepszy: %lld dni"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Najlepszy: %lld dni"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Najlepszy: %lld dzień"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Najlepszy: %lld dni"
+                }
+              }
+            }
           }
         }
       }
@@ -2344,9 +2464,33 @@
     "Deleted oldest saved audio from %lld history entries.": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usunięto najstarsze zapisane audio z %lld wpisów historii."
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto najstarsze zapisane audio z %lld wpisów historii."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto najstarsze zapisane audio z %lld wpisów historii."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto najstarsze zapisane audio z %lld wpisu historii."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto najstarsze zapisane audio z %lld wpisów historii."
+                }
+              }
+            }
           }
         }
       }
@@ -5154,9 +5298,33 @@
     "Removed audio from %lld history entries.": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usunięto audio z %lld wpisów historii."
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto audio z %lld wpisów historii."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto audio z %lld wpisów historii."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto audio z %lld wpisu historii."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Usunięto audio z %lld wpisów historii."
+                }
+              }
+            }
           }
         }
       }
@@ -6534,9 +6702,33 @@
     "This will permanently delete all %lld transcription entries. This action cannot be undone.": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "To trwale usunie wszystkie %lld wpisów transkrypcji. Tej operacji nie można cofnąć."
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld wpisy transkrypcji. Tej operacji nie można cofnąć."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld wpisów transkrypcji. Tej operacji nie można cofnąć."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld wpis transkrypcji. Tej operacji nie można cofnąć."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld wpisów transkrypcji. Tej operacji nie można cofnąć."
+                }
+              }
+            }
           }
         }
       }
@@ -6544,9 +6736,33 @@
     "This will permanently delete all %lld transcriptions and reset all statistics. This action cannot be undone.": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "To trwale usunie wszystkie %lld transkrypcji i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld transkrypcje i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld transkrypcji i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld transkrypcję i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "To trwale usunie wszystkie %lld transkrypcji i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+                }
+              }
+            }
           }
         }
       }
@@ -6604,9 +6820,33 @@
     "Today: %lld words · %@ saved - view stats": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dziś: %lld słów · %@ zaoszczędzono - zobacz statystyki"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Dziś: %lld słowa · %@ zaoszczędzono - zobacz statystyki"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Dziś: %lld słów · %@ zaoszczędzono - zobacz statystyki"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Dziś: %lld słowo · %@ zaoszczędzono - zobacz statystyki"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Dziś: %lld słów · %@ zaoszczędzono - zobacz statystyki"
+                }
+              }
+            }
           }
         }
       }
@@ -7461,6 +7701,74 @@
         }
       }
     },
+    "Word boost: ON (%lld terms) • last hit: %@": {
+      "localizations": {
+        "pl": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminy) • ostatnie trafienie: %@"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminów) • ostatnie trafienie: %@"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld termin) • ostatnie trafienie: %@"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminów) • ostatnie trafienie: %@"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Word boost: ON (%lld terms) • no hit yet": {
+      "localizations": {
+        "pl": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminy) • brak trafień"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminów) • brak trafień"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld termin) • brak trafień"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wzmacnianie słów: WŁ. (%lld terminów) • brak trafień"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "Word boost: ON (0 terms loaded)": {
       "localizations": {
         "pl": {
@@ -7674,9 +7982,33 @@
     "across %lld active days": {
       "localizations": {
         "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "przez %lld aktywnych dni"
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "przez %lld aktywne dni"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "przez %lld aktywnych dni"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "przez %lld aktywny dzień"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "przez %lld aktywnych dni"
+                }
+              }
+            }
           }
         }
       }
