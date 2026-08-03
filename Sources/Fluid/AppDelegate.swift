@@ -387,6 +387,12 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
                             ? String(localized: "You're already running the latest build available in the beta channel.")
                             : String(localized: "You're already running the latest version of TriVox!")
                     )
+                } else if let updateError = error as? SimpleUpdateError, case .noSuitableRelease = updateError {
+                    DebugLogger.shared.info("No suitable release found during update check", source: "AppDelegate")
+                    self.showUpdateAlert(
+                        title: String(localized: "No Updates"),
+                        message: String(localized: "No newer release was found. Please try again later.")
+                    )
                 } else {
                     DebugLogger.shared.error("Update check failed: \(error)", source: "AppDelegate")
                     self.showUpdateAlert(

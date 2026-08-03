@@ -733,6 +733,9 @@ final class MenuBarManager: NSObject, ObservableObject, NSMenuDelegate {
                     msg.informativeText = isBeta
                         ? String(localized: "You're already running the latest build available in the beta channel.")
                         : String(localized: "You're already running the latest version of TriVox.")
+                } else if let updateError = error as? SimpleUpdateError, case .noSuitableRelease = updateError {
+                    msg.messageText = String(localized: "No Updates")
+                    msg.informativeText = String(localized: "No newer release was found. Please try again later.")
                 } else {
                     msg.messageText = String(localized: "Update Check Failed")
                     msg.informativeText = String(localized: "Unable to check for updates. Please try again later.\n\nError: \(error.localizedDescription)")
