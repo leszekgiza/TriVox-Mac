@@ -1,6 +1,5936 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ for Edit Mode is coming soon": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ dla Trybu edycji już wkrótce"
+          }
+        }
+      }
+    },
+    "%@ is already recognized correctly.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ jest już rozpoznawane poprawnie."
+          }
+        }
+      }
+    },
+    "%@ uses its own built-in system prompt. Switch to another provider to create custom prompts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ używa własnego wbudowanego promptu systemowego. Przełącz się na innego dostawcę, aby tworzyć własne prompty."
+          }
+        }
+      }
+    },
+    "%@ words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ słów"
+          }
+        }
+      }
+    },
+    "%@. Higher values help long transcripts but use more RAM.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@. Wyższe wartości pomagają przy długich transkrypcjach, ale zużywają więcej RAM."
+          }
+        }
+      }
+    },
+    "%lld characters": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld znaków"
+          }
+        }
+      }
+    },
+    "%lld chars": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld zn."
+          }
+        }
+      }
+    },
+    "%lld entries": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld wpisów"
+          }
+        }
+      }
+    },
+    "%lld more (use search)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld więcej (użyj wyszukiwania)"
+          }
+        }
+      }
+    },
+    "%lld of %lld correct": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld z %lld poprawne"
+          }
+        }
+      }
+    },
+    "%lld words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld słów"
+          }
+        }
+      }
+    },
+    "+ Add App": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Dodaj aplikację"
+          }
+        }
+      }
+    },
+    "+ Add Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Dodaj model"
+          }
+        }
+      }
+    },
+    "+%@ today": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+%@ dzisiaj"
+          }
+        }
+      }
+    },
+    ", it types ": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", wpisuje "
+          }
+        }
+      }
+    },
+    "30 days": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 dni"
+          }
+        }
+      }
+    },
+    "7 days": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7 dni"
+          }
+        }
+      }
+    },
+    "ACTIVITY": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AKTYWNOŚĆ"
+          }
+        }
+      }
+    },
+    "AI Enhancement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulepszanie AI"
+          }
+        }
+      }
+    },
+    "AI Enhancement failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulepszanie AI nie powiodło się"
+          }
+        }
+      }
+    },
+    "AI Enhancement failed - raw transcription was typed instead": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulepszanie AI nie powiodło się - wpisano surową transkrypcję"
+          }
+        }
+      }
+    },
+    "AI Prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt AI"
+          }
+        }
+      }
+    },
+    "AI Prompt:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt AI:"
+          }
+        }
+      }
+    },
+    "AI Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia AI"
+          }
+        }
+      }
+    },
+    "AI can make mistakes. Avoid dangerous commands like deleting important files. Destructive actions will ask for confirmation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI może popełniać błędy. Unikaj niebezpiecznych poleceń, takich jak usuwanie ważnych plików. Działania niszczące poproszą o potwierdzenie."
+          }
+        }
+      }
+    },
+    "AI can make mistakes. Avoid destructive commands.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI może popełniać błędy. Unikaj poleceń niszczących dane."
+          }
+        }
+      }
+    },
+    "AI provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostawca AI"
+          }
+        }
+      }
+    },
+    "AI-powered editing assistant. Write fresh content or edit selected text with voice.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asystent edycji oparty na AI. Twórz nową treść lub edytuj zaznaczony tekst głosem."
+          }
+        }
+      }
+    },
+    "AI-powered speech recognition": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpoznawanie mowy oparte na AI"
+          }
+        }
+      }
+    },
+    "API Key": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klucz API"
+          }
+        }
+      }
+    },
+    "API Key (optional for local endpoints)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klucz API (opcjonalny dla lokalnych punktów końcowych)"
+          }
+        }
+      }
+    },
+    "API key required for AI enhancement to work": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klucz API jest wymagany, aby ulepszanie AI działało"
+          }
+        }
+      }
+    },
+    "About prompt profiles": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O profilach promptów"
+          }
+        }
+      }
+    },
+    "About punctuation rules": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O regułach interpunkcji"
+          }
+        }
+      }
+    },
+    "Acc %lld%%": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dokł. %lld%%"
+          }
+        }
+      }
+    },
+    "Accent Color": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kolor akcentu"
+          }
+        }
+      }
+    },
+    "Accessibility permissions required": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymagane uprawnienia dostępności"
+          }
+        }
+      }
+    },
+    "Actions": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akcje"
+          }
+        }
+      }
+    },
+    "Activate": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywuj"
+          }
+        }
+      }
+    },
+    "Activates to expand or collapse": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywuje rozwijanie lub zwijanie"
+          }
+        }
+      }
+    },
+    "Activation Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb aktywacji"
+          }
+        }
+      }
+    },
+    "Active": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywny"
+          }
+        }
+      }
+    },
+    "Active Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywny model"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj"
+          }
+        }
+      }
+    },
+    "Add Custom Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj własnego dostawcę"
+          }
+        }
+      }
+    },
+    "Add Dictionary Entry": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj wpis do słownika"
+          }
+        }
+      }
+    },
+    "Add Prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj prompt"
+          }
+        }
+      }
+    },
+    "Add Replacement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj zamiennik"
+          }
+        }
+      }
+    },
+    "Add Rule": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj regułę"
+          }
+        }
+      }
+    },
+    "Add Word": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj słowo"
+          }
+        }
+      }
+    },
+    "Add names, products, and uncommon terms for Parakeet to recognize.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj imiona, nazwy produktów i rzadkie terminy, które ma rozpoznawać Parakeet."
+          }
+        }
+      }
+    },
+    "Add one version per line. Commas can be saved too.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj jedną wersję w wierszu. Przecinki też można zapisać."
+          }
+        }
+      }
+    },
+    "Add or Modify API Key": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj lub zmień klucz API"
+          }
+        }
+      }
+    },
+    "Add shortcut": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj skrót"
+          }
+        }
+      }
+    },
+    "Add word": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj słowo"
+          }
+        }
+      }
+    },
+    "Adjust the recording sound cue volume.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostosuj głośność dźwięku sygnalizującego nagrywanie."
+          }
+        }
+      }
+    },
+    "Advanced Prompts": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaawansowane prompty"
+          }
+        }
+      }
+    },
+    "Advanced voice matching requires Parakeet TDT on Apple Silicon.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaawansowane dopasowanie głosu wymaga Parakeet TDT na Apple Silicon."
+          }
+        }
+      }
+    },
+    "After the start word, these spoken versions type the punctuation symbol.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Po słowie startowym te wypowiedziane warianty wpisują symbol interpunkcyjny."
+          }
+        }
+      }
+    },
+    "All providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszyscy dostawcy"
+          }
+        }
+      }
+    },
+    "Alpha": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alfa"
+          }
+        }
+      }
+    },
+    "Already enabled it? TriVox will update when macOS confirms access.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Już to włączono? TriVox zaktualizuje się, gdy macOS potwierdzi dostęp."
+          }
+        }
+      }
+    },
+    "Already used: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Już użyto: %@"
+          }
+        }
+      }
+    },
+    "Anonymous Analytics": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anonimowa analityka"
+          }
+        }
+      }
+    },
+    "App": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aplikacja"
+          }
+        }
+      }
+    },
+    "App Overrides": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadpisania dla aplikacji"
+          }
+        }
+      }
+    },
+    "App Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia aplikacji"
+          }
+        }
+      }
+    },
+    "Apply": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastosuj"
+          }
+        }
+      }
+    },
+    "Are you sure you want to stop sharing anonymous analytics?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czy na pewno chcesz przestać udostępniać anonimową analitykę?"
+          }
+        }
+      }
+    },
+    "Ask follow-up...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zadaj kolejne pytanie..."
+          }
+        }
+      }
+    },
+    "Ask for confirmation before running commands": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pytaj o potwierdzenie przed uruchomieniem poleceń"
+          }
+        }
+      }
+    },
+    "Ask me to write or edit...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poproś mnie o napisanie lub edycję..."
+          }
+        }
+      }
+    },
+    "Ask the AI to write anything for you - emails, replies, summaries, answers, and more.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poproś AI o napisanie czegokolwiek - e-maili, odpowiedzi, podsumowań i nie tylko."
+          }
+        }
+      }
+    },
+    "Audio": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dźwięk"
+          }
+        }
+      }
+    },
+    "Audio Devices": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urządzenia audio"
+          }
+        }
+      }
+    },
+    "Audio Storage": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miejsce na nagrania"
+          }
+        }
+      }
+    },
+    "Audio history: %@ / %@ GB Budget": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Budżet historii audio: %@ / %@ GB"
+          }
+        }
+      }
+    },
+    "Auto-learn words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatyczna nauka słów"
+          }
+        }
+      }
+    },
+    "Auto-learn words while typing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatycznie ucz się słów podczas pisania"
+          }
+        }
+      }
+    },
+    "Automatic Updates": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatyczne aktualizacje"
+          }
+        }
+      }
+    },
+    "Automatically remove filler sounds like 'um', 'uh', 'er' from transcriptions": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatycznie usuwaj dźwięki wypełniające, takie jak „yyy”, „eee”, z transkrypcji"
+          }
+        }
+      }
+    },
+    "Available Models": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostępne modele"
+          }
+        }
+      }
+    },
+    "Average typing: 40 WPM\nProfessional: 65-75 WPM": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Średnie tempo pisania: 40 WPM\nZawodowe: 65-75 WPM"
+          }
+        }
+      }
+    },
+    "Avg: %lld words each": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Śr.: %lld słów każde"
+          }
+        }
+      }
+    },
+    "BUILT-IN": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WBUDOWANE"
+          }
+        }
+      }
+    },
+    "Back": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstecz"
+          }
+        }
+      }
+    },
+    "Backend": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backend"
+          }
+        }
+      }
+    },
+    "Backup & Restore": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopia zapasowa i przywracanie"
+          }
+        }
+      }
+    },
+    "Base URL": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bazowy URL"
+          }
+        }
+      }
+    },
+    "Based on %lld WPM typing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na podstawie tempa pisania %lld WPM"
+          }
+        }
+      }
+    },
+    "Best: %lld days": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepszy: %lld dni"
+          }
+        }
+      }
+    },
+    "Beta": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beta"
+          }
+        }
+      }
+    },
+    "Beta Releases": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wydania beta"
+          }
+        }
+      }
+    },
+    "Beta opt-in enabled. Update checks include both stable and beta builds.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włączono udział w wersjach beta. Sprawdzanie aktualizacji obejmuje wersje stabilne i beta."
+          }
+        }
+      }
+    },
+    "Both": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oba"
+          }
+        }
+      }
+    },
+    "Bottom Offset": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przesunięcie od dołu"
+          }
+        }
+      }
+    },
+    "Budget": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Budżet"
+          }
+        }
+      }
+    },
+    "Built-in Base Prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wbudowany prompt bazowy"
+          }
+        }
+      }
+    },
+    "Built-in system prompt. Only the shortcut can be customized.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wbudowany prompt systemowy. Można dostosować tylko skrót."
+          }
+        }
+      }
+    },
+    "By sharing anonymous usage data, you help us build the features you care about most. We never collect personal information (Audio, Transcription text etc), ever. Your support simply helps us make TriVox better for you.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Udostępniając anonimowe dane o użytkowaniu, pomagasz nam tworzyć funkcje, na których najbardziej Ci zależy. Nigdy nie zbieramy danych osobowych (nagrań audio, tekstu transkrypcji itp.). Twoje wsparcie po prostu pomaga nam ulepszać TriVox dla Ciebie."
+          }
+        }
+      }
+    },
+    "CUSTOM": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WŁASNE"
+          }
+        }
+      }
+    },
+    "Cached": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W pamięci podręcznej"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        }
+      }
+    },
+    "Cancelling...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anulowanie..."
+          }
+        }
+      }
+    },
+    "Cancelling…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anulowanie…"
+          }
+        }
+      }
+    },
+    "Captured": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zarejestrowano"
+          }
+        }
+      }
+    },
+    "Caution": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uwaga"
+          }
+        }
+      }
+    },
+    "Change": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmień"
+          }
+        }
+      }
+    },
+    "Change it to": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmień na"
+          }
+        }
+      }
+    },
+    "Change logs": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziennik zmian"
+          }
+        }
+      }
+    },
+    "Check for Updates": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdź aktualizacje"
+          }
+        }
+      }
+    },
+    "Check for updates automatically once per hour": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdzaj aktualizacje automatycznie raz na godzinę"
+          }
+        }
+      }
+    },
+    "Choose App…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz aplikację…"
+          }
+        }
+      }
+    },
+    "Choose Audio or Video File": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz plik audio lub wideo"
+          }
+        }
+      }
+    },
+    "Choose an example, press %@, then dictate it naturally.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz przykład, naciśnij %@, a następnie podyktuj go naturalnie."
+          }
+        }
+      }
+    },
+    "Choose the prompt behavior for dictation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz zachowanie promptu dla dyktowania."
+          }
+        }
+      }
+    },
+    "Choose the regular notch or the compact layout": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz zwykły notch lub układ kompaktowy"
+          }
+        }
+      }
+    },
+    "Choose the sound cue for recording. Some cues include an end sound.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz dźwięk sygnalizujący nagrywanie. Niektóre sygnały zawierają dźwięk końcowy."
+          }
+        }
+      }
+    },
+    "Choose your\nvoice engine": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz swój\nsilnik głosowy"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść"
+          }
+        }
+      }
+    },
+    "Clear & Test Again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść i testuj ponownie"
+          }
+        }
+      }
+    },
+    "Clear All": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść wszystko"
+          }
+        }
+      }
+    },
+    "Clear All History": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść całą historię"
+          }
+        }
+      }
+    },
+    "Clear all": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść wszystko"
+          }
+        }
+      }
+    },
+    "Click a row to preview. Press Activate to load the model.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kliknij wiersz, aby zobaczyć podgląd. Naciśnij Aktywuj, aby wczytać model."
+          }
+        }
+      }
+    },
+    "Click record, speak, and see your transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kliknij nagrywanie, mów i zobacz swoją transkrypcję"
+          }
+        }
+      }
+    },
+    "Click refresh to fetch from API": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kliknij odśwież, aby pobrać z API"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij"
+          }
+        }
+      }
+    },
+    "Close (Escape)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij (Escape)"
+          }
+        }
+      }
+    },
+    "Close guide": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij przewodnik"
+          }
+        }
+      }
+    },
+    "Collapsed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwinięte"
+          }
+        }
+      }
+    },
+    "Command": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polecenie"
+          }
+        }
+      }
+    },
+    "Command Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń"
+          }
+        }
+      }
+    },
+    "Configure": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj"
+          }
+        }
+      }
+    },
+    "Configure %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj %@"
+          }
+        }
+      }
+    },
+    "Configure an AI model provider in AI Settings before using Edit Mode.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj dostawcę modelu AI w Ustawieniach AI przed użyciem Trybu edycji."
+          }
+        }
+      }
+    },
+    "Configure local models and API providers.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj lokalne modele i dostawców API."
+          }
+        }
+      }
+    },
+    "Configure reasoning parameters": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj parametry rozumowania"
+          }
+        }
+      }
+    },
+    "Configure replacement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj zamiennik"
+          }
+        }
+      }
+    },
+    "Confirm": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potwierdź"
+          }
+        }
+      }
+    },
+    "Confirm Execution": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potwierdź wykonanie"
+          }
+        }
+      }
+    },
+    "Connect your own provider to polish dictation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podłącz własnego dostawcę, aby dopracować dyktowanie."
+          }
+        }
+      }
+    },
+    "Connection failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połączenie nieudane"
+          }
+        }
+      }
+    },
+    "Connection verified": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połączenie zweryfikowane"
+          }
+        }
+      }
+    },
+    "Context block added automatically:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blok kontekstu dodany automatycznie:"
+          }
+        }
+      }
+    },
+    "Context: Auto": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontekst: Auto"
+          }
+        }
+      }
+    },
+    "Control how sensitive the audio visualizer is to sound input": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontroluj czułość wizualizatora dźwięku na sygnał audio"
+          }
+        }
+      }
+    },
+    "Control your Mac with voice commands. Execute terminal commands, open apps, and more.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steruj Makiem za pomocą poleceń głosowych. Wykonuj polecenia terminala, otwieraj aplikacje i nie tylko."
+          }
+        }
+      }
+    },
+    "Copied!": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skopiowano!"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj"
+          }
+        }
+      }
+    },
+    "Copy AI": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj AI"
+          }
+        }
+      }
+    },
+    "Copy AI Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj tekst AI"
+          }
+        }
+      }
+    },
+    "Copy Both": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj oba"
+          }
+        }
+      }
+    },
+    "Copy Raw Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj surowy tekst"
+          }
+        }
+      }
+    },
+    "Copy Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj tekst"
+          }
+        }
+      }
+    },
+    "Copy to clipboard": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj do schowka"
+          }
+        }
+      }
+    },
+    "Correct Spelling (replacement)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popraw pisownię (zamiennik)"
+          }
+        }
+      }
+    },
+    "Correct recurring mistakes and teach the voice engine the words you use.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popraw powtarzające się błędy i naucz silnik głosowy słów, których używasz."
+          }
+        }
+      }
+    },
+    "Couldn't Add App Override": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się dodać nadpisania dla aplikacji"
+          }
+        }
+      }
+    },
+    "Crash diagnostics are written to Library/Logs/Fluid/Fluid.log by default.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostyka awarii jest domyślnie zapisywana w Library/Logs/Fluid/Fluid.log."
+          }
+        }
+      }
+    },
+    "Create New Prompt…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utwórz nowy prompt…"
+          }
+        }
+      }
+    },
+    "Create New Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utwórz nowy tekst"
+          }
+        }
+      }
+    },
+    "Current shortcut %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bieżący skrót %@"
+          }
+        }
+      }
+    },
+    "Current version: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bieżąca wersja: %@"
+          }
+        }
+      }
+    },
+    "Custom Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własny słownik"
+          }
+        }
+      }
+    },
+    "Custom Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własny dostawca"
+          }
+        }
+      }
+    },
+    "Custom Words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własne słowa"
+          }
+        }
+      }
+    },
+    "Custom Words Boosting": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzmacnianie własnych słów"
+          }
+        }
+      }
+    },
+    "Custom Words supported on Parakeet. Teach names, product terms, and uncommon words for better accuracy.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własne słowa są obsługiwane w Parakeet. Naucz nazw, terminów produktowych i rzadkich słów, aby zwiększyć dokładność."
+          }
+        }
+      }
+    },
+    "Custom prompts only run in apps listed in App Overrides.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własne prompty działają tylko w aplikacjach wymienionych w Nadpisaniach dla aplikacji."
+          }
+        }
+      }
+    },
+    "Custom prompts run based on your shortcut or the app you're in.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własne prompty uruchamiają się na podstawie Twojego skrótu lub aplikacji, w której jesteś."
+          }
+        }
+      }
+    },
+    "Custom...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Własne..."
+          }
+        }
+      }
+    },
+    "Debug Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia debugowania"
+          }
+        }
+      }
+    },
+    "Default": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślne"
+          }
+        }
+      }
+    },
+    "Default edit stays built-in. App overrides can use custom prompts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślna edycja pozostaje wbudowana. Nadpisania dla aplikacji mogą używać własnych promptów."
+          }
+        }
+      }
+    },
+    "Default uses the main dictation shortcut. Add a custom shortcut only when a prompt needs one.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślnie używany jest główny skrót dyktowania. Dodaj własny skrót tylko wtedy, gdy prompt go potrzebuje."
+          }
+        }
+      }
+    },
+    "Default: %@ / %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślnie: %@ / %@"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Delete %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń %@"
+          }
+        }
+      }
+    },
+    "Delete Audio": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń nagranie"
+          }
+        }
+      }
+    },
+    "Delete Entry": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń wpis"
+          }
+        }
+      }
+    },
+    "Delete Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń model"
+          }
+        }
+      }
+    },
+    "Delete Prompt?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć prompt?"
+          }
+        }
+      }
+    },
+    "Delete Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń dostawcę"
+          }
+        }
+      }
+    },
+    "Delete chat": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń czat"
+          }
+        }
+      }
+    },
+    "Delete punctuation rule": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń regułę interpunkcji"
+          }
+        }
+      }
+    },
+    "Delete replacement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń zamiennik"
+          }
+        }
+      }
+    },
+    "Delete this chat?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć ten czat?"
+          }
+        }
+      }
+    },
+    "Delete “%@”? This cannot be undone.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć „%@”? Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "Details": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczegóły"
+          }
+        }
+      }
+    },
+    "Dictate here.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dyktuj tutaj."
+          }
+        }
+      }
+    },
+    "Dictation shortcut %@. Press once to start. Press again to stop.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skrót dyktowania %@. Naciśnij raz, aby rozpocząć. Naciśnij ponownie, aby zatrzymać."
+          }
+        }
+      }
+    },
+    "Disabled": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłączone"
+          }
+        }
+      }
+    },
+    "Dismiss": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odrzuć"
+          }
+        }
+      }
+    },
+    "Distance from bottom of screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odległość od dołu ekranu"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe"
+          }
+        }
+      }
+    },
+    "Download": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz"
+          }
+        }
+      }
+    },
+    "Download size": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmiar pobierania"
+          }
+        }
+      }
+    },
+    "Downloading model…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie modelu…"
+          }
+        }
+      }
+    },
+    "Drag %@ into the Accessibility apps list as shown": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przeciągnij %@ na listę aplikacji Dostępności, jak pokazano"
+          }
+        }
+      }
+    },
+    "Drag %@ to the Accessibility list": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przeciągnij %@ na listę Dostępności"
+          }
+        }
+      }
+    },
+    "Duplicate triggers: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zduplikowane wyzwalacze: %@"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj"
+          }
+        }
+      }
+    },
+    "Edit Dictionary Entry": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj wpis słownika"
+          }
+        }
+      }
+    },
+    "Edit Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb edycji"
+          }
+        }
+      }
+    },
+    "Edit Mode is powered by Custom Prompts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb edycji działa dzięki własnym promptom."
+          }
+        }
+      }
+    },
+    "Edit Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj dostawcę"
+          }
+        }
+      }
+    },
+    "Edit Selected Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj zaznaczony tekst"
+          }
+        }
+      }
+    },
+    "Edit model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj model"
+          }
+        }
+      }
+    },
+    "Edit provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj dostawcę"
+          }
+        }
+      }
+    },
+    "Edit punctuation rule": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj regułę interpunkcji"
+          }
+        }
+      }
+    },
+    "Email": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-mail"
+          }
+        }
+      }
+    },
+    "Enable Test Mode (Hotkey: %@)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz tryb testowy (skrót: %@)"
+          }
+        }
+      }
+    },
+    "Enabled": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włączone"
+          }
+        }
+      }
+    },
+    "Enter %@ API Key": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wprowadź klucz API %@"
+          }
+        }
+      }
+    },
+    "Enter API key": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wprowadź klucz API"
+          }
+        }
+      }
+    },
+    "Enter model name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wprowadź nazwę modelu"
+          }
+        }
+      }
+    },
+    "Error": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd"
+          }
+        }
+      }
+    },
+    "Examples": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przykłady"
+          }
+        }
+      }
+    },
+    "Examples of what TriVox will type.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przykłady tego, co wpisze TriVox."
+          }
+        }
+      }
+    },
+    "Expanded": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozwinięte"
+          }
+        }
+      }
+    },
+    "Experimental": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksperymentalne"
+          }
+        }
+      }
+    },
+    "Experimental Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia eksperymentalne"
+          }
+        }
+      }
+    },
+    "Export": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj"
+          }
+        }
+      }
+    },
+    "Export Audio": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj nagranie"
+          }
+        }
+      }
+    },
+    "Export Pair": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj parę"
+          }
+        }
+      }
+    },
+    "Export Pair...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj parę..."
+          }
+        }
+      }
+    },
+    "Export ZIP": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj ZIP"
+          }
+        }
+      }
+    },
+    "Export or import settings, prompt profiles, history, and stats. API keys excluded.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj lub importuj ustawienia, profile promptów, historię i statystyki. Klucze API są wykluczone."
+          }
+        }
+      }
+    },
+    "Export transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj transkrypcję"
+          }
+        }
+      }
+    },
+    "Faster first result": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybszy pierwszy wynik"
+          }
+        }
+      }
+    },
+    "Faster results": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybsze wyniki"
+          }
+        }
+      }
+    },
+    "Feedback": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opinia"
+          }
+        }
+      }
+    },
+    "Feedback Failed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się wysłać opinii"
+          }
+        }
+      }
+    },
+    "Feedback Sent": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opinia wysłana"
+          }
+        }
+      }
+    },
+    "Filler words to remove:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słowa wypełniające do usunięcia:"
+          }
+        }
+      }
+    },
+    "Filter: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtr: %@"
+          }
+        }
+      }
+    },
+    "Final output": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wynik końcowy"
+          }
+        }
+      }
+    },
+    "Finishes dictation up to 15% faster. Uses about 100 MB more memory.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kończy dyktowanie nawet o 15% szybciej. Zużywa około 100 MB więcej pamięci."
+          }
+        }
+      }
+    },
+    "For custom Dictate prompts, send your prompt without prepending the built-in dictation prompt.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W przypadku własnych promptów Dyktowania wysyłaj swój prompt bez dołączania wbudowanego promptu dyktowania."
+          }
+        }
+      }
+    },
+    "For each rule, add one spoken version per line. Then choose what TriVox types.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dla każdej reguły dodaj jedną wypowiadaną wersję w wierszu. Następnie wybierz, co wpisze TriVox."
+          }
+        }
+      }
+    },
+    "From history": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z historii"
+          }
+        }
+      }
+    },
+    "Get Previous Builds": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz poprzednie wersje"
+          }
+        }
+      }
+    },
+    "Getting Started": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pierwsze kroki"
+          }
+        }
+      }
+    },
+    "Give us a star on GitHub, or support continued free development to help make local dictation even better.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zostaw nam gwiazdkę na GitHub albo wesprzyj dalszy darmowy rozwój, aby pomóc uczynić lokalne dyktowanie jeszcze lepszym."
+          }
+        }
+      }
+    },
+    "Global Hotkey": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globalny skrót klawiszowy"
+          }
+        }
+      }
+    },
+    "Grant Access": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyznaj dostęp"
+          }
+        }
+      }
+    },
+    "Heard: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usłyszano: %@"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomoc"
+          }
+        }
+      }
+    },
+    "Help improve our model. Only the example shown below will be sent.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomóż ulepszyć nasz model. Zostanie wysłany tylko przykład pokazany poniżej."
+          }
+        }
+      }
+    },
+    "Help the Parakeet voice engine recognize names, products, and uncommon terms.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomóż silnikowi głosowemu Parakeet rozpoznawać imiona, nazwy produktów i rzadkie terminy."
+          }
+        }
+      }
+    },
+    "Help us improve TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomóż nam ulepszyć TriVox"
+          }
+        }
+      }
+    },
+    "Hide": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj"
+          }
+        }
+      }
+    },
+    "Hide other models": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj inne modele"
+          }
+        }
+      }
+    },
+    "Hotkey initializing…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicjowanie skrótu klawiszowego…"
+          }
+        }
+      }
+    },
+    "How large the recording indicator appears": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak duży jest wskaźnik nagrywania"
+          }
+        }
+      }
+    },
+    "How many recent characters appear in the notch/pill preview": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ile ostatnich znaków pojawia się w podglądzie notch/pill"
+          }
+        }
+      }
+    },
+    "How much raw dictation Fluid-1 can clean at once. Higher values help long transcripts but use more RAM and can slow first response.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ile surowego dyktowania Fluid-1 może naraz oczyścić. Wyższe wartości pomagają przy długich transkrypcjach, ale zużywają więcej RAM i mogą spowolnić pierwszą odpowiedź."
+          }
+        }
+      }
+    },
+    "How should I edit this?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak mam to zedytować?"
+          }
+        }
+      }
+    },
+    "How to enable microphone access:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak włączyć dostęp do mikrofonu:"
+          }
+        }
+      }
+    },
+    "How to use": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak używać"
+          }
+        }
+      }
+    },
+    "INSIGHTS": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SPOSTRZEŻENIA"
+          }
+        }
+      }
+    },
+    "Import": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importuj"
+          }
+        }
+      }
+    },
+    "Improve recognition of your custom words when using Parakeet.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popraw rozpoznawanie własnych słów podczas używania Parakeet."
+          }
+        }
+      }
+    },
+    "Include debug logs": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dołącz dzienniki debugowania"
+          }
+        }
+      }
+    },
+    "Initial preparation can take a while to get your Mac ready for near-instant transcription.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstępne przygotowanie może chwilę potrwać, aby przygotować Maka do niemal natychmiastowej transkrypcji."
+          }
+        }
+      }
+    },
+    "Initializing…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicjowanie…"
+          }
+        }
+      }
+    },
+    "Input Device": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urządzenie wejściowe"
+          }
+        }
+      }
+    },
+    "Install the selected model to enable verification": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zainstaluj wybrany model, aby włączyć weryfikację"
+          }
+        }
+      }
+    },
+    "Keeps Fluid-1 ready so your first dictation finishes sooner.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utrzymuje Fluid-1 w gotowości, aby Twoje pierwsze dyktowanie kończyło się szybciej."
+          }
+        }
+      }
+    },
+    "Last checked: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnio sprawdzono: %@"
+          }
+        }
+      }
+    },
+    "Latest": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najnowsze"
+          }
+        }
+      }
+    },
+    "Less": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mniej"
+          }
+        }
+      }
+    },
+    "Let TriVox\nlisten and type": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niech TriVox\nsłucha i pisze"
+          }
+        }
+      }
+    },
+    "Let's polish your text.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopracujmy Twój tekst."
+          }
+        }
+      }
+    },
+    "Listening...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słucham..."
+          }
+        }
+      }
+    },
+    "Listening... Speak now!": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słucham... Mów teraz!"
+          }
+        }
+      }
+    },
+    "Live Preview": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podgląd na żywo"
+          }
+        }
+      }
+    },
+    "Loading model…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytywanie modelu…"
+          }
+        }
+      }
+    },
+    "Loading release notes...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytywanie informacji o wydaniu..."
+          }
+        }
+      }
+    },
+    "Loading...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytywanie..."
+          }
+        }
+      }
+    },
+    "Local Fluid-1 runtime. Default is MLX on Apple Silicon.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lokalne środowisko uruchomieniowe Fluid-1. Domyślnie MLX na Apple Silicon."
+          }
+        }
+      }
+    },
+    "Looks good. Finish setup when you're ready.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wygląda dobrze. Dokończ konfigurację, gdy będziesz gotowy."
+          }
+        }
+      }
+    },
+    "Loving TriVox?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podoba Ci się TriVox?"
+          }
+        }
+      }
+    },
+    "MILESTONES": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KAMIENIE MILOWE"
+          }
+        }
+      }
+    },
+    "Meeting Transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrypcja spotkań"
+          }
+        }
+      }
+    },
+    "Microphone Permission": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uprawnienie do mikrofonu"
+          }
+        }
+      }
+    },
+    "Microphone access denied": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odmówiono dostępu do mikrofonu"
+          }
+        }
+      }
+    },
+    "Microphone access granted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyznano dostęp do mikrofonu"
+          }
+        }
+      }
+    },
+    "Microphone access is required for voice recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostęp do mikrofonu jest wymagany do nagrywania głosu"
+          }
+        }
+      }
+    },
+    "Microphone access not determined": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie określono dostępu do mikrofonu"
+          }
+        }
+      }
+    },
+    "Misheard Words (triggers)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błędnie rozpoznane słowa (wyzwalacze)"
+          }
+        }
+      }
+    },
+    "Mode:": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb:"
+          }
+        }
+      }
+    },
+    "Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model"
+          }
+        }
+      }
+    },
+    "Model not ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model nie jest gotowy"
+          }
+        }
+      }
+    },
+    "Modify": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmodyfikuj"
+          }
+        }
+      }
+    },
+    "Modify custom words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmodyfikuj własne słowa"
+          }
+        }
+      }
+    },
+    "Modify dictionary replacements": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmodyfikuj zamienniki słownika"
+          }
+        }
+      }
+    },
+    "Modify punctuation rules": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmodyfikuj reguły interpunkcji"
+          }
+        }
+      }
+    },
+    "More": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więcej"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa"
+          }
+        }
+      }
+    },
+    "New chat": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy czat"
+          }
+        }
+      }
+    },
+    "No History Yet": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak historii"
+          }
+        }
+      }
+    },
+    "No Results": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak wyników"
+          }
+        }
+      }
+    },
+    "No active model yet. Download and activate one below.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak aktywnego modelu. Pobierz i aktywuj jeden poniżej."
+          }
+        }
+      }
+    },
+    "No activity yet": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak aktywności"
+          }
+        }
+      }
+    },
+    "No app overrides yet. Add one to use a different prompt for a specific app.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak nadpisań dla aplikacji. Dodaj jedno, aby używać innego promptu dla konkretnej aplikacji."
+          }
+        }
+      }
+    },
+    "No changelog available": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak dostępnego dziennika zmian"
+          }
+        }
+      }
+    },
+    "No default enhancement. Add app overrides to use prompts in selected apps.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak domyślnego ulepszania. Dodaj nadpisania dla aplikacji, aby używać promptów w wybranych aplikacjach."
+          }
+        }
+      }
+    },
+    "No models": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak modeli"
+          }
+        }
+      }
+    },
+    "No models match '%@'": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żaden model nie pasuje do '%@'"
+          }
+        }
+      }
+    },
+    "No providers match \"%@\"": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żaden dostawca nie pasuje do „%@”"
+          }
+        }
+      }
+    },
+    "No providers match '%@'": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żaden dostawca nie pasuje do '%@'"
+          }
+        }
+      }
+    },
+    "No recent chats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak ostatnich czatów"
+          }
+        }
+      }
+    },
+    "No rollback backup found.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono kopii zapasowej do przywrócenia."
+          }
+        }
+      }
+    },
+    "No saved dictation history available": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak zapisanej historii dyktowania"
+          }
+        }
+      }
+    },
+    "No unassigned running apps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak nieprzypisanych uruchomionych aplikacji"
+          }
+        }
+      }
+    },
+    "No verified chat provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak zweryfikowanego dostawcy czatu"
+          }
+        }
+      }
+    },
+    "No verified providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak zweryfikowanych dostawców"
+          }
+        }
+      }
+    },
+    "No verified providers yet": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak jeszcze zweryfikowanych dostawców"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak"
+          }
+        }
+      }
+    },
+    "Not downloaded": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie pobrano"
+          }
+        }
+      }
+    },
+    "Notch Style": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Styl notcha"
+          }
+        }
+      }
+    },
+    "Notice corrections to recent dictation and show Train by Voice suggestions.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zauważaj poprawki w ostatnim dyktowaniu i pokazuj sugestie Naucz głosem."
+          }
+        }
+      }
+    },
+    "Now let's try it out.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teraz wypróbujmy to."
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wył."
+          }
+        }
+      }
+    },
+    "On-Device": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na urządzeniu"
+          }
+        }
+      }
+    },
+    "One more thing...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeszcze jedno..."
+          }
+        }
+      }
+    },
+    "One punctuation symbol, like , or ?.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeden symbol interpunkcyjny, na przykład , lub ?."
+          }
+        }
+      }
+    },
+    "One way per line, like comma or full stop.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeden sposób w wierszu, na przykład przecinek lub kropka."
+          }
+        }
+      }
+    },
+    "Open": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz"
+          }
+        }
+      }
+    },
+    "Open AI Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz Ustawienia AI"
+          }
+        }
+      }
+    },
+    "Open Accessibility Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz Ustawienia dostępności"
+          }
+        }
+      }
+    },
+    "Open Applications": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz Aplikacje"
+          }
+        }
+      }
+    },
+    "Open Custom Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz własny słownik"
+          }
+        }
+      }
+    },
+    "Open Preferences": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz preferencje"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz ustawienia"
+          }
+        }
+      }
+    },
+    "Open this release on GitHub": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz to wydanie na GitHub"
+          }
+        }
+      }
+    },
+    "OpenAI-compatible base URL": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bazowy URL kompatybilny z OpenAI"
+          }
+        }
+      }
+    },
+    "OpenAI-compatible endpoint": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Punkt końcowy kompatybilny z OpenAI"
+          }
+        }
+      }
+    },
+    "Opt in to preview builds that may be unstable": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz wersje testowe, które mogą być niestabilne"
+          }
+        }
+      }
+    },
+    "Or select text first to rewrite existing content.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lub najpierw zaznacz tekst, aby przepisać istniejącą treść."
+          }
+        }
+      }
+    },
+    "Original Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst oryginalny"
+          }
+        }
+      }
+    },
+    "Other Models": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inne modele"
+          }
+        }
+      }
+    },
+    "Other languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inne języki"
+          }
+        }
+      }
+    },
+    "Output Device": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urządzenie wyjściowe"
+          }
+        }
+      }
+    },
+    "Overlay": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakładka"
+          }
+        }
+      }
+    },
+    "Overlay Position": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozycja nakładki"
+          }
+        }
+      }
+    },
+    "Overlay Size": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmiar nakładki"
+          }
+        }
+      }
+    },
+    "PERSONAL RECORDS": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "REKORDY OSOBISTE"
+          }
+        }
+      }
+    },
+    "Parameter": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parametr"
+          }
+        }
+      }
+    },
+    "Pick a preset accent color for the app.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz gotowy kolor akcentu dla aplikacji."
+          }
+        }
+      }
+    },
+    "Post-processed output": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wynik po przetworzeniu"
+          }
+        }
+      }
+    },
+    "Powered by %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obsługiwane przez %@"
+          }
+        }
+      }
+    },
+    "Press": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij"
+          }
+        }
+      }
+    },
+    "Press %@ and speak this example.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij %@ i wypowiedz ten przykład."
+          }
+        }
+      }
+    },
+    "Press once to start. Press again to stop.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij raz, aby rozpocząć. Naciśnij ponownie, aby zatrzymać."
+          }
+        }
+      }
+    },
+    "Press record or your hotkey to begin": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij nagrywanie lub swój skrót, aby rozpocząć"
+          }
+        }
+      }
+    },
+    "Press shortcut...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij skrót..."
+          }
+        }
+      }
+    },
+    "Press the hotkey to start/stop recording. The transcription will be post-processed using your draft prompt and shown below (nothing will be typed into other apps).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij skrót, aby rozpocząć/zatrzymać nagrywanie. Transkrypcja zostanie przetworzona za pomocą Twojego roboczego promptu i pokazana poniżej (nic nie zostanie wpisane w innych aplikacjach)."
+          }
+        }
+      }
+    },
+    "Press your new hotkey combination now…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij teraz nową kombinację skrótu…"
+          }
+        }
+      }
+    },
+    "Preview": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podgląd"
+          }
+        }
+      }
+    },
+    "Previewing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podgląd"
+          }
+        }
+      }
+    },
+    "Primary Dictation Shortcuts": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Główne skróty dyktowania"
+          }
+        }
+      }
+    },
+    "Primary dictation can use a keyboard shortcut or allowed mouse button. Changes usually apply immediately.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Główne dyktowanie może używać skrótu klawiszowego lub dozwolonego przycisku myszy. Zmiany zwykle stosują się natychmiast."
+          }
+        }
+      }
+    },
+    "Private": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prywatne"
+          }
+        }
+      }
+    },
+    "Processing…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przetwarzanie…"
+          }
+        }
+      }
+    },
+    "Prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt"
+          }
+        }
+      }
+    },
+    "Prompt Profiles": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile promptów"
+          }
+        }
+      }
+    },
+    "Prompt name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa promptu"
+          }
+        }
+      }
+    },
+    "Prompt test mode is available only for Dictate prompts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb testowy promptu jest dostępny tylko dla promptów Dyktowania."
+          }
+        }
+      }
+    },
+    "Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostawca"
+          }
+        }
+      }
+    },
+    "Provider Name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa dostawcy"
+          }
+        }
+      }
+    },
+    "Provider name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa dostawcy"
+          }
+        }
+      }
+    },
+    "Providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostawcy"
+          }
+        }
+      }
+    },
+    "Punctuation Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słownik interpunkcji"
+          }
+        }
+      }
+    },
+    "Quick Setup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybka konfiguracja"
+          }
+        }
+      }
+    },
+    "Quick Start Guide": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przewodnik szybkiego startu"
+          }
+        }
+      }
+    },
+    "Raw": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surowe"
+          }
+        }
+      }
+    },
+    "Raw transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surowa transkrypcja"
+          }
+        }
+      }
+    },
+    "Ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe"
+          }
+        }
+      }
+    },
+    "Ready to record": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowy do nagrywania"
+          }
+        }
+      }
+    },
+    "Reasoning": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumowanie"
+          }
+        }
+      }
+    },
+    "Reasoning for %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozumowanie dla %@"
+          }
+        }
+      }
+    },
+    "Recent chats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnie czaty"
+          }
+        }
+      }
+    },
+    "Recent transcriptions": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnie transkrypcje"
+          }
+        }
+      }
+    },
+    "Recording...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagrywanie..."
+          }
+        }
+      }
+    },
+    "Recording…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagrywanie…"
+          }
+        }
+      }
+    },
+    "Reference only. Copy any parts you want into a custom prompt.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącznie do wglądu. Skopiuj wybrane fragmenty do własnego promptu."
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież"
+          }
+        }
+      }
+    },
+    "Refresh changelog": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież dziennik zmian"
+          }
+        }
+      }
+    },
+    "Refresh model list": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież listę modeli"
+          }
+        }
+      }
+    },
+    "Refresh models to enable verification": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież modele, aby włączyć weryfikację"
+          }
+        }
+      }
+    },
+    "Release Notes": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informacje o wydaniu"
+          }
+        }
+      }
+    },
+    "Remove": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Remove %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń %@"
+          }
+        }
+      }
+    },
+    "Remove Filler Words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń słowa wypełniające"
+          }
+        }
+      }
+    },
+    "Remove app-specific override": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń nadpisanie dla aplikacji"
+          }
+        }
+      }
+    },
+    "Remove from history": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń z historii"
+          }
+        }
+      }
+    },
+    "Replace Original": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastąp oryginał"
+          }
+        }
+      }
+    },
+    "Report": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgłoś"
+          }
+        }
+      }
+    },
+    "Report Bad Result...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgłoś zły wynik..."
+          }
+        }
+      }
+    },
+    "Report Sent": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgłoszenie wysłane"
+          }
+        }
+      }
+    },
+    "Report an issue": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zgłoś problem"
+          }
+        }
+      }
+    },
+    "Reprocess the latest dictation using current AI settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przetwórz ponownie ostatnie dyktowanie z użyciem bieżących ustawień AI"
+          }
+        }
+      }
+    },
+    "Required for global hotkey functionality": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymagane do działania globalnego skrótu klawiszowego"
+          }
+        }
+      }
+    },
+    "Research Preview": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja badawcza"
+          }
+        }
+      }
+    },
+    "Research Preview: Compares how your voice sounds instead of only the words TriVox hears. Results may vary.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja badawcza: porównuje brzmienie Twojego głosu, a nie tylko słowa, które słyszy TriVox. Wyniki mogą się różnić."
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
+          }
+        }
+      }
+    },
+    "Reset All Stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zresetuj wszystkie statystyki"
+          }
+        }
+      }
+    },
+    "Reset Defaults": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć domyślne"
+          }
+        }
+      }
+    },
+    "Reset Everything": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zresetuj wszystko"
+          }
+        }
+      }
+    },
+    "Reset Verification": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zresetuj weryfikację"
+          }
+        }
+      }
+    },
+    "Reset to Built-in": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć wbudowane"
+          }
+        }
+      }
+    },
+    "Return to %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wróć do %@"
+          }
+        }
+      }
+    },
+    "Reveal Audio": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż nagranie"
+          }
+        }
+      }
+    },
+    "Reveal Log File": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż plik dziennika"
+          }
+        }
+      }
+    },
+    "Reveal in Finder": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż w Finderze"
+          }
+        }
+      }
+    },
+    "Review and send this example to TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdź i wyślij ten przykład do TriVox"
+          }
+        }
+      }
+    },
+    "Rewritten Text": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przepisany tekst"
+          }
+        }
+      }
+    },
+    "Rollback": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wycofanie"
+          }
+        }
+      }
+    },
+    "Rollback target: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cel wycofania: %@"
+          }
+        }
+      }
+    },
+    "Rollback to %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wycofaj do %@"
+          }
+        }
+      }
+    },
+    "Run Command": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchom polecenie"
+          }
+        }
+      }
+    },
+    "Run Onboarding Again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchom ponownie wprowadzenie"
+          }
+        }
+      }
+    },
+    "Run command": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchom polecenie"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz"
+          }
+        }
+      }
+    },
+    "Save Changes": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz zmiany"
+          }
+        }
+      }
+    },
+    "Save Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz dostawcę"
+          }
+        }
+      }
+    },
+    "Save Rule": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz regułę"
+          }
+        }
+      }
+    },
+    "Save Word": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz słowo"
+          }
+        }
+      }
+    },
+    "Save only this correction, or teach TriVox other pronunciations.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz tylko tę poprawkę albo naucz TriVox innych wymów."
+          }
+        }
+      }
+    },
+    "Saved Replacements": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane zamienniki"
+          }
+        }
+      }
+    },
+    "Saved Rules": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane reguły"
+          }
+        }
+      }
+    },
+    "Saved Words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane słowa"
+          }
+        }
+      }
+    },
+    "Saved local dictation audio": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisane lokalne nagrania dyktowania"
+          }
+        }
+      }
+    },
+    "Say a start word first, then a punctuation name, to type punctuation symbols.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz najpierw słowo startowe, a potem nazwę znaku interpunkcyjnego, aby wpisać symbol interpunkcyjny."
+          }
+        }
+      }
+    },
+    "Say the start word first, then say the punctuation name.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz najpierw słowo startowe, a potem nazwę znaku interpunkcyjnego."
+          }
+        }
+      }
+    },
+    "Say the start word first, then the punctuation name you want to type.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz najpierw słowo startowe, a potem nazwę znaku interpunkcyjnego, który chcesz wpisać."
+          }
+        }
+      }
+    },
+    "Say this first so normal words do not change.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz to najpierw, aby zwykłe słowa się nie zmieniały."
+          }
+        }
+      }
+    },
+    "Search models...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj modeli..."
+          }
+        }
+      }
+    },
+    "Search providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj dostawców"
+          }
+        }
+      }
+    },
+    "Search providers...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj dostawców..."
+          }
+        }
+      }
+    },
+    "Search supported languages": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj obsługiwanych języków"
+          }
+        }
+      }
+    },
+    "Search transcriptions...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj transkrypcji..."
+          }
+        }
+      }
+    },
+    "Select %@ to enable this prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz %@, aby włączyć ten prompt"
+          }
+        }
+      }
+    },
+    "Select a model to enable verification": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz model, aby włączyć weryfikację"
+          }
+        }
+      }
+    },
+    "Select a transcription": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz transkrypcję"
+          }
+        }
+      }
+    },
+    "Select text first, then press": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najpierw zaznacz tekst, a potem naciśnij"
+          }
+        }
+      }
+    },
+    "Selected": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybrane"
+          }
+        }
+      }
+    },
+    "Selected text is added automatically when text is selected.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaznaczony tekst jest dodawany automatycznie, gdy tekst jest zaznaczony."
+          }
+        }
+      }
+    },
+    "Send Custom Prompt Only": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyślij tylko własny prompt"
+          }
+        }
+      }
+    },
+    "Send Example": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyślij przykład"
+          }
+        }
+      }
+    },
+    "Send Feedback": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyślij opinię"
+          }
+        }
+      }
+    },
+    "Send custom Dictate prompts without prepending the built-in dictation prompt.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysyłaj własne prompty Dyktowania bez dołączania wbudowanego promptu dyktowania."
+          }
+        }
+      }
+    },
+    "Sending...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysyłanie..."
+          }
+        }
+      }
+    },
+    "Sensitivity": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czułość"
+          }
+        }
+      }
+    },
+    "Separate different versions with commas. Enter only commas to replace comma punctuation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oddzielaj różne wersje przecinkami. Wpisz same przecinki, aby zastąpić interpunkcję przecinka."
+          }
+        }
+      }
+    },
+    "Set up a provider below and verify its connection": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj dostawcę poniżej i zweryfikuj jego połączenie"
+          }
+        }
+      }
+    },
+    "Set up providers and prompt behavior separately.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj dostawców i zachowanie promptu osobno."
+          }
+        }
+      }
+    },
+    "Settings are disabled during active recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia są wyłączone podczas aktywnego nagrywania"
+          }
+        }
+      }
+    },
+    "Settings...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia..."
+          }
+        }
+      }
+    },
+    "Share anonymous datapoint": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Udostępnij anonimowy punkt danych"
+          }
+        }
+      }
+    },
+    "Share your thoughts, report bugs, or suggest features...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podziel się przemyśleniami, zgłoś błędy lub zaproponuj funkcje..."
+          }
+        }
+      }
+    },
+    "Shortcuts": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skróty"
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż"
+          }
+        }
+      }
+    },
+    "Show TriVox the right spelling, by voice or by typing.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż TriVox właściwą pisownię, głosem lub przez wpisanie."
+          }
+        }
+      }
+    },
+    "Show notifications": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokazuj powiadomienia"
+          }
+        }
+      }
+    },
+    "Show other models": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż inne modele"
+          }
+        }
+      }
+    },
+    "Show transcription text in the overlay while you speak": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokazuj tekst transkrypcji w nakładce podczas mówienia"
+          }
+        }
+      }
+    },
+    "Sort by: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortuj wg: %@"
+          }
+        }
+      }
+    },
+    "Speed %lld percent. Accuracy %lld percent.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybkość %lld procent. Dokładność %lld procent."
+          }
+        }
+      }
+    },
+    "Speed %lld%%": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szybkość %lld%%"
+          }
+        }
+      }
+    },
+    "Sponsor Altic on GitHub": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sponsoruj Altic na GitHub"
+          }
+        }
+      }
+    },
+    "Star on GitHub": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postaw gwiazdkę na GitHub"
+          }
+        }
+      }
+    },
+    "Start Recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij nagrywanie"
+          }
+        }
+      }
+    },
+    "Start Word": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słowo startowe"
+          }
+        }
+      }
+    },
+    "Start dictating": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij dyktowanie"
+          }
+        }
+      }
+    },
+    "Start voice command": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpocznij polecenie głosowe"
+          }
+        }
+      }
+    },
+    "Step %lld of %lld": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krok %lld z %lld"
+          }
+        }
+      }
+    },
+    "Stop Recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatrzymaj nagrywanie"
+          }
+        }
+      }
+    },
+    "Stop voice command": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatrzymaj polecenie głosowe"
+          }
+        }
+      }
+    },
+    "Success": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sukces"
+          }
+        }
+      }
+    },
+    "Support TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wesprzyj TriVox"
+          }
+        }
+      }
+    },
+    "Sync": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronizuj"
+          }
+        }
+      }
+    },
+    "System Language Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemowy model językowy"
+          }
+        }
+      }
+    },
+    "Talk anywhere. TriVox types for you.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mów gdziekolwiek. TriVox pisze za Ciebie."
+          }
+        }
+      }
+    },
+    "Teach TriVox your pronunciation": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naucz TriVox swojej wymowy"
+          }
+        }
+      }
+    },
+    "Teach Words": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naucz słów"
+          }
+        }
+      }
+    },
+    "Test": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testuj"
+          }
+        }
+      }
+    },
+    "Test Playground": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poligon testowy"
+          }
+        }
+      }
+    },
+    "Testing is disabled because AI post-processing is not configured.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testowanie jest wyłączone, ponieważ przetwarzanie końcowe AI nie jest skonfigurowane."
+          }
+        }
+      }
+    },
+    "Text Insertion Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb wstawiania tekstu"
+          }
+        }
+      }
+    },
+    "Thank you for helping improve TriVox dictation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziękujemy za pomoc w ulepszaniu dyktowania w TriVox."
+          }
+        }
+      }
+    },
+    "Thank you for helping us improve TriVox.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziękujemy za pomoc w ulepszaniu TriVox."
+          }
+        }
+      }
+    },
+    "The debug log contains detailed information about app operations and can help with troubleshooting.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziennik debugowania zawiera szczegółowe informacje o działaniu aplikacji i może pomóc w rozwiązywaniu problemów."
+          }
+        }
+      }
+    },
+    "The polished result will appear on the selected row.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopracowany wynik pojawi się w wybranym wierszu."
+          }
+        }
+      }
+    },
+    "Theme": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motyw"
+          }
+        }
+      }
+    },
+    "Theme: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motyw: %@"
+          }
+        }
+      }
+    },
+    "These run automatically after dictation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te uruchamiają się automatycznie po dyktowaniu."
+          }
+        }
+      }
+    },
+    "These words get extra recognition help while Boosting is enabled.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Te słowa otrzymują dodatkową pomoc w rozpoznawaniu, gdy Wzmacnianie jest włączone."
+          }
+        }
+      }
+    },
+    "Thinking": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Myślenie"
+          }
+        }
+      }
+    },
+    "This cannot be undone.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "This is the built-in prompt. Create a custom prompt to override it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To jest wbudowany prompt. Utwórz własny prompt, aby go nadpisać."
+          }
+        }
+      }
+    },
+    "This is what appears in your transcription.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To pojawi się w Twojej transkrypcji."
+          }
+        }
+      }
+    },
+    "This is what will appear in the final transcription.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To pojawi się w ostatecznej transkrypcji."
+          }
+        }
+      }
+    },
+    "This will permanently delete all %lld transcription entries. This action cannot be undone.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To trwale usunie wszystkie %lld wpisów transkrypcji. Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "This will permanently delete all %lld transcriptions and reset all statistics. This action cannot be undone.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To trwale usunie wszystkie %lld transkrypcji i zresetuje wszystkie statystyki. Tej operacji nie można cofnąć."
+          }
+        }
+      }
+    },
+    "This word already exists.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To słowo już istnieje."
+          }
+        }
+      }
+    },
+    "Today": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziś"
+          }
+        }
+      }
+    },
+    "Today stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statystyki dzisiejsze"
+          }
+        }
+      }
+    },
+    "Today: %lld words · %@ saved - view stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziś: %lld słów · %@ zaoszczędzono - zobacz statystyki"
+          }
+        }
+      }
+    },
+    "Trained on 100K+ dictation data points to polish your words.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wytrenowany na ponad 100 tys. próbek dyktowania, aby dopracować Twoje słowa."
+          }
+        }
+      }
+    },
+    "Training progress": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postęp treningu"
+          }
+        }
+      }
+    },
+    "Transcribe": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrybuj"
+          }
+        }
+      }
+    },
+    "Transcription Complete": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrypcja zakończona"
+          }
+        }
+      }
+    },
+    "Transcription Details": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szczegóły transkrypcji"
+          }
+        }
+      }
+    },
+    "Transcription Preview Length": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Długość podglądu transkrypcji"
+          }
+        }
+      }
+    },
+    "Transcription Sounds": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dźwięki transkrypcji"
+          }
+        }
+      }
+    },
+    "Transcription will appear when you stop recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transkrypcja pojawi się po zatrzymaniu nagrywania"
+          }
+        }
+      }
+    },
+    "TriVox automatically corrects these words and phrases.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox automatycznie poprawia te słowa i frazy."
+          }
+        }
+      }
+    },
+    "TriVox could not load GitHub release notes right now.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox nie mógł teraz wczytać informacji o wydaniu z GitHub."
+          }
+        }
+      }
+    },
+    "TriVox follows the macOS default microphone.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox podąża za domyślnym mikrofonem systemu macOS."
+          }
+        }
+      }
+    },
+    "TriVox got it right 3 times in a row.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox rozpoznał to poprawnie 3 razy z rzędu."
+          }
+        }
+      }
+    },
+    "TriVox is ready.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox jest gotowy."
+          }
+        }
+      }
+    },
+    "TriVox keeps your preferred microphone selected while it is available.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox zachowuje wybrany preferowany mikrofon, dopóki jest dostępny."
+          }
+        }
+      }
+    },
+    "TriVox od 3 ręka AI — fork FluidVoice (altic-dev), licencja GPL-3.0": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox od 3 ręka AI — fork FluidVoice (altic-dev), licencja GPL-3.0"
+          }
+        }
+      }
+    },
+    "TriVox recognized %@ 3 times in a row.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TriVox rozpoznał %@ 3 razy z rzędu."
+          }
+        }
+      }
+    },
+    "Try Again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj ponownie"
+          }
+        }
+      }
+    },
+    "Try Saying": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj powiedzieć"
+          }
+        }
+      }
+    },
+    "Try a different search term": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj innego wyszukiwanego hasła"
+          }
+        }
+      }
+    },
+    "Try again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj ponownie"
+          }
+        }
+      }
+    },
+    "Try example. %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbuj przykład. %@"
+          }
+        }
+      }
+    },
+    "Turn Punctuation Dictionary on or off.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz lub wyłącz Słownik interpunkcji."
+          }
+        }
+      }
+    },
+    "Turn on Boosting to modify custom words.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz Wzmacnianie, aby modyfikować własne słowa."
+          }
+        }
+      }
+    },
+    "Turn on Punctuation Dictionary to modify rules.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz Słownik interpunkcji, aby modyfikować reguły."
+          }
+        }
+      }
+    },
+    "Two quick permissions make dictation work anywhere.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dwa szybkie uprawnienia sprawiają, że dyktowanie działa wszędzie."
+          }
+        }
+      }
+    },
+    "Type a command or ask a question...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz polecenie lub zadaj pytanie..."
+          }
+        }
+      }
+    },
+    "Type the correct text, e.g. TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz poprawny tekst, np. TriVox"
+          }
+        }
+      }
+    },
+    "Upload audio or video files to transcribe": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prześlij pliki audio lub wideo do transkrypcji"
+          }
+        }
+      }
+    },
+    "Use %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj %@"
+          }
+        }
+      }
+    },
+    "Use any keyboard shortcut, auxiliary mouse button, or modified click.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj dowolnego skrótu klawiszowego, dodatkowego przycisku myszy lub kliknięcia z modyfikatorem."
+          }
+        }
+      }
+    },
+    "Use macOS default microphone": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj domyślnego mikrofonu systemu macOS"
+          }
+        }
+      }
+    },
+    "Use the Teach Words area above to add dictionary entries by voice or manually.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj obszaru Naucz słów powyżej, aby dodać wpisy do słownika głosem lub ręcznie."
+          }
+        }
+      }
+    },
+    "Use the same provider and model selected in AI Enhancement.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj tego samego dostawcy i modelu, co w Ulepszaniu AI."
+          }
+        }
+      }
+    },
+    "Uses extra local acceleration so Fluid-1 finishes faster.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wykorzystuje dodatkowe lokalne przyspieszenie, aby Fluid-1 kończył szybciej."
+          }
+        }
+      }
+    },
+    "Value": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wartość"
+          }
+        }
+      }
+    },
+    "Verified providers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zweryfikowani dostawcy"
+          }
+        }
+      }
+    },
+    "Verify": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zweryfikuj"
+          }
+        }
+      }
+    },
+    "Verify Connection": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zweryfikuj połączenie"
+          }
+        }
+      }
+    },
+    "Verifying...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weryfikowanie..."
+          }
+        }
+      }
+    },
+    "View older release notes on GitHub": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zobacz starsze informacje o wydaniach na GitHub"
+          }
+        }
+      }
+    },
+    "View your stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zobacz swoje statystyki"
+          }
+        }
+      }
+    },
+    "Voice Dictation": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dyktowanie głosowe"
+          }
+        }
+      }
+    },
+    "Voice Engine": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silnik głosowy"
+          }
+        }
+      }
+    },
+    "Voice profile for %@ captured 3 times.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil głosowy dla %@ zarejestrowany 3 razy."
+          }
+        }
+      }
+    },
+    "Volume": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głośność"
+          }
+        }
+      }
+    },
+    "We'd love to hear from you!": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chętnie Cię wysłuchamy!"
+          }
+        }
+      }
+    },
+    "We'll show the best voice engines for it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokażemy dla niego najlepsze silniki głosowe."
+          }
+        }
+      }
+    },
+    "Welcome to TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Witaj w TriVox"
+          }
+        }
+      }
+    },
+    "What It Types": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co wpisuje"
+          }
+        }
+      }
+    },
+    "What TriVox collects when analytics is enabled": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co zbiera TriVox, gdy analityka jest włączona"
+          }
+        }
+      }
+    },
+    "What You Say": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co mówisz"
+          }
+        }
+      }
+    },
+    "What language will\nyou speak most?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W jakim języku\nbędziesz mówić najczęściej?"
+          }
+        }
+      }
+    },
+    "What we collect": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co zbieramy"
+          }
+        }
+      }
+    },
+    "When TriVox hears": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy TriVox usłyszy"
+          }
+        }
+      }
+    },
+    "When you say ": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy powiesz "
+          }
+        }
+      }
+    },
+    "When you say \"%@ comma\", it types \",\".": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy powiesz \"%@ przecinek\", wpisuje \",\"."
+          }
+        }
+      }
+    },
+    "When you say \"%@ question mark\", it types \"?\".": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy powiesz \"%@ znak zapytania\", wpisuje \"?\"."
+          }
+        }
+      }
+    },
+    "Where the recording indicator appears on screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdzie na ekranie pojawia się wskaźnik nagrywania"
+          }
+        }
+      }
+    },
+    "Word Priority": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Priorytet słowa"
+          }
+        }
+      }
+    },
+    "Word or Phrase": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słowo lub fraza"
+          }
+        }
+      }
+    },
+    "Words and phrases TriVox will correct automatically.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Słowa i frazy, które TriVox automatycznie poprawi."
+          }
+        }
+      }
+    },
+    "Yes": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tak"
+          }
+        }
+      }
+    },
+    "You can change this later in Voice Engine settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możesz to zmienić później w ustawieniach Silnika głosowego."
+          }
+        }
+      }
+    },
+    "You can switch models later in Voice Engine settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Możesz zmienić modele później w ustawieniach Silnika głosowego."
+          }
+        }
+      }
+    },
+    "Your Dictionary": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twój słownik"
+          }
+        }
+      }
+    },
+    "Your Typing Speed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoja szybkość pisania"
+          }
+        }
+      }
+    },
+    "Your feedback helps us make TriVox even better": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoja opinia pomaga nam czynić TriVox jeszcze lepszym"
+          }
+        }
+      }
+    },
+    "Your transcriptions will appear here": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje transkrypcje pojawią się tutaj"
+          }
+        }
+      }
+    },
+    "ZIP with manifest.jsonl and WAV audio.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP z manifest.jsonl i nagraniami WAV."
+          }
+        }
+      }
+    },
+    "across %lld active days": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "przez %lld aktywnych dni"
+          }
+        }
+      }
+    },
+    "and speak what you want to write.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "i powiedz, co chcesz napisać."
+          }
+        }
+      }
+    },
+    "and speak your instruction.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "i powiedz swoją instrukcję."
+          }
+        }
+      }
+    },
+    "correct": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "poprawne"
+          }
+        }
+      }
+    },
+    "day": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dzień"
+          }
+        }
+      }
+    },
+    "days": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dni"
+          }
+        }
+      }
+    },
+    "to open Command Mode, speak your command, then press again to send.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aby otworzyć Tryb poleceń, powiedz swoje polecenie, a potem naciśnij ponownie, aby wysłać."
+          }
+        }
+      }
+    },
+    "to open, speak your command, then press again to send.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aby otworzyć, powiedz swoje polecenie, a potem naciśnij ponownie, aby wysłać."
+          }
+        }
+      }
+    },
+    "tokens": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tokeny"
+          }
+        }
+      }
+    },
+    "words per minute": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "słów na minutę"
+          }
+        }
+      }
+    },
+    "“%@” will become “%@”.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%@” zmieni się na „%@”."
+          }
+        }
+      }
+    }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }
