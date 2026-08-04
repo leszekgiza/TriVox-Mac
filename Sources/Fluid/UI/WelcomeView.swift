@@ -1139,7 +1139,7 @@ struct OnboardingFlowView: View {
                     }
 
                     self.cinematicFooter(
-                        continueTitle: "Continue",
+                        continueTitle: String(localized: "Continue"),
                         canContinue: self.canContinue
                     ) {
                         self.handlePrimaryAction()
@@ -1395,7 +1395,7 @@ struct OnboardingFlowView: View {
 
         return HStack {
             self.cinematicFooterButton(
-                title: "Back",
+                title: String(localized: "Back"),
                 kind: .back,
                 isEnabled: canNavigateBack
             ) {
@@ -1646,7 +1646,7 @@ struct OnboardingFlowView: View {
                     }
 
                     self.cinematicFooter(
-                        continueTitle: "Continue",
+                        continueTitle: String(localized: "Continue"),
                         canContinue: self.canContinue
                     ) {
                         self.handlePrimaryAction()
@@ -1734,7 +1734,7 @@ struct OnboardingFlowView: View {
                     }
 
                     self.cinematicFooter(
-                        continueTitle: "Continue",
+                        continueTitle: String(localized: "Continue"),
                         canContinue: self.canContinue
                     ) {
                         self.handlePrimaryAction()
@@ -1829,12 +1829,12 @@ struct OnboardingFlowView: View {
                     }
 
                     self.cinematicFooter(
-                        continueTitle: "Continue",
+                        continueTitle: String(localized: "Continue"),
                         canContinue: self.canContinue,
                         continueAction: {
                             self.handlePrimaryAction()
                         },
-                        skipTitle: "Skip",
+                        skipTitle: String(localized: "Skip"),
                         canSkip: !self.asr.isRunning && !self.isRecordingAnyShortcut,
                         skipAction: {
                             self.settings.onboardingPlaygroundSkipped = true

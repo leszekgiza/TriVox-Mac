@@ -933,7 +933,7 @@ struct OnboardingAIEnhancementStepView: View {
             self.pillButton(
                 PillButtonConfiguration(
                     id: "back",
-                    title: "Back",
+                    title: String(localized: "Back"),
                     systemImage: nil,
                     tone: .secondary,
                     width: 132,
@@ -992,7 +992,7 @@ struct OnboardingAIEnhancementStepView: View {
         self.pillButton(
             PillButtonConfiguration(
                 id: "ai-skip",
-                title: "Skip for now",
+                title: String(localized: "Skip for now"),
                 systemImage: nil,
                 tone: .secondary,
                 width: 132,
@@ -1011,7 +1011,7 @@ struct OnboardingAIEnhancementStepView: View {
         self.pillButton(
             PillButtonConfiguration(
                 id: "ai-skip-tryout",
-                title: "Skip",
+                title: String(localized: "Skip"),
                 systemImage: nil,
                 tone: .secondary,
                 width: 132,

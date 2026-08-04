@@ -2225,6 +2225,16 @@
         }
       }
     },
+    "Continue": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontynuuj"
+          }
+        }
+      }
+    },
     "Continue to Download": {
       "localizations": {
         "pl": {
@@ -6649,6 +6659,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pokazuj okno przy uruchomieniu z logowania"
+          }
+        }
+      }
+    },
+    "Skip": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń"
+          }
+        }
+      }
+    },
+    "Skip for now": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń na razie"
           }
         }
       }

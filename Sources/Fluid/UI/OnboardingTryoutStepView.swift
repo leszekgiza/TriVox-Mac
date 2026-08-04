@@ -208,7 +208,7 @@ struct OnboardingTryoutStepView: View {
     private var changeShortcutButton: some View {
         let shape = Capsule()
         let isEnabled = !self.isRunning
-        let title = self.isRecordingShortcut ? "Cancel" : "Change"
+        let title = self.isRecordingShortcut ? String(localized: "Cancel") : String(localized: "Change")
         let fillOpacity = isEnabled ? (self.isChangeHovered ? 0.11 : 0.07) : 0.045
         let foregroundOpacity = isEnabled ? (self.isChangeHovered ? 0.94 : 0.78) : 0.42
         let ringOpacity = self.isChangeHovered && isEnabled ? 0.50 : 0
