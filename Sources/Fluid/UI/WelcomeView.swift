@@ -818,7 +818,14 @@ struct OnboardingFlowView: View {
     }
 
     private var recommendedModelReasonText: String {
-        "Recommended for \(self.selectedOnboardingLanguage.displayName). You can see more options if needed."
+        String(localized: "Recommended for \(self.localizedOnboardingLanguageName). You can see more options if needed.")
+    }
+
+    /// Display name for the selected onboarding language, localized for languages
+    /// we have a translated proper name for (currently Polish, the app's primary market).
+    /// Falls back to the catalog's raw English display name for all other languages.
+    private var localizedOnboardingLanguageName: String {
+        self.selectedOnboardingLanguage.id == "pl" ? String(localized: "Polish") : self.selectedOnboardingLanguage.displayName
     }
 
     private var isRecommendedModelDownloaded: Bool {
@@ -1569,7 +1576,7 @@ struct OnboardingFlowView: View {
                                 .multilineTextAlignment(.center)
                                 .padding(.bottom, 14)
 
-                            Text(self.selectedOnboardingLanguage.displayName)
+                            Text(self.localizedOnboardingLanguageName)
                                 .font(.system(size: 13, weight: .semibold))
                                 .foregroundStyle(FluidOnboardingLandingColors.blue)
                                 .padding(.horizontal, 12)
@@ -1960,7 +1967,7 @@ struct OnboardingFlowView: View {
             return self.asr.isLoadingModel ? "Loading..." : "Downloading..."
         }
         if isReady {
-            return "Active now"
+            return String(localized: "Active now")
         }
         if isDownloaded {
             return "Activate"
@@ -2101,7 +2108,7 @@ struct OnboardingFlowView: View {
                     if isPreparing {
                         self.onboardingModelActionButton(
                             id: "\(route.id)-cancel",
-                            title: self.asr.isCancellingModelPreparation ? "Cancelling…" : "Cancel",
+                            title: self.asr.isCancellingModelPreparation ? "Cancelling…" : String(localized: "Cancel"),
                             systemImage: "xmark",
                             tone: .secondary,
                             width: 104,
@@ -2138,7 +2145,7 @@ struct OnboardingFlowView: View {
 
                     self.onboardingModelActionButton(
                         id: "\(route.id)-uninstall",
-                        title: "Delete",
+                        title: String(localized: "Delete"),
                         systemImage: "trash",
                         tone: .destructive,
                         width: 124,
@@ -2193,7 +2200,7 @@ struct OnboardingFlowView: View {
                 color: .yellow,
                 secondaryColor: .orange,
                 icon: "bolt.fill",
-                label: "Speed"
+                label: String(localized: "Speed")
             )
 
             self.onboardingModelMetricRow(
@@ -2201,7 +2208,7 @@ struct OnboardingFlowView: View {
                 color: Color.fluidGreen,
                 secondaryColor: .cyan,
                 icon: "target",
-                label: "Accuracy"
+                label: String(localized: "Accuracy")
             )
         }
         .padding(.vertical, 2)

@@ -139,7 +139,7 @@ final class ASRService: ObservableObject {
             }
             return "Downloading model..."
         case .optimizing:
-            return "Optimizing model..."
+            return String(localized: "Optimizing model...")
         case .loading:
             return "Loading voice engine..."
         case nil:

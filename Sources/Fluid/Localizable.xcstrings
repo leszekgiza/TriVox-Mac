@@ -727,6 +727,16 @@
         }
       }
     },
+    "Active now": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktywny teraz"
+          }
+        }
+      }
+    },
     "Activity": {
       "localizations": {
         "pl": {
@@ -5009,6 +5019,26 @@
         }
       }
     },
+    "Optimized for TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoptymalizowany dla TriVox"
+          }
+        }
+      }
+    },
+    "Optimizing model...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optymalizowanie modelu..."
+          }
+        }
+      }
+    },
     "Or select text first to rewrite existing content.": {
       "localizations": {
         "pl": {
@@ -5135,6 +5165,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wybierz aplikację, aby dodać dla niej własny prompt."
+          }
+        }
+      }
+    },
+    "Polish": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polski"
           }
         }
       }
@@ -5565,6 +5605,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ostatnie transkrypcje"
+          }
+        }
+      }
+    },
+    "Recommended for %@. You can see more options if needed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zalecane dla %@. W razie potrzeby możesz zobaczyć więcej opcji."
           }
         }
       }
