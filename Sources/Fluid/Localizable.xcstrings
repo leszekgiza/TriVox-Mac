@@ -3049,6 +3049,16 @@
         }
       }
     },
+    "Downloading the model's main file (%@) — the bar may stay still for a while before it moves again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie głównego pliku modelu (%@) — pasek może przez chwilę stać w miejscu, zanim ruszy dalej."
+          }
+        }
+      }
+    },
     "Drag %@ into the Accessibility apps list as shown": {
       "localizations": {
         "pl": {
