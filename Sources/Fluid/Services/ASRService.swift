@@ -132,20 +132,20 @@ final class ASRService: ObservableObject {
     var modelPreparationStatusText: String {
         switch self.modelPreparationPhase {
         case .preparingDownload:
-            return "Preparing download..."
+            return String(localized: "Preparing download...")
         case .downloading:
             if let progress = self.downloadProgress {
-                return "Downloading \(Int(progress * 100))%"
+                return String(localized: "Downloading \(Int(progress * 100))%")
             }
-            return "Downloading model..."
+            return String(localized: "Downloading model...")
         case .optimizing:
             return String(localized: "Optimizing model...")
         case .loading:
-            return "Loading voice engine..."
+            return String(localized: "Loading voice engine...")
         case nil:
-            if self.isDownloadingModel { return "Preparing model..." }
-            if self.isLoadingModel { return "Loading voice engine..." }
-            return "Preparing model..."
+            if self.isDownloadingModel { return String(localized: "Preparing model...") }
+            if self.isLoadingModel { return String(localized: "Loading voice engine...") }
+            return String(localized: "Preparing model...")
         }
     }
 

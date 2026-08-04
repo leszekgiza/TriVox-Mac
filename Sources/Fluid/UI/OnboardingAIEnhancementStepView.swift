@@ -973,7 +973,7 @@ struct OnboardingAIEnhancementStepView: View {
         self.pillButton(
             PillButtonConfiguration(
                 id: "ai-provider",
-                title: self.hasPrivateAIProvider ? "Use my own AI provider" : String(localized: "Set up AI provider"),
+                title: self.hasPrivateAIProvider ? String(localized: "Use my own AI provider") : String(localized: "Set up AI provider"),
                 systemImage: "arrow.up.right",
                 tone: .secondary,
                 width: 280,
@@ -1030,7 +1030,7 @@ struct OnboardingAIEnhancementStepView: View {
         self.pillButton(
             PillButtonConfiguration(
                 id: "ai-finish",
-                title: "Finish setup",
+                title: String(localized: "Finish setup"),
                 systemImage: "checkmark",
                 tone: .primary,
                 width: 164,

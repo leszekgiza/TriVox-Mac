@@ -1965,6 +1965,16 @@
         }
       }
     },
+    "Click here to test TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kliknij tutaj, aby przetestować TriVox"
+          }
+        }
+      }
+    },
     "Click record, speak, and see your transcription": {
       "localizations": {
         "pl": {
@@ -2809,6 +2819,16 @@
         }
       }
     },
+    "Deleting...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuwanie..."
+          }
+        }
+      }
+    },
     "Details": {
       "localizations": {
         "pl": {
@@ -2939,6 +2959,16 @@
         }
       }
     },
+    "Download & Activate": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz i aktywuj"
+          }
+        }
+      }
+    },
     "Download Previous Build": {
       "localizations": {
         "pl": {
@@ -2979,12 +3009,42 @@
         }
       }
     },
+    "Downloading %lld%%": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie %lld%%"
+          }
+        }
+      }
+    },
+    "Downloading model...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie modelu..."
+          }
+        }
+      }
+    },
     "Downloading model…": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Pobieranie modelu…"
+          }
+        }
+      }
+    },
+    "Downloading...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie..."
           }
         }
       }
@@ -3479,6 +3539,26 @@
         }
       }
     },
+    "Finish Accessibility Access": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dokończ dostęp ułatwień dostępu"
+          }
+        }
+      }
+    },
+    "Finish setup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończ konfigurację"
+          }
+        }
+      }
+    },
     "Finishes dictation up to 15% faster. Uses about 100 MB more memory.": {
       "localizations": {
         "pl": {
@@ -3849,6 +3929,16 @@
         }
       }
     },
+    "In Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W ustawieniach"
+          }
+        }
+      }
+    },
     "Include debug logs": {
       "localizations": {
         "pl": {
@@ -4129,6 +4219,16 @@
         }
       }
     },
+    "Loading voice engine...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytywanie silnika głosowego..."
+          }
+        }
+      }
+    },
     "Loading...": {
       "localizations": {
         "pl": {
@@ -4295,6 +4395,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Przywrócono audio z mikrofonu"
+          }
+        }
+      }
+    },
+    "Microphone is ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mikrofon jest gotowy"
           }
         }
       }
@@ -5285,6 +5395,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Obsługiwane przez %@"
+          }
+        }
+      }
+    },
+    "Preparing download...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przygotowywanie pobierania..."
+          }
+        }
+      }
+    },
+    "Preparing model...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przygotowywanie modelu..."
           }
         }
       }
@@ -6413,6 +6543,16 @@
         }
       }
     },
+    "Say anything you'd want to dictate in %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiedz cokolwiek, co chciałbyś podyktować, w języku %@."
+          }
+        }
+      }
+    },
     "Say the start word first, then say the punctuation name.": {
       "localizations": {
         "pl": {
@@ -6799,6 +6939,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pokaż"
+          }
+        }
+      }
+    },
+    "Show Guide": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż przewodnik"
           }
         }
       }
@@ -8121,6 +8271,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Użyj domyślnego mikrofonu systemu macOS"
+          }
+        }
+      }
+    },
+    "Use my own AI provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj własnego dostawcy AI"
           }
         }
       }

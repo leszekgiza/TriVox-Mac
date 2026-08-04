@@ -1703,7 +1703,7 @@ struct OnboardingFlowView: View {
                             VStack(spacing: 14) {
                                 self.permissionRow(
                                     stepNumber: 1,
-                                    title: self.isMicrophoneReady ? "Microphone is ready" : String(localized: "Allow microphone"),
+                                    title: self.isMicrophoneReady ? String(localized: "Microphone is ready") : String(localized: "Allow microphone"),
                                     subtitle: self.isMicrophoneReady
                                         ? "TriVox can hear your dictation."
                                         : String(localized: "macOS will ask once. Click Allow to start dictating."),
@@ -1880,7 +1880,7 @@ struct OnboardingFlowView: View {
         if self.isAccessibilityReady {
             return "Typing access is ready"
         }
-        return self.accessibilitySetupInProgress ? "Finish Accessibility Access" : String(localized: "Enable Accessibility Access")
+        return self.accessibilitySetupInProgress ? String(localized: "Finish Accessibility Access") : String(localized: "Enable Accessibility Access")
     }
 
     private var accessibilityPermissionSubtitle: String {
@@ -1901,11 +1901,11 @@ struct OnboardingFlowView: View {
         if self.isAccessibilityReady {
             return String(localized: "Ready")
         }
-        return self.accessibilitySetupInProgress ? "In Settings" : String(localized: "Needed")
+        return self.accessibilitySetupInProgress ? String(localized: "In Settings") : String(localized: "Needed")
     }
 
     private var accessibilityPermissionActionTitle: String {
-        self.accessibilitySetupInProgress ? "Show Guide" : String(localized: "Open Settings")
+        self.accessibilitySetupInProgress ? String(localized: "Show Guide") : String(localized: "Open Settings")
     }
 
     private var otherModelRoutesToggleButton: some View {
@@ -1964,15 +1964,15 @@ struct OnboardingFlowView: View {
 
     private func onboardingModelActionButtonTitle(isPreparing: Bool, isDownloaded: Bool, isReady: Bool) -> String {
         if isPreparing {
-            return self.asr.isLoadingModel ? "Loading..." : "Downloading..."
+            return self.asr.isLoadingModel ? String(localized: "Loading...") : String(localized: "Downloading...")
         }
         if isReady {
             return String(localized: "Active now")
         }
         if isDownloaded {
-            return "Activate"
+            return String(localized: "Activate")
         }
-        return "Download & Activate"
+        return String(localized: "Download & Activate")
     }
 
     private func prepareOnboardingRoute(_ route: VoiceEngineLanguageRoute) {
@@ -2250,7 +2250,7 @@ struct OnboardingFlowView: View {
 
                     Text(
                         isUninstalling
-                            ? "Deleting..."
+                            ? String(localized: "Deleting...")
                             : self.asr.modelPreparationStatusText
                     )
                     .font(self.theme.typography.captionStrong)

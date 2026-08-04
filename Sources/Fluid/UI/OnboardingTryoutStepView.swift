@@ -119,7 +119,7 @@ struct OnboardingTryoutStepView: View {
 
     private var promptText: String {
         if self.exampleTexts.isEmpty {
-            return "Say anything you'd want to dictate in \(self.language.displayName)."
+            return String(localized: "Say anything you'd want to dictate in \(self.localizedLanguageDisplayName).")
         }
         return String(localized: "Try this, or say anything you'd want to dictate.")
     }
@@ -141,9 +141,9 @@ struct OnboardingTryoutStepView: View {
 
     private var placeholderText: String {
         if self.isReady {
-            return "Click here to test TriVox"
+            return String(localized: "Click here to test TriVox")
         }
-        return self.isRunning ? "Listening..." : String(localized: "Your dictation will appear here...")
+        return self.isRunning ? String(localized: "Listening...") : String(localized: "Your dictation will appear here...")
     }
 
     var body: some View {
