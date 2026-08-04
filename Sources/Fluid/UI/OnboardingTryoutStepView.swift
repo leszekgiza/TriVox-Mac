@@ -121,7 +121,14 @@ struct OnboardingTryoutStepView: View {
         if self.exampleTexts.isEmpty {
             return "Say anything you'd want to dictate in \(self.language.displayName)."
         }
-        return "Try this, or say anything you'd want to dictate."
+        return String(localized: "Try this, or say anything you'd want to dictate.")
+    }
+
+    /// Display name for the dictation language, localized for languages we have a
+    /// translated proper name for (currently Polish, the app's primary market).
+    /// Falls back to the catalog's raw English display name for all other languages.
+    private var localizedLanguageDisplayName: String {
+        self.language.id == "pl" ? String(localized: "Polish") : self.language.displayName
     }
 
     private var hasText: Bool {
@@ -136,14 +143,14 @@ struct OnboardingTryoutStepView: View {
         if self.isReady {
             return "Click here to test TriVox"
         }
-        return self.isRunning ? "Listening..." : "Your dictation will appear here..."
+        return self.isRunning ? "Listening..." : String(localized: "Your dictation will appear here...")
     }
 
     var body: some View {
         VStack(spacing: 12) {
             self.keyboardCard
 
-            Text(self.footerHint ?? "Feels slow or inaccurate? Go back and try another model for \(self.language.displayName).")
+            Text(self.footerHint ?? String(localized: "Feels slow or inaccurate? Go back and try another model for \(self.localizedLanguageDisplayName)."))
                 .font(self.theme.typography.captionStrong)
                 .foregroundStyle(Color.white.opacity(0.44))
                 .multilineTextAlignment(.center)

@@ -3369,6 +3369,16 @@
         }
       }
     },
+    "Feels slow or inaccurate? Go back and try another model for %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wydaje się wolne lub niedokładne? Wróć i wypróbuj inny model dla języka %@."
+          }
+        }
+      }
+    },
     "File Transcription": {
       "localizations": {
         "pl": {
@@ -7695,6 +7705,16 @@
         }
       }
     },
+    "Try this, or say anything you'd want to dictate.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbuj to albo powiedz cokolwiek, co chciałbyś podyktować."
+          }
+        }
+      }
+    },
     "Turn Punctuation Dictionary on or off.": {
       "localizations": {
         "pl": {
@@ -8439,6 +8459,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Twoja szybkość pisania"
+          }
+        }
+      }
+    },
+    "Your dictation will appear here...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutaj pojawi się Twoje dyktowanie..."
           }
         }
       }
