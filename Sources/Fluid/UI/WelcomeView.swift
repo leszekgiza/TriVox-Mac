@@ -1010,12 +1010,12 @@ struct OnboardingFlowView: View {
                 VStack(alignment: .center, spacing: self.theme.metrics.onboardingSurface.landing.sectionSpacing) {
                     FluidOnboardingLandingHero(
                         eyebrow: "",
-                        title: "Just speak.",
-                        accentTitle: "We'll handle the rest.",
-                        firstDetail: "Accurate. Fast. Private. Free.",
-                        secondDetail: "Built for creators, thinkers, and builders."
+                        title: String(localized: "Just speak."),
+                        accentTitle: String(localized: "We'll handle the rest."),
+                        firstDetail: String(localized: "Accurate. Fast. Private. Free."),
+                        secondDetail: String(localized: "Built for creators, thinkers, and builders.")
                     ) {
-                        FluidOnboardingLandingPrimaryButton(title: "Next") {
+                        FluidOnboardingLandingPrimaryButton(title: String(localized: "Next")) {
                             self.goNext()
                         }
                         .frame(

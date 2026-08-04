@@ -657,6 +657,16 @@
         }
       }
     },
+    "Accurate. Fast. Private. Free.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dokładnie. Szybko. Prywatnie. Za darmo."
+          }
+        }
+      }
+    },
     "Actions": {
       "localizations": {
         "pl": {
@@ -1531,6 +1541,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Budżet"
+          }
+        }
+      }
+    },
+    "Built for creators, thinkers, and builders.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stworzony dla twórców, myślicieli i budowniczych."
           }
         }
       }
@@ -3809,6 +3829,16 @@
         }
       }
     },
+    "Just speak.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Po prostu mów."
+          }
+        }
+      }
+    },
     "Keep Current Model": {
       "localizations": {
         "pl": {
@@ -4325,6 +4355,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zarejestrowano nową wymowę."
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dalej"
           }
         }
       }
@@ -7961,6 +8001,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chętnie Cię wysłuchamy!"
+          }
+        }
+      }
+    },
+    "We'll handle the rest.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resztą zajmiemy się my."
           }
         }
       }
