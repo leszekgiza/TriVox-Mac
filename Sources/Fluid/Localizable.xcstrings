@@ -987,12 +987,32 @@
         }
       }
     },
+    "Allow": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zezwól"
+          }
+        }
+      }
+    },
     "Allow TriVox to access your microphone for voice input": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Zezwól TriVox na dostęp do mikrofonu w celu wprowadzania głosu"
+          }
+        }
+      }
+    },
+    "Allow microphone": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zezwól na mikrofon"
           }
         }
       }
@@ -4339,6 +4359,16 @@
         }
       }
     },
+    "Needed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymagane"
+          }
+        }
+      }
+    },
     "New chat": {
       "localizations": {
         "pl": {
@@ -4885,6 +4915,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Otwórz ustawienia"
+          }
+        }
+      }
+    },
+    "Open Settings, then use the floating guide to add %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz ustawienia, a następnie użyj pływającego przewodnika, aby dodać %@."
           }
         }
       }
@@ -8563,6 +8603,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "macOS nadal pokazuje TriVox w Elementach logowania. Sprawdź Ustawienia systemowe > Ogólne > Elementy logowania."
+          }
+        }
+      }
+    },
+    "macOS will ask once. Click Allow to start dictating.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS zapyta raz. Kliknij Zezwól, aby zacząć dyktować."
           }
         }
       }

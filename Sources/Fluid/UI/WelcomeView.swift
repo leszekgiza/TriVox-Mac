@@ -1696,10 +1696,10 @@ struct OnboardingFlowView: View {
                             VStack(spacing: 14) {
                                 self.permissionRow(
                                     stepNumber: 1,
-                                    title: self.isMicrophoneReady ? "Microphone is ready" : "Allow microphone",
+                                    title: self.isMicrophoneReady ? "Microphone is ready" : String(localized: "Allow microphone"),
                                     subtitle: self.isMicrophoneReady
                                         ? "TriVox can hear your dictation."
-                                        : "macOS will ask once. Click Allow to start dictating.",
+                                        : String(localized: "macOS will ask once. Click Allow to start dictating."),
                                     systemImage: "mic.fill",
                                     isReady: self.isMicrophoneReady,
                                     actionTitle: self.microphoneActionButtonTitle
@@ -1861,11 +1861,11 @@ struct OnboardingFlowView: View {
     private var microphoneActionButtonTitle: String {
         switch self.asr.micStatus {
         case .notDetermined:
-            return "Allow"
+            return String(localized: "Allow")
         case .denied, .restricted:
-            return "Open Settings"
+            return String(localized: "Open Settings")
         default:
-            return "Allow"
+            return String(localized: "Allow")
         }
     }
 
@@ -1873,7 +1873,7 @@ struct OnboardingFlowView: View {
         if self.isAccessibilityReady {
             return "Typing access is ready"
         }
-        return self.accessibilitySetupInProgress ? "Finish Accessibility Access" : "Enable Accessibility Access"
+        return self.accessibilitySetupInProgress ? "Finish Accessibility Access" : String(localized: "Enable Accessibility Access")
     }
 
     private var accessibilityPermissionSubtitle: String {
@@ -1883,7 +1883,7 @@ struct OnboardingFlowView: View {
         if self.accessibilitySetupInProgress {
             return "Use the floating guide to drag \(self.appDisplayName) into the Accessibility apps list."
         }
-        return "Open Settings, then use the floating guide to add \(self.appDisplayName)."
+        return String(localized: "Open Settings, then use the floating guide to add \(self.appDisplayName).")
     }
 
     private var appDisplayName: String {
@@ -1892,13 +1892,13 @@ struct OnboardingFlowView: View {
 
     private var accessibilityPermissionStatusTitle: String {
         if self.isAccessibilityReady {
-            return "Ready"
+            return String(localized: "Ready")
         }
-        return self.accessibilitySetupInProgress ? "In Settings" : "Needed"
+        return self.accessibilitySetupInProgress ? "In Settings" : String(localized: "Needed")
     }
 
     private var accessibilityPermissionActionTitle: String {
-        self.accessibilitySetupInProgress ? "Show Guide" : "Open Settings"
+        self.accessibilitySetupInProgress ? "Show Guide" : String(localized: "Open Settings")
     }
 
     private var otherModelRoutesToggleButton: some View {
@@ -2481,7 +2481,7 @@ struct OnboardingFlowView: View {
         action: @escaping () -> Void
     ) -> some View {
         let shape = RoundedRectangle(cornerRadius: 16, style: .continuous)
-        let resolvedStatusTitle = statusTitle ?? (isReady ? "Ready" : "Needed")
+        let resolvedStatusTitle = statusTitle ?? (isReady ? String(localized: "Ready") : String(localized: "Needed"))
 
         return HStack(spacing: 14) {
             ZStack {
