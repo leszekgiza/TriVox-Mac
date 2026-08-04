@@ -1017,6 +1017,16 @@
         }
       }
     },
+    "Allow TriVox to listen and type into other apps.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozwól TriVox słuchać i wpisywać tekst w innych aplikacjach."
+          }
+        }
+      }
+    },
     "Allow microphone": {
       "localizations": {
         "pl": {
@@ -1805,6 +1815,26 @@
         }
       }
     },
+    "Choose Language": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybór języka"
+          }
+        }
+      }
+    },
+    "Choose Voice Engine": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybór silnika głosowego"
+          }
+        }
+      }
+    },
     "Choose an example, press %@, then dictate it naturally.": {
       "localizations": {
         "pl": {
@@ -1821,6 +1851,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wybierz jedną z ostatnich wersji do ręcznej instalacji."
+          }
+        }
+      }
+    },
+    "Choose the best local engine for your language.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz najlepszy lokalny silnik dla Twojego języka."
           }
         }
       }
@@ -3075,6 +3115,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "E-mail"
+          }
+        }
+      }
+    },
+    "Enable Access": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz dostęp"
           }
         }
       }
@@ -5039,6 +5089,16 @@
         }
       }
     },
+    "Optional: Configure AI post-processing or skip this step.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcjonalnie: skonfiguruj Ulepszanie AI albo pomiń ten krok."
+          }
+        }
+      }
+    },
     "Optional: connect your own AI provider to polish dictation.": {
       "localizations": {
         "pl": {
@@ -5175,6 +5235,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wybierz aplikację, aby dodać dla niej własny prompt."
+          }
+        }
+      }
+    },
+    "Pick the language you speak most.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz język, którym mówisz najczęściej."
           }
         }
       }
@@ -6583,6 +6653,16 @@
         }
       }
     },
+    "Set Up AI Enhancement": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj Ulepszanie AI"
+          }
+        }
+      }
+    },
     "Set Up AI Enhancement (Optional)": {
       "localizations": {
         "pl": {
@@ -7765,6 +7845,16 @@
         }
       }
     },
+    "Try TriVox": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbuj TriVox"
+          }
+        }
+      }
+    },
     "Try a different search term": {
       "localizations": {
         "pl": {
@@ -8055,6 +8145,16 @@
         }
       }
     },
+    "Use your dictation shortcut once before finishing setup.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użyj raz skrótu dyktowania przed zakończeniem konfiguracji."
+          }
+        }
+      }
+    },
     "Uses extra local acceleration so Fluid-1 finishes faster.": {
       "localizations": {
         "pl": {
@@ -8221,6 +8321,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pokażemy dla niego najlepsze silniki głosowe."
+          }
+        }
+      }
+    },
+    "Welcome": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powitanie"
           }
         }
       }

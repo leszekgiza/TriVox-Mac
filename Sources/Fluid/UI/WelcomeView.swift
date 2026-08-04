@@ -700,34 +700,34 @@ struct OnboardingFlowView: View {
         var title: String {
             switch self {
             case .landing:
-                return "Welcome"
+                return String(localized: "Welcome")
             case .language:
-                return "Choose Language"
+                return String(localized: "Choose Language")
             case .voiceModel:
-                return "Choose Voice Engine"
+                return String(localized: "Choose Voice Engine")
             case .permissions:
-                return "Enable Access"
+                return String(localized: "Enable Access")
             case .aiEnhancement:
-                return "Set Up AI Enhancement"
+                return String(localized: "Set Up AI Enhancement")
             case .playground:
-                return "Try TriVox"
+                return String(localized: "Try TriVox")
             }
         }
 
         var subtitle: String {
             switch self {
             case .landing:
-                return "Talk anywhere. TriVox types for you."
+                return String(localized: "Talk anywhere. TriVox types for you.")
             case .language:
-                return "Pick the language you speak most."
+                return String(localized: "Pick the language you speak most.")
             case .voiceModel:
-                return "Choose the best local engine for your language."
+                return String(localized: "Choose the best local engine for your language.")
             case .permissions:
-                return "Allow TriVox to listen and type into other apps."
+                return String(localized: "Allow TriVox to listen and type into other apps.")
             case .aiEnhancement:
-                return "Optional: Configure AI post-processing or skip this step."
+                return String(localized: "Optional: Configure AI post-processing or skip this step.")
             case .playground:
-                return "Use your dictation shortcut once before finishing setup."
+                return String(localized: "Use your dictation shortcut once before finishing setup.")
             }
         }
     }
