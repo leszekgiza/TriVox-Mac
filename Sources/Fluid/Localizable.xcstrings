@@ -652,7 +652,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dokładność"
+            "value": "Precyzja"
           }
         }
       }
@@ -7068,7 +7068,7 @@
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Szybkość"
+            "value": "Tempo"
           }
         }
       }
