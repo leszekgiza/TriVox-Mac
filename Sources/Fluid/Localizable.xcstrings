@@ -5039,6 +5039,16 @@
         }
       }
     },
+    "Optional: connect your own AI provider to polish dictation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opcjonalnie: podłącz własnego dostawcę AI, aby dopracować dyktowanie."
+          }
+        }
+      }
+    },
     "Or select text first to rewrite existing content.": {
       "localizations": {
         "pl": {
@@ -5175,6 +5185,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Polski"
+          }
+        }
+      }
+    },
+    "Polished (after)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopracowane (po)"
           }
         }
       }
@@ -5485,6 +5505,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Surowe"
+          }
+        }
+      }
+    },
+    "Raw dictation (before)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surowe dyktowanie (przed)"
           }
         }
       }
@@ -6563,12 +6593,32 @@
         }
       }
     },
+    "Set up AI provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj dostawcę AI"
+          }
+        }
+      }
+    },
     "Set up a provider below and verify its connection": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Skonfiguruj dostawcę poniżej i zweryfikuj jego połączenie"
+          }
+        }
+      }
+    },
+    "Set up provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skonfiguruj dostawcę"
           }
         }
       }
@@ -8131,6 +8181,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Głośność"
+          }
+        }
+      }
+    },
+    "Want AI polishing?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chcesz dopracowania przez AI?"
           }
         }
       }

@@ -325,11 +325,11 @@ struct OnboardingAIEnhancementStepView: View {
         if self.hasPrivateAIProvider {
             return "TriVox can polish raw dictation locally with an optional built-in AI engine."
         }
-        return "Optional: connect your own AI provider to polish dictation."
+        return String(localized: "Optional: connect your own AI provider to polish dictation.")
     }
 
     private var setupQuestionText: String {
-        self.hasPrivateAIProvider ? "Want TriVox to polish your dictation?" : "Want AI polishing?"
+        self.hasPrivateAIProvider ? "Want TriVox to polish your dictation?" : String(localized: "Want AI polishing?")
     }
 
     private var setupFootnoteText: String {
@@ -403,7 +403,7 @@ struct OnboardingAIEnhancementStepView: View {
 
     private var examplesPanel: some View {
         VStack(spacing: ExampleGridMetrics.rowSpacing) {
-            self.exampleGridHeader(leftTitle: "Raw dictation (before)", rightTitle: "Polished (after)")
+            self.exampleGridHeader(leftTitle: String(localized: "Raw dictation (before)"), rightTitle: String(localized: "Polished (after)"))
 
             ForEach(Self.examples) { example in
                 self.exampleRow(example)
@@ -735,7 +735,7 @@ struct OnboardingAIEnhancementStepView: View {
             self.pillButton(
                 PillButtonConfiguration(
                     id: "generic-ai-provider",
-                    title: "Set up provider",
+                    title: String(localized: "Set up provider"),
                     systemImage: "arrow.up.right",
                     tone: .primary,
                     width: 168,
@@ -973,7 +973,7 @@ struct OnboardingAIEnhancementStepView: View {
         self.pillButton(
             PillButtonConfiguration(
                 id: "ai-provider",
-                title: self.hasPrivateAIProvider ? "Use my own AI provider" : "Set up AI provider",
+                title: self.hasPrivateAIProvider ? "Use my own AI provider" : String(localized: "Set up AI provider"),
                 systemImage: "arrow.up.right",
                 tone: .secondary,
                 width: 280,
