@@ -51,6 +51,16 @@
         }
       }
     },
+    "%@ for Command Mode is coming soon. Choose a verified chat provider or turn Sync off.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ w Trybie poleceń będzie dostępny wkrótce. Wybierz zweryfikowanego dostawcę czatu albo wyłącz synchronizację."
+          }
+        }
+      }
+    },
     "%@ for Edit Mode is coming soon": {
       "localizations": {
         "pl": {
@@ -1535,6 +1545,16 @@
         }
       }
     },
+    "Built-in Default": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wbudowany domyślny"
+          }
+        }
+      }
+    },
     "Built-in macOS speech recognition. No model download required.": {
       "localizations": {
         "pl": {
@@ -1691,6 +1711,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sprawdzaj aktualizacje automatycznie raz na godzinę"
+          }
+        }
+      }
+    },
+    "Checking...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdzanie…"
           }
         }
       }
@@ -1931,6 +1961,56 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tryb poleceń"
+          }
+        }
+      }
+    },
+    "Command Mode needs a verified chat provider. Verify this provider in AI Enhancement before using Command Mode.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga zweryfikowanego dostawcy czatu. Zweryfikuj tego dostawcę w Ulepszaniu AI przed użyciem Trybu poleceń."
+          }
+        }
+      }
+    },
+    "Command Mode needs a verified chat provider. Verify the synced AI Enhancement provider, or turn Sync off and choose one for Command Mode.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga zweryfikowanego dostawcy czatu. Zweryfikuj zsynchronizowanego dostawcę Ulepszania AI albo wyłącz synchronizację i wybierz dostawcę dla Trybu poleceń."
+          }
+        }
+      }
+    },
+    "Command Mode needs a chat model. The selected model is not supported by the chat/completions endpoint.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga modelu czatu. Wybrany model nie jest obsługiwany przez endpoint chat/completions."
+          }
+        }
+      }
+    },
+    "Command Mode needs a selected chat model.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga wybranego modelu czatu."
+          }
+        }
+      }
+    },
+    "Command Mode needs a verified chat provider.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb poleceń wymaga zweryfikowanego dostawcy czatu."
           }
         }
       }
@@ -2265,6 +2345,16 @@
         }
       }
     },
+    "Couldn't start recording. Check microphone access and try again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się rozpocząć nagrywania. Sprawdź dostęp do mikrofonu i spróbuj ponownie."
+          }
+        }
+      }
+    },
     "Crash diagnostics are written to Library/Logs/Fluid/Fluid.log by default.": {
       "localizations": {
         "pl": {
@@ -2411,6 +2501,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Domyślne"
+          }
+        }
+      }
+    },
+    "Default %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domyślny %@"
           }
         }
       }
@@ -3959,6 +4059,16 @@
         }
       }
     },
+    "Maximum samples reached.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osiągnięto maksymalną liczbę próbek."
+          }
+        }
+      }
+    },
     "Meeting Transcription": {
       "localizations": {
         "pl": {
@@ -4209,6 +4319,16 @@
         }
       }
     },
+    "New pronunciation captured.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zarejestrowano nową wymowę."
+          }
+        }
+      }
+    },
     "No Beta Updates": {
       "localizations": {
         "pl": {
@@ -4315,6 +4435,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nie znaleziono mikrofonów"
+          }
+        }
+      }
+    },
+    "No model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak modelu"
           }
         }
       }
@@ -4429,6 +4559,16 @@
         }
       }
     },
+    "No shortcut": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak skrótu"
+          }
+        }
+      }
+    },
     "No unassigned running apps": {
       "localizations": {
         "pl": {
@@ -4489,6 +4629,16 @@
         }
       }
     },
+    "Not set": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie ustawiono"
+          }
+        }
+      }
+    },
     "Notch Style": {
       "localizations": {
         "pl": {
@@ -4505,6 +4655,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uwaga: może wymagać ponownego uruchomienia aplikacji, aby zadziałać."
+          }
+        }
+      }
+    },
+    "Nothing heard. Try again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nic nie usłyszano. Spróbuj ponownie."
           }
         }
       }
@@ -5219,6 +5379,16 @@
         }
       }
     },
+    "Ready to add.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowe do dodania."
+          }
+        }
+      }
+    },
     "Ready to record": {
       "localizations": {
         "pl": {
@@ -5295,6 +5465,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ostatnie transkrypcje"
+          }
+        }
+      }
+    },
+    "Record to check": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagraj, aby sprawdzić"
           }
         }
       }
@@ -6083,6 +6263,26 @@
         }
       }
     },
+    "Select Provider": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz dostawcę"
+          }
+        }
+      }
+    },
+    "Select Model": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz model"
+          }
+        }
+      }
+    },
     "Select a model to enable verification": {
       "localizations": {
         "pl": {
@@ -6503,6 +6703,16 @@
         }
       }
     },
+    "Starting...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchamianie…"
+          }
+        }
+      }
+    },
     "Stats": {
       "localizations": {
         "pl": {
@@ -6549,6 +6759,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zatrzymaj polecenie głosowe"
+          }
+        }
+      }
+    },
+    "Stopping...": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatrzymywanie…"
           }
         }
       }
@@ -7471,6 +7691,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niedostępne podczas nagrywania"
+          }
+        }
+      }
+    },
+    "Untitled Prompt": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prompt bez nazwy"
+          }
+        }
+      }
+    },
+    "Understood. Try again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrozumiano. Spróbuj ponownie."
           }
         }
       }
