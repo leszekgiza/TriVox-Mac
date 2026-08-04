@@ -44,13 +44,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "FluidVoice needs permission to control system events for managing launch at startup settings."
+            "value" : "TriVox needs permission to control system events for managing launch at startup settings."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "FluidVoice potrzebuje uprawnienia do sterowania zdarzeniami systemowymi, aby zarządzać ustawieniami uruchamiania przy starcie systemu."
+            "value" : "TriVox potrzebuje uprawnienia do sterowania zdarzeniami systemowymi, aby zarządzać ustawieniami uruchamiania przy starcie systemu."
           }
         }
       }
@@ -62,13 +62,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "FluidVoice needs microphone access to record your voice for speech-to-text transcription. Your audio is processed locally and never sent to external servers."
+            "value" : "TriVox needs microphone access to record your voice for speech-to-text transcription. Your audio is processed locally and never sent to external servers."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "FluidVoice potrzebuje dostępu do mikrofonu, aby nagrywać Twój głos do transkrypcji mowy na tekst. Twoje audio jest przetwarzane lokalnie i nigdy nie jest wysyłane na zewnętrzne serwery."
+            "value" : "TriVox potrzebuje dostępu do mikrofonu, aby nagrywać Twój głos do transkrypcji mowy na tekst. Twoje audio jest przetwarzane lokalnie i nigdy nie jest wysyłane na zewnętrzne serwery."
           }
         }
       }
@@ -80,13 +80,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "FluidVoice uses on-device speech recognition to transcribe your voice commands and text quickly and privately."
+            "value" : "TriVox uses on-device speech recognition to transcribe your voice commands and text quickly and privately."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "FluidVoice używa rozpoznawania mowy na urządzeniu, aby szybko i prywatnie transkrybować Twoje polecenia głosowe i tekst."
+            "value" : "TriVox używa rozpoznawania mowy na urządzeniu, aby szybko i prywatnie transkrybować Twoje polecenia głosowe i tekst."
           }
         }
       }
