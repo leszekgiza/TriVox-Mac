@@ -4,7 +4,7 @@
 - macOS 15 (Sequoia) lub nowszy
 - Mac z Apple Silicon (M1/M2/M3/M4)
 
-## Instalacja (zalecana — jedna linijka, przetestowana w E2E #3/#4)
+## Instalacja (zalecana — jedna linijka)
 1. Otwórz **Terminal** (Finder → Idź → Narzędzia → Terminal).
 2. Wklej poniższą linijkę i wciśnij Enter — TriVox sam się pobierze,
    zainstaluje i otworzy (metoda omija fałszywy komunikat „damaged",
@@ -16,12 +16,10 @@ curl -fsSL https://github.com/leszekgiza/TriVox-Mac/releases/latest/download/Tri
 
 ## Instalacja ręczna (zapasowa)
 1. Pobierz `TriVox.dmg` przeglądarką, przeciągnij **TriVox** do **Applications**.
-2. macOS pokaże, że aplikacja jest „uszkodzona" — **to nieprawda** (tak
+2. macOS pokaże, że aplikacja jest „uszkodzona" — **to nieprawda**: tak
    najnowszy macOS traktuje aplikacje bez płatnego podpisu Apple pobrane
-   przeglądarką; potwierdzone w E2E 2026-08-03 na macOS 26). W Terminalu:
-   `xattr -cr /Applications/TriVox.app` — potem uruchom normalnie.
-   *(Uwaga dla wydawcy: rekomendacja podpisu Apple 99 USD/rok przy szerszej
-   dystrybucji — decyzja użytkownika 2026-08-03: na razie bez podpisu.)*
+   przeglądarką. Naprawa: otwórz Terminal i wklej
+   `xattr -cr /Applications/TriVox.app` — potem uruchom TriVox normalnie.
 
 ## Uprawnienia
 Niezależnie od wybranej metody instalacji, przy pierwszym uruchomieniu
