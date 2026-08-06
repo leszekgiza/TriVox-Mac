@@ -3709,6 +3709,16 @@
         }
       }
     },
+    "Grocery list:\n- banana\n- apple\n- orange": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lista zakupów:\n- banany\n- jabłki\n- pomarańcze"
+          }
+        }
+      }
+    },
     "Heard: %@": {
       "localizations": {
         "pl": {
@@ -3755,6 +3765,46 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pomóż nam ulepszyć TriVox"
+          }
+        }
+      }
+    },
+    "Hey John,\nHow are you doing today?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cześć Janku,\nJak się masz?"
+          }
+        }
+      }
+    },
+    "Hey John, Newline, how are you doing today?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cześć Janku, nowa linia, jak się masz?"
+          }
+        }
+      }
+    },
+    "Hey, can we meet at 3:30 PM today?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hej, możemy się spotkać dziś o 15:30?"
+          }
+        }
+      }
+    },
+    "Hey, can we meet at five thirty tomorrow morning? Sorry, can you make it three thirty p.m. today?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hej, możemy się spotkać jutro o piątej trzydzieści rano? Przepraszam, może być piętnasta trzydzieści?"
           }
         }
       }
@@ -4295,6 +4345,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "KAMIENIE MILOWE"
+          }
+        }
+      }
+    },
+    "Make a grocery list. First one is banana, second one is apple, third one is orange.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zrób listę zakupów. Pierwsze to banany, drugie to jabłki, trzecie to pomarańcze."
           }
         }
       }

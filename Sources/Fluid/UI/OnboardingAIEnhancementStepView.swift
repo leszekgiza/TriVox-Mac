@@ -81,18 +81,18 @@ struct OnboardingAIEnhancementStepView: View {
     private static let examples = [
         EnhancementExample(
             id: "message-format",
-            raw: "Hey John, Newline, how are you doing today?",
-            polished: "Hey John,\nHow are you doing today?"
+            raw: String(localized: "Hey John, Newline, how are you doing today?"),
+            polished: String(localized: "Hey John,\nHow are you doing today?")
         ),
         EnhancementExample(
             id: "correction",
-            raw: "Hey, can we meet at five thirty tomorrow morning? Sorry, can you make it three thirty p.m. today?",
-            polished: "Hey, can we meet at 3:30 PM today?"
+            raw: String(localized: "Hey, can we meet at five thirty tomorrow morning? Sorry, can you make it three thirty p.m. today?"),
+            polished: String(localized: "Hey, can we meet at 3:30 PM today?")
         ),
         EnhancementExample(
             id: "list",
-            raw: "Make a grocery list. First one is banana, second one is apple, third one is orange.",
-            polished: "Grocery list:\n- banana\n- apple\n- orange"
+            raw: String(localized: "Make a grocery list. First one is banana, second one is apple, third one is orange."),
+            polished: String(localized: "Grocery list:\n- banana\n- apple\n- orange")
         ),
     ]
 
